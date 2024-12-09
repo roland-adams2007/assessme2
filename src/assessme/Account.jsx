@@ -50,9 +50,10 @@ function Account({setTab}) {
       );
       setLoading(false);
       toast.success("Account created successfully", { autoClose: 5000 });
+      setTab('courses');
     }, 2000);
 
-    setTab('courses');
+ 
 
   };
 
