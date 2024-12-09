@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 function Account() {
-  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     name: "",
@@ -51,7 +49,6 @@ function Account() {
       );
       setLoading(false);
       toast.success("Account created successfully", { autoClose: 5000 });
-      navigate("/courses");
     }, 2000);
   };
 

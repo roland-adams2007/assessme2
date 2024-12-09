@@ -1,0 +1,419 @@
+[
+   {
+  "courseCode": "GST 111",
+  "questions": {
+    "q1": {
+      "question": "What is the capital of Nigeria?",
+      "options": ["A. Abuja", "B. Lagos", "C. Kano", "D. Port Harcourt"],
+      "answer": "A. Abuja"
+    },
+    "q2": {
+      "question": "Who was Nigeria's first president?",
+      "options": ["A. Nnamdi Azikiwe", "B. Olusegun Obasanjo", "C. Goodluck Jonathan", "D. Muhammadu Buhari"],
+      "answer": "A. Nnamdi Azikiwe"
+    },
+    "q3": {
+      "question": "Which country is the largest in Africa by population?",
+      "options": ["A. Nigeria", "B. Ethiopia", "C. Egypt", "D. South Africa"],
+      "answer": "A. Nigeria"
+    },
+    "q4": {
+      "question": "What year did Nigeria gain independence?",
+      "options": ["A. 1960", "B. 1956", "C. 1970", "D. 1985"],
+      "answer": "A. 1960"
+    },
+    "q5": {
+      "question": "Who is the current President of Nigeria?",
+      "options": ["A. Muhammadu Buhari", "B. Olusegun Obasanjo", "C. Goodluck Jonathan", "D. Shehu Shagari"],
+      "answer": "A. Muhammadu Buhari"
+    },
+    "q6": {
+      "question": "Which Nigerian state is known as the 'Coal City'?",
+      "options": ["A. Enugu", "B. Abuja", "C. Lagos", "D. Kano"],
+      "answer": "A. Enugu"
+    },
+    "q7": {
+      "question": "What is the currency of Nigeria?",
+      "options": ["A. Naira", "B. Cedi", "C. Pound", "D. Dollar"],
+      "answer": "A. Naira"
+    },
+    "q8": {
+      "question": "Who is the founder of the University of Ilorin?",
+      "options": ["A. Professor O. O. Akinkugbe", "B. Professor Fola Alabi", "C. Professor AbdulGaniyu Ambali", "D. Professor Nurudeen Oloyede"],
+      "answer": "C. Professor AbdulGaniyu Ambali"
+    },
+    "q9": {
+      "question": "Which is the largest ethnic group in Nigeria?",
+      "options": ["A. Hausa", "B. Yoruba", "C. Igbo", "D. Fulani"],
+      "answer": "A. Hausa"
+    },
+    "q10": {
+      "question": "Which Nigerian city is famous for its National Stadium?",
+      "options": ["A. Lagos", "B. Abuja", "C. Port Harcourt", "D. Kano"],
+      "answer": "A. Lagos"
+    }
+  }
+   },
+
+    {
+        "courseCode": "EDU 101",
+        "questions": {
+            "q1": {
+                "question": "__________ is the broadest educational outcome",
+                "options": ["A. OBJECTIVE", "B. GOAL", "C. VISION", "D. AIM"],
+                "answer": "D. AIM"
+            },
+            "q2": {
+                "question": "________ is centered to effective learning",
+                "options": ["A. TEACHING", "B. TRAINING", "C. LEARNING", "D. ASSISTANCE"],
+                "answer": "C. LEARNING"
+            },
+            "q3": {
+                "question": "The _______ socializes the child, gives him the right to manifest his instincts and drives and develop his personality",
+                "options": ["A. FAMILY", "B. COMMUNITY", "C. SCHOOL", "D. SOCIETY"],
+                "answer": "C. SCHOOL"
+            },
+            "q4": {
+                "question": "Students must learn to comply with rules and ________ in the school",
+                "options": ["A. NORMS", "B. RULES", "C. POLICIES", "D. REGULATIONS"],
+                "answer": "D. REGULATIONS"
+            },
+            "q5": {
+                "question": "_______ is the vehicle of education",
+                "options": ["A. TEACHING", "B. LEARNING", "C. TRAINING", "D. EDUCATION"],
+                "answer": "B. LEARNING"
+            },
+            "q6": {
+                "question": "________ syllabus arranges content in broad outlines",
+                "options": ["A. COURSE", "B. EXAMINATION", "C. ASSIGNMENTS", "D. SYLLABUS"],
+                "answer": "B. EXAMINATION"
+            },
+            "q7": {
+                "question": "Evaluation should be clear, precise, and ________",
+                "options": ["A. ACCURATE", "B. EFFICIENT", "C. OBJECTIVE", "D. CLEAR"],
+                "answer": "C. OBJECTIVE"
+            },
+            "q8": {
+                "question": "Students learn best when they are ________",
+                "options": ["A. INTERESTED", "B. READY", "C. FOCUSED", "D. ENGAGED"],
+                "answer": "B. READY"
+            },
+            "q9": {
+                "question": "Students who fail to ______ what is learnt are likened to forgetting",
+                "options": ["A. EXPERIENCE", "B. USE", "C. UNDERSTAND", "D. KNOW"],
+                "answer": "B. USE"
+            },
+            "q10": {
+                "question": "To be is to ________",
+                "options": ["A. ACT", "B. LEARN", "C. DO", "D. BE"],
+                "answer": "C. DO"
+            },
+            "q11": {
+                "question": "Teaching which is effective must result in meaningful _________",
+                "options": ["A. UNDERSTANDING", "B. LEARNING", "C. DEVELOPMENT", "D. EDUCATION"],
+                "answer": "B. LEARNING"
+            },
+            "q12": {
+                "question": "_______ method of teaching is best used for a large class",
+                "options": ["A. LECTURE", "B. DISCUSSION", "C. PROJECT", "D. ACTIVITY"],
+                "answer": "A. LECTURE"
+            },
+            "q13": {
+                "question": "_______ assist the child in moral development and learning",
+                "options": ["A. PEERS", "B. FAMILY", "C. COMMUNITY", "D. SCHOOL"],
+                "answer": "B. FAMILY"
+            },
+            "q14": {
+                "question": "________ domain deals with manipulative skills",
+                "options": ["A. PSYCHOMOTOR", "B. COGNITIVE", "D. SOCIAL", "C. AFFECTIVE"],
+                "answer": "A. PSYCHOMOTOR"
+            },
+            "q15": {
+                "question": "______ is the previous experience of the students as per the topic to be taught",
+                "options": ["A. BACKGROUND", "B. EXPERIENCE", "C. ENTRY BEHAVIOUR", "D. KNOWLEDGE"],
+                "answer": "C. ENTRY BEHAVIOUR"
+            },
+            "q16": {
+                "question": "_______ is the father of the lecture method",
+                "options": ["A. SOCRATES", "B. PLATO", "C. ARISTOTLE", "D. RUSKIN"],
+                "answer": "B. PLATO"
+            },
+            "q17": {
+                "question": "_______ plan is a guide for the teaching",
+                "options": ["A. SCHEDULE", "B. LESSON", "C. UNIT", "D. TERM"],
+                "answer": "B. LESSON"
+            },
+            "q18": {
+                "question": "_______ championed the playway method",
+                "options": ["A. PIAGET", "B. MARIAMONTESSORI", "C. FROEBEL", "D. VYGOTSKY"],
+                "answer": "B. MARIAMONTESSORI"
+            },
+            "q19": {
+                "question": "The most interactive method is _________",
+                "options": ["A. DISCUSSION", "B. LECTURE", "D. EXPERIMENT", "C. ROLE PLAY"],
+                "answer": "A. DISCUSSION"
+            },
+            "q20": {
+                "question": "The most economical method is __________",
+                "options": ["A. DISCUSSION", "B. LECTURE", "C. EXPERIMENT", "D. PROJECT"],
+                "answer": "B. LECTURE"
+            },
+            "q21": {
+                "question": "Students should have ________ listening in the class",
+                "options": ["A. PASSIVE", "B. ACTIVE", "C. LISTENING", "D. FOCUSED"],
+                "answer": "B. ACTIVE"
+            },
+            "q22": {
+                "question": "_________ syllabus are arranged in logical order",
+                "options": ["A. EXAMINATION", "B. LEARNING", "C. SYLLABUS", "D. TEACHING"],
+                "answer": "D. TEACHING"
+            },
+            "q23": {
+                "question": "________ syllabus arranges content haphazardly",
+                "options": ["A. CURRICULUM", "B. SCHOOL", "C. EXAMINATION", "C. SYLLABUS"],
+                "answer": "C. EXAMINATION"
+            },
+            "q24": {
+                "question": "__________ material appeals to the sense of sight",
+                "options": ["A. VISUAL", "D. SENSORY", "B. AUDITORY", "C. TACTILE"],
+                "answer": "A. VISUAL"
+            },
+            "q25": {
+                "question": "____________ method allows the students to carry out assignments and tasks on their own",
+                "options": ["A. DISCUSSION", "B. PROJECT", "C. LECTURE", "D. ROLE PLAY"],
+                "answer": "D. PROJECT"
+            },
+            "q26": {
+                "question": "Year plan is also called _________",
+                "options": ["A. TIMETABLE", "B. PLAN", "C. SCHEME OF WORK", "D. CALENDAR"],
+                "answer": "C. SCHEME OF WORK"
+            },
+            "q27": {
+                "question": "_________ materials are used when the real objects are not available",
+                "options": ["A. READILY AVAILABLE", "B. ASSISTIVE", "C. EXEMPLAR", "D. IMPROVISED"],
+                "answer": "D. IMPROVISED"
+            },
+            "q28": {
+                "question": "________ is a set of learning experiences set up in the school",
+                "options": ["A. EDUCATION", "B. TRAINING", "C. SYLLABUS", "D. CURRICULUM"],
+                "answer": "D. CURRICULUM"
+            },
+            "q29": {
+                "question": "The second level of cognition domain of learning is ________",
+                "options": ["A. COMPREHENSION", "B. APPLICATION", "C. EVALUATION", "D. SYNTHESIS"],
+                "answer": "A. COMPREHENSION"
+            },
+            "q30": {
+                "question": "________ is the father of the project method",
+                "options": ["A. KANT", "B. SOCRATES", "C. JOHN DEWEY", "D. PLATO"],
+                "answer": "C. JOHN DEWEY"
+            },
+            "q31": {
+                "question": "The low-ranking students are called ________",
+                "options": ["A. ABOVE AVERAGE", "B. GIFTED", "C. INTELLIGENT", "D. BASIC"],
+                "answer": "D. BASIC"
+            },
+            "q32": {
+                "question": "Questioning method is otherwise called ___________",
+                "options": ["A. SOCRATIC METHOD", "C. LEARNING METHOD", "B. EXAM METHOD", "D. VIGIL METHOD"],
+                "answer": "A. SOCRATIC METHOD"
+            },
+            "q33": {
+            "question": "Which of the following best defines a teacher?",
+            "options": ["A. Someone who provides moral support", "B. Someone who educates students", "C. Someone who assesses workers", "D. Someone who provides resources"],
+            "answer": "B. Someone who educates students"
+            },
+            "q34": {
+                "question": "Which of the following is NOT a type of education?",
+                "options": ["A. Formal", "B. Informal", "C. Cultural", "D. Non-formal"],
+                "answer": "C. Cultural"
+            },
+            "q35": {
+                "question": "Teaching is considered a profession because __________.",
+                "options": ["A. It involves imparting knowledge", "B. It requires professional training and certification", "C. It has flexible working hours", "D. It is accessible to everyone"],
+                "answer": "B. It requires professional training and certification"
+            },
+            "q36": {
+                "question": "Professionalization of teaching refers to __________.",
+                "options": ["A. The informal recognition of teachers", "B. The establishment of ethical standards and certifications", "C. The removal of teaching qualifications", "D. Reducing teaching to a hobby"],
+                "answer": "B. The establishment of ethical standards and certifications"
+            },
+            "q37": {
+                "question": "Which of these is NOT a quality of a professional teacher?",
+                "options": ["A. Patience", "B. Integrity", "C. Dishonesty", "D. Empathy"],
+                "answer": "C. Dishonesty"
+            },
+            "q38": {
+                "question": "Which method of teaching involves asking thought-provoking questions?",
+                "options": ["A. Direct Instruction", "B. Discussion Method", "C. Socratic Method", "D. Lecture Method"],
+                "answer": "C. Socratic Method"
+            },
+            "q39": {
+                "question": "The cognitive domain of learning is concerned with __________.",
+                "options": ["A. Emotional responses", "B. Physical skills", "C. Intellectual abilities", "D. Social interactions"],
+                "answer": "C. Intellectual abilities"
+            },
+            "q40": {
+                "question": "Evaluation in teaching is primarily used for __________.",
+                "options": ["A. Punishing students", "B. Understanding student learning outcomes", "C. Assigning random grades", "D. Increasing teacher workload"],
+                "answer": "B. Understanding student learning outcomes"
+            },
+            "q41": {
+                "question": "Which type of evaluation is conducted during the learning process?",
+                "options": ["A. Diagnostic", "B. Summative", "C. Formative", "D. Normative"],
+                "answer": "C. Formative"
+            },
+            "q42": {
+                "question": "A trade union in the education sector is primarily established to __________.",
+                "options": ["A. Protect teachers' rights", "B. Replace school administrators", "C. Enforce strict laws on students", "D. Reduce education budgets"],
+                "answer": "A. Protect teachers' rights"
+            },
+            "q43": {
+                "question": "The Nigerian Union of Teachers (NUT) was established in __________.",
+                "options": ["A. 1931", "B. 1945", "C. 1960", "D. 1976"],
+                "answer": "A. 1931"
+            },
+            "q44": {
+                "question": "The TRCN stands for __________.",
+                "options": ["A. Teaching Regulatory Council of Nigeria", "B. Teachers Registration Council of Nigeria", "C. Teachers Rating Council of Nigeria", "D. Training and Regulation Council of Nigeria"],
+                "answer": "B. Teachers Registration Council of Nigeria"
+            },
+            "q45": {
+                "question": "The mission of the TRCN is to __________.",
+                "options": ["A. Enforce strict teaching policies", "B. Regulate and improve teaching standards", "C. Conduct school inspections", "D. Organize teacher salaries"],
+                "answer": "B. Regulate and improve teaching standards"
+            },
+            "q46": {
+                "question": "The vision of TRCN is to __________.",
+                "options": ["A. Ensure teaching becomes a recognized profession globally", "B. Provide free education for all", "C. Establish more schools nationwide", "D. Fund teacher's salaries"],
+                "answer": "A. Ensure teaching becomes a recognized profession globally"
+            },
+            "q47": {
+                "question": "One of the major programs of TRCN is __________.",
+                "options": ["A. Teacher registration and licensing", "B. Establishing new schools", "C. Providing free teacher resources", "D. Setting exam policies"],
+                "answer": "A. Teacher registration and licensing"
+            },
+            "q48": {
+                "question": "Which of the following is NOT a domain of learning?",
+                "options": ["A. Affective", "B. Cognitive", "C. Physical", "D. Psychomotor"],
+                "answer": "C. Physical"
+            },
+            "q49": {
+                "question": "Ethics in teaching refers to __________.",
+                "options": ["A. Adhering to moral principles and professional standards", "B. Punishing students for misconduct", "C. Having personal relationships with students", "D. Giving gifts to students"],
+                "answer": "A. Adhering to moral principles and professional standards"
+            },
+            "q50": {
+                "question": "Summative evaluation is conducted __________.",
+                "options": ["A. Before teaching begins", "B. During the teaching process", "C. After teaching has concluded", "D. Randomly"],
+                "answer": "C. After teaching has concluded"
+            },
+            "q51": {
+                "question": "The history of the Nigerian Union of Teachers (NUT) is significant because __________.",
+                "options": ["A. It unified teachers across the country", "B. It reduced the number of teachers", "C. It dissolved trade unions", "D. It introduced new school curriculums"],
+                "answer": "A. It unified teachers across the country"
+            },
+            "q52": {
+                "question": "Which of the following is an essential characteristic of a teacher?",
+                "options": ["A. Arrogance", "B. Empathy", "C. Impatience", "D. Dishonesty"],
+                "answer": "B. Empathy"
+            },
+            "q53": {
+                "question": "Which of the following is a primary goal of formal education?",
+                "options": ["A. To pass time", "B. To provide structured learning", "C. To engage in social activities", "D. To experiment with hobbies"],
+                "answer": "B. To provide structured learning"
+            },
+            "q54": {
+                "question": "Which of these is NOT an ethical principle in teaching?",
+                "options": ["A. Fairness", "B. Confidentiality", "C. Prejudice", "D. Professionalism"],
+                "answer": "C. Prejudice"
+            },
+            "q55": {
+                "question": "The psychomotor domain of learning focuses on __________.",
+                "options": ["A. Developing attitudes", "B. Physical and motor skills", "C. Cognitive reasoning", "D. Emotional growth"],
+                "answer": "B. Physical and motor skills"
+            },
+            "q56": {
+                "question": "Which of the following best describes non-formal education?",
+                "options": ["A. Education without structure", "B. Organized learning outside traditional schools", "C. Learning that occurs in everyday life", "D. Mandatory schooling for children"],
+                "answer": "B. Organized learning outside traditional schools"
+            },
+            "q57": {
+                "question": "Which teaching method involves students actively participating in experiments or projects?",
+                "options": ["A. Lecture Method", "B. Project Method", "C. Questioning Method", "D. Demonstration Method"],
+                "answer": "B. Project Method"
+            },
+            "q58": {
+                "question": "The affective domain of learning is concerned with __________.",
+                "options": ["A. Physical abilities", "B. Emotional attitudes and values", "C. Technical knowledge", "D. Logical reasoning"],
+                "answer": "B. Emotional attitudes and values"
+            },
+            "q59": {
+                "question": "Which of the following is an example of diagnostic evaluation?",
+                "options": ["A. Pre-test", "B. Mid-term test", "C. Final examination", "D. Group assignment"],
+                "answer": "A. Pre-test"
+            },
+            "q60": {
+                "question": "Trade unions for teachers aim to __________.",
+                "options": ["A. Promote student welfare", "B. Advocate for teachers' rights and welfare", "C. Replace government policies", "D. Establish new schools"],
+                "answer": "B. Advocate for teachers' rights and welfare"
+            },
+            "q61": {
+                "question": "The teaching profession requires __________.",
+                "options": ["A. No special training", "B. Professional qualifications and ethical standards", "C. Strict physical strength", "D. Minimal effort"],
+                "answer": "B. Professional qualifications and ethical standards"
+            },
+            "q62": {
+                "question": "The establishment of TRCN was aimed at __________.",
+                "options": ["A. Regulating the teaching profession in Nigeria", "B. Eliminating the need for teacher certification", "C. Funding teachers' salaries", "D. Training non-professionals"],
+                "answer": "A. Regulating the teaching profession in Nigeria"
+            },
+            "q63": {
+                "question": "Which of the following is a characteristic of a good teacher?",
+                "options": ["A. Bias", "B. Commitment", "C. Impatience", "D. Dishonesty"],
+                "answer": "B. Commitment"
+            },
+            "q64": {
+                "question": "Which type of evaluation provides feedback to improve learning during instruction?",
+                "options": ["A. Summative", "B. Formative", "C. Normative", "D. Diagnostic"],
+                "answer": "B. Formative"
+            },
+            "q65": {
+                "question": "The lecture method is most suitable for __________.",
+                "options": ["A. Practical sessions", "B. Large groups of students", "C. Group discussions", "D. Experiments"],
+                "answer": "B. Large groups of students"
+            },
+            "q66": {
+                "question": "The Nigerian Union of Teachers (NUT) plays a vital role in __________.",
+                "options": ["A. Organizing student activities", "B. Negotiating better conditions for teachers", "C. Monitoring school fees", "D. Reducing classroom sizes"],
+                "answer": "B. Negotiating better conditions for teachers"
+            },
+            "q67": {
+                "question": "Which method of teaching is learner-centered and focuses on group collaboration?",
+                "options": ["A. Demonstration Method", "B. Lecture Method", "C. Discussion Method", "D. Questioning Method"],
+                "answer": "C. Discussion Method"
+            },
+            "q68": {
+                "question": "Which of the following is NOT part of TRCN's mission?",
+                "options": ["A. Registration of teachers", "B. Enforcement of teaching standards", "C. Organizing student education programs", "D. Licensing of teachers"],
+                "answer": "C. Organizing student education programs"
+            },
+            "q69": {
+                "question": "Which teaching method is most effective for developing practical skills?",
+                "options": ["A. Lecture Method", "B. Demonstration Method", "C. Socratic Method", "D. Discussion Method"],
+                "answer": "B. Demonstration Method"
+            },
+            "q70": {
+                "question": "The ethical code for teachers is important because __________.",
+                "options": ["A. It ensures consistency in teaching practices", "B. It allows teachers to break rules", "C. It reduces teaching workload", "D. It focuses solely on student discipline"],
+                "answer": "A. It ensures consistency in teaching practices"
+            }
+        }
+    }
+    
+      
+      
+      
+]
+
+
