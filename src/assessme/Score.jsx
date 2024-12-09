@@ -1,11 +1,9 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+/* eslint-disable react/prop-types */
+
 import { useState } from 'react';
 import { jsPDF } from 'jspdf';
 
-function Score() {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const { results } = location.state || {};
+function Score({setTab,results}) {
 
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -113,7 +111,7 @@ function Score() {
 
   const handleStartOver = () => {
     localStorage.removeItem('user_details');
-    navigate('/account');
+    setTab('account')
   };
 
   return (

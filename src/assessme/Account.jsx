@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
 
-function Account() {
+function Account({setTab}) {
 
   const [formData, setFormData] = useState({
     name: "",
@@ -9,6 +9,7 @@ function Account() {
   });
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
+
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -50,6 +51,9 @@ function Account() {
       setLoading(false);
       toast.success("Account created successfully", { autoClose: 5000 });
     }, 2000);
+
+    setTab('courses');
+
   };
 
   return (

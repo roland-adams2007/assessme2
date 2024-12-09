@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-function Course() {
-  const navigate = useNavigate();
+function Course({setTab}) {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const handleCardClick = (cardId) => {
@@ -15,7 +13,7 @@ function Course() {
     e.preventDefault();
     if (selectedCard) {
       localStorage.setItem('course_code', selectedCard);
-      navigate('/');
+      setTab('questions');
     } else {
       toast.error('Please select a course first.', { autoClose: 5000 });
     }

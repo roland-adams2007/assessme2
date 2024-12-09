@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import questionsJson from './questions.json';
-import { useNavigate } from "react-router-dom";
 
-function Questions() {
-  const navigate = useNavigate();
+function Questions({setTab,setResults}) {
   const [courseCode, setCourseCode] = useState('');
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -91,7 +89,8 @@ function Questions() {
         isCorrect: selectedAnswer === correctAnswer
       });
     });
-    navigate('/score', { state: { results } });
+    setResults(results)
+    setTab('score')
   };
 
   const formatTime = (seconds) => {
@@ -135,7 +134,7 @@ function Questions() {
             <div className="text-center text-xl font-semibold text-red-600">
               <p>No questions available for this course. Please choose another course.</p>
               <button 
-                onClick={() => navigate('/course')}
+                onClick={() => setTab('courses')}
                 className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg"
               >
                 Choose Another Course
