@@ -53,8 +53,10 @@ function Questions({setTab,setResults}) {
   }, [timerRunning]);
 
   const currentQuestion = questions[currentQuestionIndex] || {};
+
   const currentQuestionText = currentQuestion.question || '';
   const currentOptions = currentQuestion.options || [];
+
 
   const handleNext = () => {
     if (currentQuestionIndex < questions.length - 1) {
@@ -161,7 +163,7 @@ function Questions({setTab,setResults}) {
                         checked={selectedAnswers[currentQuestionIndex] === option}
                         className="mr-2"
                       />
-                      <span className="text-gray-800">{option.up}</span>
+                      <span className="text-gray-800">{option}</span>
                     </label>
                   ))}
                 </div>
