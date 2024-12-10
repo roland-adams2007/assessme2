@@ -47,7 +47,7 @@ function Questions({setTab,setResults}) {
           }
           return prevTime - 1;
         });
-      }, 1000);
+      }, 650);
       return () => clearInterval(interval);
     }
   }, [timerRunning]);
@@ -161,7 +161,7 @@ function Questions({setTab,setResults}) {
                         checked={selectedAnswers[currentQuestionIndex] === option}
                         className="mr-2"
                       />
-                      <span className="text-gray-800">{option}</span>
+                      <span className="text-gray-800">{option.up}</span>
                     </label>
                   ))}
                 </div>

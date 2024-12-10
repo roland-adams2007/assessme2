@@ -1,0 +1,50 @@
+same thing here start from q105:
+
+questions:36) Allbutoneofthesefactorsisnotconsideredinselecting
+instructionalmaterials(a)cost(b)time(c)availability(d)control
+37) Anothernameforteacher-learnercentredapproachiscalled___
+(a)midday(b)midway(c)broad-way(d)NONE
+38) ___domainswithmanipulativeskills(a)cognitive(b)affective
+(c)psychomotor(d)NONE
+39) Ridingabicyclebyachildisa___domain(a)affective
+(b)cognitive(c)psychomotor(d)AandB
+40) ___isthemainactorofacurriculumdesign(a)government
+(b)principals(c)teachers(d)students
+41) POST-UTMEisanexampleof___evaluation(a)precursive
+(b)prognostic(c)summative(d)formative
+42) UniversalBasicEducationwasintroducedin___(a)1955(b)1966
+(c)1976(d)1999
+43) ThefirstNationalPolicyonEducationwasbuiltin___(a)1966
+(b)1976(c)1977(d)1979
+44) CAImeans____(a)computerassistedinbuilt(b)computerassisted
+induction(c)computerassistedinstruction(d)aandb
+45) ___domainsdealswithmentalskills(a)cognitive(b)affective
+(c)psychomotor(d)aandb
+46) ___istheentireprogramprovidedbyaschool(a)syllabus
+(b)curriculum(c)schemeofwork(d)aandb
+47) Thebodywhocoordinatestheimplementationofprogramsat
+levelsis____(a)SUBEB(b)UBEC(c)NASTRA(d)aandb
+48) UniversalFreePrimaryEducationwaslaunchedin___(a)1955
+(b)1966(c)1967(d)1976
+49) TheUniversalBasicEducationisa__yearbasiceducational
+programme(a)6(b)9(c)3(d)12
+50) UniversalBasicEducationwasflaggedat___(a)Abuja(b)Lagos
+(c)Sokoto(d)Zaria
+
+
+answers:
+36)D
+37)B
+38)A
+39)C
+40)C
+41)B
+42)D
+43)C
+44)C
+45)A
+46)B
+47)B
+48)D
+49)B
+50)C
