@@ -47,7 +47,7 @@ function Questions({setTab,setResults}) {
           }
           return prevTime - 1;
         });
-      }, 500);
+      }, 600);
       return () => clearInterval(interval);
     }
   }, [timerRunning]);
