@@ -106,7 +106,7 @@ function Questions({setTab,setResults}) {
       <title>AssessMe - Questions</title>
       <div className="min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(assets/images/notebook.jpg)" }}>
         <header className="bg-opacity-60 bg-blue-600 text-white py-4 shadow-lg">
-          <div className="container mx-auto flex justify-between items-center">
+          <div className="container mx-auto flex justify-between items-center px-2">
             <h1 className="text-xl font-semibold">{courseCode}</h1>
             <div className="flex space-x-8 items-center">
               <div className="flex items-center space-x-2">
