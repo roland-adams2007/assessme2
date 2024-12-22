@@ -64,8 +64,8 @@ function Account({ setTab }) {
           backgroundPosition: 'center',
         }}
       >
-        <div className="w-full max-w-lg bg-white p-10 rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
-          <h2 className="text-4xl font-extrabold text-center text-indigo-700 mb-8 font-poppins tracking-tight">
+        <div className="w-full max-w-md bg-white p-8 rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
+          <h2 className="text-3xl font-semibold text-center text-indigo-700 mb-6">
             <i className="fas fa-user-plus text-indigo-600 mr-3" />
             Create Your Account
           </h2>
@@ -74,7 +74,7 @@ function Account({ setTab }) {
             <div className="mb-6">
               <label
                 htmlFor="name"
-                className="block text-lg font-semibold text-gray-700 flex items-center font-poppins"
+                className="block text-lg font-medium text-gray-700 flex items-center"
               >
                 <i className="fas fa-user text-gray-500 mr-3" /> Full Name
               </label>
@@ -82,7 +82,7 @@ function Account({ setTab }) {
                 type="text"
                 id="name"
                 name="name"
-                className={`w-full px-6 py-4 mt-2 border-2 rounded-xl shadow-md focus:ring-4 focus:ring-indigo-500 focus:outline-none transition-all duration-300 ${
+                className={`w-full px-6 py-4 mt-2 border-2 rounded-lg shadow-md focus:ring-4 focus:ring-indigo-500 focus:outline-none transition-all duration-300 ${
                   errors.name ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="Enter your full name"
@@ -98,7 +98,7 @@ function Account({ setTab }) {
             <div className="mb-6">
               <label
                 htmlFor="phone"
-                className="block text-lg font-semibold text-gray-700 flex items-center font-poppins"
+                className="block text-lg font-medium text-gray-700 flex items-center"
               >
                 <i className="fas fa-phone-alt text-gray-500 mr-3" /> Phone Number
               </label>
@@ -106,7 +106,7 @@ function Account({ setTab }) {
                 type="tel"
                 id="phone"
                 name="phone"
-                className={`w-full px-6 py-4 mt-2 border-2 rounded-xl shadow-md focus:ring-4 focus:ring-indigo-500 focus:outline-none transition-all duration-300 ${
+                className={`w-full px-6 py-4 mt-2 border-2 rounded-lg shadow-md focus:ring-4 focus:ring-indigo-500 focus:outline-none transition-all duration-300 ${
                   errors.phone ? 'border-red-500' : 'border-gray-300'
                 }`}
                 placeholder="Enter your phone number"
@@ -163,7 +163,7 @@ function Account({ setTab }) {
             </div>
 
             {/* Footer */}
-            <div className="text-center text-sm text-gray-500 font-poppins">
+            <div className="text-center text-sm text-gray-500">
               <p>
                 By creating an account, you agree to our{' '}
                 <a

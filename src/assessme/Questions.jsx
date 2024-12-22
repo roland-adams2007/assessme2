@@ -65,14 +65,20 @@ function Questions({ setTab, setResults }) {
   };
 
   const submitQuiz = () => {
-    const results = questions.map((q, i) => ({
-      question: q.question,
-      selectedAnswer: selectedAnswers[i],
-      correctAnswer: q.answer,
-      isCorrect: selectedAnswers[i] === q.answer,
-    }));
-    setResults(results);
-    setTab("score");
+    const confirmSubmit = window.confirm(
+      "Are you sure you want to submit the quiz? You will not be able to make changes after submitting."
+    );
+
+    if (confirmSubmit) {
+      const results = questions.map((q, i) => ({
+        question: q.question,
+        selectedAnswer: selectedAnswers[i],
+        correctAnswer: q.answer,
+        isCorrect: selectedAnswers[i] === q.answer,
+      }));
+      setResults(results);
+      setTab("score");
+    }
   };
 
   const formatTime = (seconds) => {
@@ -80,6 +86,9 @@ function Questions({ setTab, setResults }) {
     const secs = seconds % 60;
     return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
   };
+
+  // Add dynamic class for timer color
+  const timerClass = timeLeft <= 300 ? "text-red-600" : "text-yellow-400";
 
   return (
     <>
@@ -94,8 +103,8 @@ function Questions({ setTab, setResults }) {
           <h1 className="text-3xl font-semibold">{courseCode}</h1>
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-2">
-              <i className="fas fa-clock text-yellow-400 text-2xl" />
-              <span className="text-lg font-bold">{formatTime(timeLeft)}</span>
+              <i className={`fas fa-clock text-2xl ${timerClass}`} />
+              <span className={`text-lg font-bold ${timerClass}`}>{formatTime(timeLeft)}</span>
             </div>
             <span className="text-sm font-medium">
               <strong>{currentQuestionIndex + 1}</strong> /{" "}
