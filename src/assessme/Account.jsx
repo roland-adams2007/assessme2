@@ -1,15 +1,14 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { toast } from "react-toastify";
 
-function Account({setTab}) {
-
+function Account({ setTab }) {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
   });
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
-
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -52,26 +51,22 @@ function Account({setTab}) {
       toast.success("Account created successfully", { autoClose: 5000 });
       setTab('courses');
     }, 2000);
-
- 
-
   };
 
   return (
     <>
       <title>AssessMe - Create Account</title>
-      {/* Container with background image */}
       <div
-        className="flex items-center justify-center min-h-screen bg-cover bg-center"
+        className="flex items-center justify-center min-h-screen bg-cover bg-center bg-gradient-to-r from-indigo-800 via-indigo-600 to-indigo-400"
         style={{
           backgroundImage: 'url(assets/images/notebook.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        <div className="w-full max-w-md bg-white p-8 rounded-xl shadow-2xl transform transition-all hover:scale-105 hover:shadow-xl">
-          <h2 className="text-3xl font-semibold text-center text-indigo-600 mb-6 font-poppins">
-            <i className="fas fa-user-plus text-indigo-600 mr-2" />
+        <div className="w-full max-w-lg bg-white p-10 rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
+          <h2 className="text-4xl font-extrabold text-center text-indigo-700 mb-8 font-poppins tracking-tight">
+            <i className="fas fa-user-plus text-indigo-600 mr-3" />
             Create Your Account
           </h2>
           <form onSubmit={handleSubmit}>
@@ -79,17 +74,17 @@ function Account({setTab}) {
             <div className="mb-6">
               <label
                 htmlFor="name"
-                className="block text-lg font-medium text-gray-700 flex items-center font-poppins"
+                className="block text-lg font-semibold text-gray-700 flex items-center font-poppins"
               >
-                <i className="fas fa-user text-gray-600 mr-3" /> Full Name
+                <i className="fas fa-user text-gray-500 mr-3" /> Full Name
               </label>
               <input
                 type="text"
                 id="name"
                 name="name"
-                className={`w-full px-4 py-3 mt-2 border ${
-                  errors.name ? "border-red-500" : "border-gray-300"
-                } rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition duration-300 ease-in-out transform hover:scale-105 font-poppins`}
+                className={`w-full px-6 py-4 mt-2 border-2 rounded-xl shadow-md focus:ring-4 focus:ring-indigo-500 focus:outline-none transition-all duration-300 ${
+                  errors.name ? 'border-red-500' : 'border-gray-300'
+                }`}
                 placeholder="Enter your full name"
                 onChange={handleChange}
                 value={formData.name}
@@ -98,22 +93,22 @@ function Account({setTab}) {
                 <p className="text-red-500 text-sm mt-1">{errors.name}</p>
               )}
             </div>
+
             {/* Phone Number Field */}
             <div className="mb-6">
               <label
                 htmlFor="phone"
-                className="block text-lg font-medium text-gray-700 flex items-center font-poppins"
+                className="block text-lg font-semibold text-gray-700 flex items-center font-poppins"
               >
-                <i className="fas fa-phone-alt text-gray-600 mr-3" /> Phone
-                Number
+                <i className="fas fa-phone-alt text-gray-500 mr-3" /> Phone Number
               </label>
               <input
                 type="tel"
                 id="phone"
                 name="phone"
-                className={`w-full px-4 py-3 mt-2 border ${
-                  errors.phone ? "border-red-500" : "border-gray-300"
-                } rounded-md focus:ring-indigo-500 focus:border-indigo-500 transition duration-300 ease-in-out transform hover:scale-105 font-poppins`}
+                className={`w-full px-6 py-4 mt-2 border-2 rounded-xl shadow-md focus:ring-4 focus:ring-indigo-500 focus:outline-none transition-all duration-300 ${
+                  errors.phone ? 'border-red-500' : 'border-gray-300'
+                }`}
                 placeholder="Enter your phone number"
                 onChange={handleChange}
                 value={formData.phone}
@@ -122,19 +117,20 @@ function Account({setTab}) {
                 <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
               )}
             </div>
+
             {/* Submit Button */}
             <div className="mb-6">
               <button
                 type="submit"
-                className={`w-full py-3 rounded-md shadow-md font-poppins text-white ${
+                className={`w-full py-4 rounded-lg font-semibold text-white ${
                   loading
-                    ? "bg-gray-400"
-                    : "bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300"
+                    ? 'bg-gray-400'
+                    : 'bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300'
                 } transition-all transform hover:scale-105 focus:outline-none focus:ring-opacity-50`}
                 disabled={loading}
               >
                 {loading ? (
-                  <div className="flex items-center justify-center gap-2 w-full">
+                  <div className="flex items-center justify-center gap-2">
                     <svg
                       className="animate-spin h-5 w-5 text-white"
                       xmlns="http://www.w3.org/2000/svg"
@@ -169,14 +165,14 @@ function Account({setTab}) {
             {/* Footer */}
             <div className="text-center text-sm text-gray-500 font-poppins">
               <p>
-                By creating an account, you agree to our{" "}
+                By creating an account, you agree to our{' '}
                 <a
                   href="#"
                   className="text-indigo-600 hover:text-indigo-700 underline"
                 >
                   Terms of Service
-                </a>{" "}
-                and{" "}
+                </a>{' '}
+                and{' '}
                 <a
                   href="#"
                   className="text-indigo-600 hover:text-indigo-700 underline"

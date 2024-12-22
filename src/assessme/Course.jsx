@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 
-function Course({setTab}) {
+function Course({ setTab }) {
   const [selectedCard, setSelectedCard] = useState(null);
 
   const handleCardClick = (cardId) => {
@@ -21,16 +21,33 @@ function Course({setTab}) {
 
   const CourseCard = ({ id, title, description, icon, color }) => (
     <div
-      className={`p-6 rounded-xl shadow-md transition-all cursor-pointer ${
-        selectedCard === id ? `border-4 border-${color}-600` : 'bg-white'
+      className={`relative p-6 rounded-xl shadow-lg transform transition-all cursor-pointer group hover:scale-105 ${
+        selectedCard === id
+          ? `ring-4 ring-${color}-500 bg-${color}-50`
+          : 'bg-white'
       }`}
       onClick={() => handleCardClick(id)}
     >
+      <div
+        className={`absolute top-2 right-2 w-4 h-4 rounded-full ${
+          selectedCard === id ? `bg-${color}-500` : 'bg-gray-300'
+        }`}
+      />
       <div className="flex items-center mb-4">
-        <i className={`${icon} text-${color}-600 text-3xl mr-3`} />
-        <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
+        <div
+          className={`flex items-center justify-center w-12 h-12 rounded-full bg-${color}-100 text-${color}-600 text-2xl mr-4`}
+        >
+          <i className={`${icon}`} />
+        </div>
+        <h3
+          className={`text-lg font-bold ${
+            selectedCard === id ? `text-${color}-600` : 'text-gray-900'
+          }`}
+        >
+          {title}
+        </h3>
       </div>
-      <p className="text-gray-700 mb-3 text-lg">{description}</p>
+      <p className="text-gray-700 text-sm">{description}</p>
     </div>
   );
 
@@ -41,18 +58,18 @@ function Course({setTab}) {
         className="min-h-screen flex items-center justify-center px-4 py-8 bg-cover bg-center"
         style={{ backgroundImage: 'url(assets/images/notebook.jpg)' }} // Example background image
       >
-        <div className="w-full max-w-4xl bg-white p-8 rounded-2xl shadow-lg backdrop-blur-md bg-opacity-70">
+        <div className="w-full max-w-4xl bg-white p-8 rounded-2xl shadow-2xl backdrop-blur-md bg-opacity-80">
           {/* Title */}
-          <h1 className="text-5xl font-extrabold text-center text-indigo-800 mb-12">
+          <h1 className="text-4xl font-extrabold text-center text-indigo-800 mb-12">
             <span className="text-indigo-600">Assess</span>Me
           </h1>
-          
+
           {/* Course Selection */}
-          <h2 className="text-3xl font-semibold text-center text-gray-700 mb-8">
-            Course Selection
+          <h2 className="text-2xl font-medium text-center text-gray-600 mb-8">
+            Select a Course to Begin
           </h2>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <CourseCard
               id="EDU 101"
               title="EDU 101"
@@ -73,9 +90,9 @@ function Course({setTab}) {
             <button
               type="submit"
               onClick={handleSubmit}
-              className="inline-block bg-indigo-600 text-white px-8 py-4 rounded-full shadow-md hover:bg-indigo-700 transition-all text-lg font-semibold"
+              className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all text-lg font-medium"
             >
-              <i className="fas fa-arrow-right mr-3" /> Next
+              <i className="fas fa-arrow-right mr-2" /> Proceed
             </button>
           </div>
         </div>

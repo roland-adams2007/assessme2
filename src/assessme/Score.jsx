@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
-
 import { useState } from 'react';
 import { jsPDF } from 'jspdf';
 
-function Score({setTab,results}) {
-
+function Score({ setTab, results }) {
   const [currentPage, setCurrentPage] = useState(0);
 
   if (!results) {
@@ -89,12 +87,10 @@ function Score({setTab,results}) {
     localStorage.removeItem('user_details');
   };
 
-
   const currentQuestions = results.slice(
     currentPage * questionsPerPage,
     (currentPage + 1) * questionsPerPage
   );
-
 
   const handleNext = () => {
     if ((currentPage + 1) * questionsPerPage < totalQuestions) {
@@ -108,21 +104,20 @@ function Score({setTab,results}) {
     }
   };
 
-
   const handleStartOver = () => {
     localStorage.removeItem('user_details');
-    setTab('account')
+    setTab('account');
   };
 
   return (
     <>
       <title>AssessMe - Score Page</title>
       <div className="min-h-screen flex flex-col items-center justify-center px-4 py-8"
-      style={{
-        backgroundImage: 'url(assets/images/notebook.jpg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}>
+        style={{
+          backgroundImage: 'url(assets/images/notebook.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}>
         <div className="w-full max-w-5xl bg-white p-8 rounded-2xl shadow-lg">
           <h1 className="text-4xl font-bold text-center text-indigo-700 mb-12">
             <i className="fas fa-trophy text-indigo-600 mr-3" /> Your Score
@@ -200,29 +195,25 @@ function Score({setTab,results}) {
           </div>
           <div className="flex justify-between mt-8">
             <button
-              className="bg-indigo-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-indigo-700"
+              className="bg-indigo-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300"
               onClick={handlePrev}
-              disabled={currentPage === 0}
             >
               Previous
             </button>
             <button
-              className="bg-indigo-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-indigo-700"
+              className="bg-indigo-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300"
               onClick={handleNext}
-              disabled={(currentPage + 1) * questionsPerPage >= totalQuestions}
             >
               Next
             </button>
-          </div>
-          <div className="mt-8 flex justify-center space-x-4">
             <button
-              className="bg-green-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-green-700"
+              className="bg-indigo-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-indigo-700 transition duration-300"
               onClick={downloadResult}
             >
               Download PDF
             </button>
             <button
-              className="bg-red-600 text-white py-2 px-4 rounded-lg shadow-md hover:bg-red-700"
+              className="bg-red-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-red-700 transition duration-300"
               onClick={handleStartOver}
             >
               Start Over
