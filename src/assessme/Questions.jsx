@@ -83,116 +83,97 @@ function Questions({ setTab, setResults }) {
 
   return (
     <>
-    <title>Questions - AssessMe</title>
-     <div
-      className="min-h-screen bg-cover bg-center flex flex-col"
-      style={{ backgroundImage: "url(assets/images/notebook.jpg)" }}
-    >
-      {/* Header */}
-      <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-6 shadow-lg">
-        <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-semibold">{courseCode}</h1>
-          <div className="flex items-center space-x-8">
-            <div className="flex items-center space-x-2">
-              <i className="fas fa-clock text-yellow-400 text-2xl" />
-              <span className="text-lg font-bold">{formatTime(timeLeft)}</span>
+      <title>AssessMe - Questions</title>
+      <div className="min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(assets/images/notebook.jpg)" }}>
+        <header className="bg-opacity-60 bg-blue-600 text-white py-4 shadow-lg">
+          <div className="container mx-auto flex justify-between items-center">
+            <h1 className="text-xl font-semibold">{courseCode}</h1>
+            <div className="flex space-x-8 items-center">
+              <div className="flex items-center space-x-2">
+                <i className="fas fa-clock text-yellow-400" />
+                <span id="timer" className="text-lg font-medium">
+                  {formatTime(timeLeft)}
+                </span>
+              </div>
+              <div className="text-sm">
+                <span className="font-medium">{currentQuestionIndex + 1}</span> of 
+                <span className="font-medium"> {questions.length}</span> Answered
+              </div>
             </div>
-            <span className="text-sm font-medium">
-              <strong>{currentQuestionIndex + 1}</strong> /{" "}
-              <strong>{questions.length}</strong>
-            </span>
           </div>
+        </header>
+        <div className="w-full bg-gray-200 h-2">
+          <div
+            id="progress-bar"
+            className="bg-blue-500 h-2"
+            style={{
+              width: `${((currentQuestionIndex + 1) / questions.length) * 100}%`,
+            }}
+          />
         </div>
-      </header>
-
-      {/* Progress Bar */}
-      <div className="w-full bg-gradient-to-r from-gray-300 to-blue-200 h-2">
-        <div
-          className="bg-blue-600 h-2 transition-all"
-          style={{
-            width: `${((currentQuestionIndex + 1) / questions.length) * 100}%`,
-          }}
-        ></div>
-      </div>
-
-      {/* Main Content */}
-      <main className="container mx-auto p-8 bg-white bg-opacity-90 rounded-xl shadow-xl mt-6 flex-1">
-        {questions.length === 0 ? (
-          <div className="text-center text-xl font-bold text-red-600">
-            <p>No questions available for this course. Please choose another course.</p>
-            <button
-              onClick={() => setTab("courses")}
-              className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700"
-            >
-              Choose Another Course
-            </button>
-          </div>
-        ) : (
-          <div>
-            {/* Question Info */}
-            <div className="text-center mb-6">
-              <h2 className="text-4xl font-semibold text-blue-800">Question {currentQuestionIndex + 1}</h2>
-              <p className="text-gray-600 text-xl mt-3">{currentQuestion.question}</p>
+        <main className="container mx-auto flex-1 mt-8 p-6 rounded-lg shadow-md bg-white bg-opacity-90">
+          {questions.length === 0 ? (
+            <div className="text-center text-xl font-semibold text-red-600">
+              <p>No questions available for this course. Please choose another course.</p>
+              <button 
+                onClick={() => setTab('courses')}
+                className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg"
+              >
+                Choose Another Course
+              </button>
             </div>
-
-            {/* Answer Options */}
-            <form>
-              <div className="grid gap-4 mb-8">
-                {currentQuestion.options?.map((option, idx) => (
-                  <label
-                    key={idx}
-                    className={`block p-5 border-2 rounded-lg shadow-md transition-all cursor-pointer ${
-                      selectedAnswers[currentQuestionIndex] === option
-                        ? "bg-blue-100 border-blue-500"
-                        : "bg-gray-50 border-gray-300 hover:bg-blue-50"
-                    }`}
+          ) : (
+            <>
+              <div className="text-center mb-6">
+                <h2 className="text-2xl font-semibold text-gray-800">Question {currentQuestionIndex + 1}</h2>
+                <p className="text-gray-600 mt-2">{currentQuestionText}</p>
+              </div>
+              <form>
+                <div className="grid grid-cols-1 gap-4">
+                  {currentOptions.map((option, index) => (
+                    <label
+                      key={index}
+                      className={`block bg-gray-50 border border-gray-200 rounded-lg p-4 cursor-pointer hover:bg-blue-100 hover:border-blue-500 transition ${selectedAnswers[currentQuestionIndex] === option ? "bg-blue-100" : ""}`}
+                    >
+                      <input
+                        type="radio"
+                        name="answer"
+                        value={option}
+                        onChange={handleAnswerChange}
+                        checked={selectedAnswers[currentQuestionIndex] === option}
+                        className="mr-2"
+                      />
+                      <span className="text-gray-800">{option}</span>
+                    </label>
+                  ))}
+                </div>
+                <div className="flex justify-between mt-8">
+                  <button
+                    type="button"
+                    onClick={handlePrevious}
+                    className="bg-gray-400 text-white px-4 py-2 rounded-lg shadow hover:bg-gray-500 transition"
                   >
-                    <input
-                      type="radio"
-                      name="answer"
-                      value={option}
-                      checked={selectedAnswers[currentQuestionIndex] === option}
-                      onChange={handleAnswerChange}
-                      className="mr-4"
-                    />
-                    <span className="text-lg">{option}</span>
-                  </label>
-                ))}
-              </div>
-
-              {/* Navigation Buttons */}
-              <div className="flex justify-between mt-8">
-                <button
-                  type="button"
-                  onClick={() => handleNavigation(-1)}
-                  className="bg-gray-400 text-white px-6 py-3 rounded-lg shadow hover:bg-gray-500 disabled:opacity-50"
-                  disabled={currentQuestionIndex === 0}
-                >
-                  Previous
-                </button>
-                <button
-                  type="button"
-                  onClick={() =>
-                    currentQuestionIndex + 1 === questions.length
-                      ? submitQuiz()
-                      : handleNavigation(1)
-                  }
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700"
-                >
-                  {currentQuestionIndex + 1 === questions.length ? "Submit" : "Next"}
-                </button>
-              </div>
-            </form>
-          </div>
-        )}
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-blue-600 text-white text-center py-6 mt-8 shadow-lg">
-        <p className="text-sm">© 2024 AssessMe. All Rights Reserved.</p>
-        <p className="text-xs">Made with ❤️ by Roland Adams, Department of Educational Technology</p>
-      </footer>
-    </div>
+                    Previous
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleNext}
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition"
+                  >
+                    {currentQuestionIndex + 1 === questions.length ? 'Submit' : 'Next'}
+                  </button>
+                </div>
+              </form>
+            </>
+          )}
+        </main>
+        <footer className="bg-blue-600 text-white text-center py-4 mt-8">
+          <p>© 2024 AssessMe. All Rights Reserved.</p>
+          <p className="mt-2">
+            Made with ❤️ by Roland Adams, Department of Educational Technology
+          </p>
+        </footer>
+      </div>
     </>
   );
 }
