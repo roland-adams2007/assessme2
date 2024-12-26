@@ -65,11 +65,6 @@ function Questions({ setTab, setResults }) {
   };
 
   const submitQuiz = () => {
-    const confirmSubmit = window.confirm(
-      "Are you sure you want to submit the quiz? You will not be able to make changes after submitting."
-    );
-
-    if (confirmSubmit) {
       const results = questions.map((q, i) => ({
         question: q.question,
         selectedAnswer: selectedAnswers[i],
@@ -78,7 +73,6 @@ function Questions({ setTab, setResults }) {
       }));
       setResults(results);
       setTab("score");
-    }
   };
 
   const formatTime = (seconds) => {
