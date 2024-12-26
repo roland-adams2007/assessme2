@@ -43,7 +43,7 @@ function Questions({ setTab, setResults }) {
         }
         return prev - 1;
       });
-    }, 1000);
+    }, 750);
     return () => clearInterval(interval);
   }, [timerRunning]);
 
@@ -82,7 +82,7 @@ function Questions({ setTab, setResults }) {
   };
 
   // Add dynamic class for timer color
-  const timerClass = timeLeft <= 300 ? "text-red-600" : "text-yellow-400";
+  const timerClass = timeLeft <= 300 ? "text-red-500" : "text-yellow-400";
 
   return (
     <>
