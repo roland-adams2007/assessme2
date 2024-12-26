@@ -98,7 +98,7 @@ function Questions({ setTab, setResults }) {
       style={{ backgroundImage: "url(assets/images/notebook.jpg)" }}
     >
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-6 shadow-lg">
+      <header className="bg-gradient-to-r px-3 from-blue-600 to-blue-800 text-white py-6 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-3xl font-semibold">{courseCode}</h1>
           <div className="flex items-center space-x-8">
