@@ -1,12 +1,12 @@
 
 import Account from "./assessme/Account";
-import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
 import Course from "./assessme/Course";
 import Questions from "./assessme/Questions";
 import NotFound from "./assessme/NotFound";
 import Score from "./assessme/Score";
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -33,6 +33,7 @@ function App() {
      tabs === 'score' ? (
       <Score setTab = {handleSetTabs} results={results}/>
      ):(<NotFound setTab = {handleSetTabs}/>)}
+     <Analytics />
     </>
    )
   
