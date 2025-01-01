@@ -1,42 +1,44 @@
+import { useEffect, useState } from "react";
+import Account from "./assessme2/Account";
+import Home from "./assessme2/Home";
+import { Cookies } from "react-cookie";
 
-import Account from "./assessme/Account";
-import "react-toastify/dist/ReactToastify.css";
-import { useState } from "react";
-import Course from "./assessme/Course";
-import Questions from "./assessme/Questions";
-import NotFound from "./assessme/NotFound";
-import Score from "./assessme/Score";
-import { Analytics } from '@vercel/analytics/react';
-
-
-
+const cookies = new Cookies();
 
 function App() {
+  const [mainTab, setMainTab] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("tab") || localStorage.getItem("mainTab") || "account";
+  });
 
-   const [tabs,setTabs]=useState('account');
-  const [results,setResults]=useState(null)
+  useEffect(() => {
+    const userStatus = cookies.get("userStatus");
 
-   const handleSetTabs = (tab) =>{
-     setTabs(tab);
-   }
+    if (userStatus === "notActive" || !userStatus) {
+      setMainTab("account");
+    } else {
+      localStorage.setItem("mainTab", mainTab);
+    }
+  }, [mainTab]);
 
- 
-   return(
+  useEffect(() => {
+    if (mainTab) {
+      const params = new URLSearchParams(window.location.search);
+      params.set("tab", mainTab);
+      window.history.replaceState(null, "", `?${params.toString()}`);
+    }
+  }, [mainTab]);
+
+  const handleSetMainTab = (tab) => {
+    setMainTab(tab);
+  };
+
+  return (
     <>
-     {tabs === 'account' ? (<Account setTab = {handleSetTabs} />) : 
-     tabs === 'courses' ? (
-      <Course setTab = {handleSetTabs} />
-     ) : 
-     tabs === 'questions' ? (
-      <Questions setTab={handleSetTabs} setResults={setResults}/>
-     ) : 
-     tabs === 'score' ? (
-      <Score setTab = {handleSetTabs} results={results}/>
-     ):(<NotFound setTab = {handleSetTabs}/>)}
-     <Analytics />
+      {mainTab === "account" && <Account setMainTab={handleSetMainTab} />}
+      {mainTab === "home" && <Home setMainTab={handleSetMainTab} />}
     </>
-   )
-  
+  );
 }
 
-export default App
+export default App;

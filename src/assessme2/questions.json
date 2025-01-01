@@ -1,0 +1,2127 @@
+[
+    {
+        "courseCode": "GST 111",
+        "description":"General Studies: Nigerian History",
+        "level":"100L",
+        "questions": {
+          "q1": {
+            "question": "The topclass Nigerian universities are determined to _________the quality of education.",
+            "options": ["A. keep up", "B. keep up with", "C. keep on", "D. keep at"],
+            "answer": "B. keep up with"
+          },
+          "q2": {
+            "question": "Some people are failures or under-achievers because ____________.",
+            "options": ["A. they don't like the library", "B. they are unable to manage their time effectively", "C. they are poor readers", "D. they are quiet speakers"],
+            "answer": "B. they are unable to manage their time effectively"
+          },
+          "q3": {
+            "question": "Anyone who wants to communicate effectively using English must___________.",
+            "options": ["A. learn to verbalize", "B. understand how others act and feel", "C. take pains to learn the rules", "D. take pains to listen"],
+            "answer": "C. take pains to learn the rules"
+          },
+          "q4": {
+            "question": "As a system of communication, a given language has its own sets of _____________.",
+            "options": ["A. conversions", "B. conventions", "C. corrections", "D. conversations"],
+            "answer": "B. conventions"
+          },
+          "q5": {
+            "question": "Learning involves the following activities except______________.",
+            "options": ["A. sleeping", "B. reflecting", "C. thinking", "D. organizing facts"],
+            "answer": "A. sleeping"
+          },
+          "q6": {
+            "question": "________ is a major study skill factor.",
+            "options": ["A. the mind", "B. the foreground", "C. the background", "D. the context"],
+            "answer": "A. the mind"
+          },
+          "q7": {
+            "question": "It is the _________of study skills that enables the learner to be in charge of his/her own learning.",
+            "options": ["A. appreciation", "B. memorization", "C. anticipation", "D. application"],
+            "answer": "D. application"
+          },
+          "q8": {
+            "question": "Personal positive attitude helps.",
+            "options": ["A. contents", "B. study habits", "C. distractions", "D. interrogations"],
+            "answer": "B. study habits"
+          },
+          "q9": {
+            "question": "Study skills are habits that instill _________ in the learner once well cultivated.",
+            "options": ["A. Content learning", "B. knowledge", "C. discipline", "D. comprehension"],
+            "answer": "C. discipline"
+          },
+          "q10": {
+            "question": "Which of the following is not a study skill strategy for the English as a second language learner___________?",
+            "options": ["A. PQRST", "B. time management", "C. Personal motivation", "D. Personal equipment"],
+            "answer": "D. Personal equipment"
+          },
+          "q11": {
+            "question": "Learners frequent interactions with colleague, teachers and scholars on-line help to ensure__________________.",
+            "options": ["A. academic objectiveness", "B. academic currency", "C. academic harvest", "D. academic competence"],
+            "answer": "B. academic currency"
+          },
+          "q12": {
+            "question": "Which of the following is not a level of reading comprehension?________",
+            "options": ["A. critical", "B. inferential", "C. liberal", "D. literal"],
+            "answer": "C. liberal"
+          },
+          "q13": {
+            "question": "Reading has ________ nature and is purpose bound, especially at the advanced level of learning.",
+            "options": ["A. intrusive", "B. invalid", "C. intricate", "D. intrinsic"],
+            "answer": "C. intricate"
+          },
+          "q14": {
+            "question": "The minister was alarmed _______ the drop in quality of education.",
+            "options": ["A. with", "B. on", "C. at", "D. for"],
+            "answer": "C. at"
+          },
+          "q15": {
+            "question": "For understanding to take place, the basic foundation needed is __________.",
+            "options": ["A. Information", "B. communication", "C. concentration", "D. reflection"],
+            "answer": "C. concentration"
+          },
+          "q16": {
+            "question": "Words combine to form __________.",
+            "options": ["A. sentences", "B. clauses", "C. phrases", "D. morphemes"],
+            "answer": "C. phrases"
+          },
+          "q17": {
+            "question": "An important feature of language is its ___________",
+            "options": ["A. structure", "B. texture", "C. strength", "D. stature"],
+            "answer": "A. structure"
+          },
+          "q18": {
+            "question": "The English as a second language countries include all except ________.",
+            "options": ["A. Ghana", "B. India", "C. Nigeria", "D. USA"],
+            "answer": "D. USA"
+          },
+          "q19": {
+            "question": "________ to come this weekend to listen to the broadcast of the football match?",
+            "options": ["A. Do you like", "B. Would you like", "C. Are you like", "D. Will you like"],
+            "answer": "B. Would you like"
+          },
+          "q20": {
+            "question": "Factors affecting study skills include all except_________.",
+            "options": ["A. hybridizing", "B. the study time", "C. the study venue", "D. reading aloud to oneself"],
+            "answer": "A. hybridizing"
+          },
+          "q21": {
+            "question": "Computers are now cheap_______ for nearly everyone to afford it.",
+            "options": ["A. enough", "B. so", "C. too", "D. quite"],
+            "answer": "A. enough"
+          },
+          "q22": {
+            "question": "You're looking __________ pretty today, Temy.",
+            "options": ["A. very", "B. attractively", "C. beautifully", "D. too"],
+            "answer": "A. very"
+          },
+          "q23": {
+            "question": "I promise to do my _________best.",
+            "options": ["A. possible", "B. very", "C. feasible", "D. variable"],
+            "answer": "B. very"
+          },
+          "q24": {
+            "question": "Water ________hydrogen and oxygen.",
+            "options": ["A. Varies between", "B. migrates", "C. consists of", "D. corresponds to"],
+            "answer": "C. consists of"
+          },
+          "q25": {
+            "question": "Agnes left the school very late, _____________________",
+            "options": ["A. didn't she?", "B. isn't it?", "C. hasn't she?", "D. hadn't she?"],
+            "answer": "A. didn't she?"
+          },
+          "q26": {
+            "question": "“Soyinka is good at play writing and Achebe is good at prose writing” Identify the sentence type.",
+            "options": ["A. Complex", "B. simple", "C. compound", "D. compound complex"],
+            "answer": "C. compound"
+          },
+          "q27": {
+            "question": "“Mathematic _________compulsory for engineering students”.",
+            "options": ["A. is", "B. as", "C. are", "D. were"],
+            "answer": "A. is"
+          },
+          "q28": {
+            "question": "The boy and the girl _______gone home.",
+            "options": ["A. has", "B. have", "C. had", "D. is"],
+            "answer": "B. have"
+          },
+          "q29": {
+            "question": "Which of the following is not a quality of good English?",
+            "options": ["A. coherence", "B. emphasis or focus", "C. unity", "D. none of the above"],
+            "answer": "D. none of the above"
+          },
+          "q30": {
+            "question": "In spite of the seemingly scarcity of marriageable men today many a girl __________ to get married at the age of twenty-one.",
+            "options": ["A. Intend", "B. intended", "C. plans", "D. plan"],
+            "answer": "D. plan"
+          },
+          "q31": {
+            "question": "She did not explain what happened________ did she?",
+            "options": ["A) rather", "B) never", "C) either", "D) neither"],
+            "answer": "D) neither"
+            },
+            "q32": {
+            "question": "He was _____ weak _____ he could not climb the stairs.",
+            "options": ["A) very/that", "B) so/that", "C) too/that", "D) so/when"],
+            "answer": "B) so/that"
+            },
+            "q33": {
+            "question": "Some of the food _____spoilt.",
+            "options": ["A) were", "B) are", "C) have", "D) is"],
+            "answer": "D) is"
+            },
+            "q34": {
+            "question": "The University of Ilorin _____a large collection of sporting______.",
+            "options": ["A) has/equipment", "B) have/equipments", "C) had/aids", "D) has/costumes"],
+            "answer": "A) has/equipment"
+            },
+            "q35": {
+            "question": "The lecturers with his wife ______here.",
+            "options": ["A) were", "B) were to be", "C) are", "D) was"],
+            "answer": "C) are"
+            },
+            "q36": {
+            "question": "Neither Hallema, nor her sisters_____attending the party tomorrow.",
+            "options": ["A) were", "B) is", "C) are", "D) was"],
+            "answer": "C) are"
+            },
+            "q37": {
+            "question": "The boys as well as their father _____travelling.",
+            "options": ["A) hated", "B) love", "C) loves", "D) will love"],
+            "answer": "C) loves"
+            },
+            "q38": {
+            "question": "Under such circumstances, one might not really be able to help______.",
+            "options": ["A) oneself", "B) themselves", "C) myself", "D) one another"],
+            "answer": "A) oneself"
+            },
+            "q39": {
+            "question": "The five girls love_______",
+            "options": ["A) themselves", "B) ourselves", "C) one another", "D) each other"],
+            "answer": "D) each other"
+            },
+            "q40": {
+            "question": "The winner is the ______of the three girls.",
+            "options": ["A) eldest", "B) best", "C) youngest", "D) smartest"],
+            "answer": "B) best"
+            },
+            "q41": {
+            "question": "Identify the sentence type that best describes the structure of each of the sentences given from options A-D for questions 11-15.",
+            "options": ["A) Compound complex", "B) Simple", "C) Complex", "D) Compound"],
+            "answer": "B) Simple"
+            },
+            "q42": {
+            "question": "They do not know how to play draught but they are good commentators of the board game.",
+            "options": ["A) Compound", "B) Simple", "C) Complex", "D) Compound-complex"],
+            "answer": "A) Compound"
+            },
+            "q43": {
+            "question": "To be frank, he has severe injuries during the accident but his parents were assured of best medical care when the teams of doctors arrived.",
+            "options": ["A) Complex", "B) Simple", "C) Compound-complex", "D) Compound"],
+            "answer": "C) Compound-complex"
+            },
+            "q44": {
+            "question": "Whenever political aspirants read out their manifestoes, the electorates are sometimes usually downcast.",
+            "options": ["A) Compound complex", "B) Simple", "C) Complex", "D) Compound"],
+            "answer": "C) Complex"
+            },
+            "q45": {
+            "question": "The horse neigh; the rider fell down.",
+            "options": ["A) Complex", "B) Simple", "C) Compound-complex", "D) Compound"],
+            "answer": "D) Compound"
+            },
+            "q46": {
+            "question": "Effective study skills include all of the following except:",
+            "options": ["A) Time management", "B) Self-indulgence", "C) Self-discipline", "D) Concentration"],
+            "answer": "B) Self-indulgence"
+            },
+            "q47": {
+            "question": "In English, the active learning skills include ______ and______.",
+            "options": ["A) Speaking and writing", "B) Speaking and listening", "C) Speaking and reading", "D) Writing and listening"],
+            "answer": "A) Speaking and writing"
+            },
+            "q48": {
+            "question": "The passive language skills in English are _______ and_______.",
+            "options": ["A) Speaking and writing", "B) Speaking and listening", "C) Reading and writing", "D) Reading and listening"],
+            "answer": "D) Reading and listening"
+            },
+            "q49": {
+            "question": "The punctuation mark 'e.g.' is also known as _________.",
+            "options": ["A) Exempli gratia", "B) Exemplify gratia", "C) Exception graft", "D) Exempli gratio"],
+            "answer": "A) Exempli gratia"
+            },
+            "q50": {
+            "question": "It is referred to as an important language because many people in South Africa________it.",
+            "options": ["A) Are speaking", "B) Spoke", "C) Speak", "D) Speaks"],
+            "answer": "C) Speak"
+            },
+            "q51": {
+            "question": "All except ______ is used to mark off parenthetical statements.",
+            "options": ["A) Inverted comma", "B) Comma", "C) The dash", "D) Question mark"],
+            "answer": "D) Question mark"
+            },
+            "q52": {
+            "question": "The job was done meticulously well.",
+            "options": ["A) Noun phrase", "B) Adverb phrase", "C) Verbal group", "D) Adjectival phrase"],
+            "answer": "B) Adverb phrase"
+            },
+            "q53": {
+            "question": "Although she invited me to her birthday party, I will not be able to attend because my examination is fast approaching.",
+            "options": ["A) Main clause", "B) Subordinate clause", "C) Parallel clause", "D) Reciprocal clause"],
+            "answer": "B) Subordinate clause"
+            },
+            "q54": {
+            "question": "The school authority and not the student______responsible for the crisis on campus.",
+            "options": ["A) Are", "B) Were", "C) Was", "D) Is"],
+            "answer": "C) Was"
+            },
+            "q55": {
+            "question": "Comprehension is a _____activity of effective reading skills.",
+            "options": ["A) Constructive", "B) Cognitive", "C) Conjunctive", "D) Connective"],
+            "answer": "B) Cognitive"
+            },
+            "q56": {
+            "question": "'... on the network news as the National Award winners ...' The punctuation mark used is an example of.",
+            "options": ["A) Three dots", "B) Ellipses", "C) Elision", "D) Subtraction"],
+            "answer": "B) Ellipses"
+            },
+            "q57": {
+            "question": "______is not one of the learning skills in the English language.",
+            "options": ["A) Reading", "B) Writing", "C) Communication", "D) Speaking"],
+            "answer": "C) Communication"
+            },
+            "q58": {
+            "question": "The literacy language skills are reading and ________.",
+            "options": ["A) Writing", "B) Listening", "C) Thinking", "D) Speaking"],
+            "answer": "A) Writing"
+            },
+            "q59": {
+            "question": "Note making/taking and outlining are information _______techniques.",
+            "options": ["A) Residual", "B) Refusal", "C) Recorder", "D) Reception"],
+            "answer": "D) Reception"
+            },
+            "q60": {
+            "question": "The Dean and Secretary ______the meeting regularly.",
+            "options": ["A) Attends", "B) Were attending", "C) Attend", "D) Attended"],
+            "answer": "C) Attend"
+            },
+            "q61": {
+            "question": "I watched him __________ the rice last night.",
+            "options": ["A) eating", "B) eats", "C) eat", "D) ate"],
+            "answer": "C) eat"
+             },
+            "q62": {
+                "question": " ________ you want to come to the party now that I'm going too?",
+                "options": ["A) shall", "B) could", "C) would", "D) will"],
+                "answer": "C) would"
+            },
+            "q63": {
+                "question": "If I ___________an elephant I would run!",
+                "options": ["A) saw", "B) see", "C) have seen", "D) had seen"],
+                "answer": "B) see"
+            },
+            "q64": {
+                "question": "I love ________ down your road to visit my friend.",
+                "options": ["A) walking", "B) walked", "C) walks", "D) be walking"],
+                "answer": "A) walking"
+            },
+            "q65": {
+                "question": "He had gone away before we _______ that the money was missing.",
+                "options": ["A) discover", "B) had discovered", "C) discovered", "D) have discovered"],
+                "answer": "C) discovered"
+            },
+            "q66": {
+                "question": "I don't know his name but I remember ________him in London.",
+                "options": ["A) to meet", "B) to have met", "C) meeting", "D) to be meeting"],
+                "answer": "C) meeting"
+            },
+            "q67": {
+                "question": "________ by the teacher, John did not enter the classroom.",
+                "options": ["A) haven been punished", "B) being punished", "C) having been punished", "D) haven being punished"],
+                "answer": "C) having been punished"
+            },
+            "q68": {
+                "question": "The woman said she saw the victims ______ from the roof.",
+                "options": ["A) to have fallen", "B) to be falling", "C) fall", "D) fell"],
+                "answer": "D) fell"
+            },
+            "q69": {
+                "question": "The children listened attentively to the stories of the _________man.",
+                "options": ["A) grey-haired wise old", "B) wise grey-haired old", "C) old grey-haired wise", "D) wise old grey-haired"],
+                "answer": "D) wise old grey-haired"
+            },
+            "q70": {
+                "question": "Toyin was pleased with the ______skirt her mother gave to her.",
+                "options": ["A) beautiful new pale yellow cotton", "B) pale yellow beautiful new cotton", "C) new beautiful yellow pale cotton", "D) beautiful yellow cotton new pale"],
+                "answer": "A) beautiful new pale yellow cotton"
+            },
+            "q71": {
+                "question": "He fell in love with the ______ graduate.",
+                "options": ["A) young intelligent British", "B) intelligent young British", "C) young British intelligent", "D) British young intelligent"],
+                "answer": "B) intelligent young British"
+            },
+            "q72": {
+                "question": "Julian prides herself _______ her cooking.",
+                "options": ["A) with", "B) about", "C) on", "D) for"],
+                "answer": "C) on"
+            },
+            "q73": {
+                "question": "Peter accused his friend _____ taking his pencil.",
+                "options": ["A) of", "B) in", "C) for", "D) about"],
+                "answer": "A) of"
+            },
+            "q74": {
+                "question": "Mrs. Thomas was advised not to submit _________her husband's rough treatment.",
+                "options": ["A) In", "B) at", "C) to", "D) for"],
+                "answer": "C) to"
+            },
+            "q75": {
+                "question": "The painter appears to be worthy _________ his wages.",
+                "options": ["A) with", "B) for", "C) of", "D) to"],
+                "answer": "C) of"
+            },
+            "q76": {
+                "question": "The baby was eating _____food.",
+                "options": ["A) Its'", "B) it's", "C) it's own", "D) its"],
+                "answer": "D) its"
+            },
+            "q77": {
+                "question": "The teacher collected his book and _________",
+                "options": ["A) everyone's else", "B) everyone else", "C) everyone's else's", "D) every persons"],
+                "answer": "B) everyone else"
+            },
+            "q78": {
+                "question": "This is not your cup; it must be ________.",
+                "options": ["A) of her's", "B) hers", "C) for her", "D) her's"],
+                "answer": "B) hers"
+            },
+            "q79": {
+                "question": "You have now gotten _______ to complete the investigation.",
+                "options": ["A) a sufficient information", "B) many informations", "C) sufficient information", "D) plenty of informations"],
+                "answer": "C) sufficient information"
+            },
+            "q80": {
+                "question": "Have you heard ________ news about him since he left?",
+                "options": ["A) plenty", "B) many", "C) several", "D) much"],
+                "answer": "D) much"
+            },
+            "q81": {
+                "question": "They must have been blind not to have seen him, __________?",
+                "options": ["A) didn't they?", "B) musn't they?", "C) weren't they?", "D) wasn't it?"],
+                "answer": "C) weren't they?"
+            },
+            "q82": {
+                "question": "John said that we could attend his birthday party, ________?",
+                "options": ["A) couldn't we?", "B) didn't he?", "C) did he?", "D) won't we?"],
+                "answer": "B) didn't he?"
+            },
+            "q83": {
+                "question": "Choose the word that is rightly stressed from the options lettered A-D.",
+                "options": ["A) Idea", "B) iDea", "C) iDEA", "D) idEa"],
+                "answer": "C) iDEA"
+            },
+            "q84": {
+                "question": "Choose the word that is rightly stressed from the options lettered A-D.",
+                "options": ["A) COfisticate", "B) CONfisticate", "C) confisTICATE", "D) confISTicate"],
+                "answer": "A) COfisticate"
+            },
+            "q85": {
+                "question": "Choose the word that is rightly stressed from the options lettered A-D.",
+                "options": ["A) OVERcome", "B) overcoME", "C) Overcome", "D) overCOME"],
+                "answer": "D) overCOME"
+            },
+            "q86": {
+                "question": "Choose one word among those lettered A-D that contains the sound represented by PHONETIC SYMBOL /U:/.",
+                "options": ["A) cook", "B) book", "C) tomb", "D) look"],
+                "answer": "C) tomb"
+            },
+            "q87": {
+                "question": "Choose one word among those lettered A-D that contains the sound represented by PHONETIC SYMBOL /n/.",
+                "options": ["A) under", "B) uncle", "C) mountain", "D) night"],
+                "answer": "B) uncle"
+            },
+            "q88": {
+                "question": "Choose the one word among those lettered A-D that has the same consonant sound as the sound represented by the letter(s) underlined in the capitalized word 'VoluME'.",
+                "options": ["A) virtue", "B) vulgar", "C) volunteer", "D) value"],
+                "answer": "D) value"
+            },
+            "q89": {
+                "question": "Choose the one word among those lettered A-D that has the same consonant sound as the sound represented by the letter(s) underlined in the capitalized word 'PLEASURE'.",
+                "options": ["A) music", "B) dazzle", "C) fusion", "D) nurture"],
+                "answer": "C) fusion"
+            },
+            "q90": {
+                "question": "Choose the one word among those lettered A-D that has the same consonant sound as the sound represented by the letter(s) underlined in the capitalized word 'ACCENT'.",
+                "options": ["A) mix", "B) call", "C) chart", "D) size"],
+                "answer": "B) call"
+            },
+            "q91": {
+                "question": "The study skill that enhances the storage and retrieval of information in the process of learning is ________",
+                "options": ["A) personal motivation", "B) paragraphing", "C) note-making", "D) information integration"],
+                "answer": "C) note-making"
+            },
+            "q92": {
+                "question": "A learner takes notes under the following situations except_______",
+                "options": ["A) when listening to a lecture", "B) when participating in a seminar", "C) during consultation in the library", "D) listening to a pre-recorded tape on a subject matter"],
+                "answer": "C) during consultation in the library"
+            },
+            "q93": {
+                "question": "Note-making comes to play when a learner does the following except_________",
+                "options": ["A) when reading a textbook", "B) when consulting a lecture note", "C) when going through a journal", "D) when listening to a lecture"],
+                "answer": "D) when listening to a lecture"
+            },
+            "q94": {
+                "question": "A dictionary shows how a word is pronounced through one of the following",
+                "options": ["A) stress", "B) syllable", "C) inflections", "D) rhyme"],
+                "answer": "A) stress"
+            },
+            "q95": {
+                "question": "The study skill which allows the learners to focus on core elements in a material under study is called _______________________",
+                "options": ["A) note-making", "B) note-taking", "C) outlining", "D) comprehension"],
+                "answer": "C) outlining"
+            },
+            "q96": {
+                "question": "The first step in the use of a dictionary is to _________________",
+                "options": ["A) consult the dictionary straightaway", "B) break the word into smaller unit", "C) determine the contextual usage of the word", "D) determine the word's part of speech"],
+                "answer": "C) determine the contextual usage of the word"
+            },
+            "q97": {
+                "question": "The following registers can be found in 'administration' except______",
+                "options": ["A) directing", "B) planning", "C) organization", "D) system"],
+                "answer": "D) system"
+            },
+            "q98": {
+                "question": "Registers are influenced by the relationship that exists between a speaker/writer and the listener/reader. The relationship is called_______",
+                "options": ["A) field of discourse", "B) tenor of discourse", "C) mode of discourse", "D) nature of discourse"],
+                "answer": "B) tenor of discourse"
+            },
+            "q99": {
+                "question": "'Good-for-Nothing' is an example of which of these classes of nouns:",
+                "options": ["A) common noun", "B) collective noun", "C) compound noun", "D) proper noun"],
+                "answer": "C) compound noun"
+            },
+            "q100": {
+                "question": "The following verbs strengthen or add special shade of meaning to the real action performed except_________",
+                "options": ["A) be", "B) is", "C) are", "D) writes"],
+                "answer": "D) writes"
+            },
+            "q101": {
+                "question": "The constituents of a clause include the following except________",
+                "options": ["A) word", "B) phrase", "C) sentence", "D) none of the above"],
+                "answer": "C) sentence"
+            },
+            "q102": {
+                "question": "A grammatical structure which contains a subject and predicate is called__________",
+                "options": ["A) a phrase", "B) a word", "C) a sentence", "D) paragraph"],
+                "answer": "C) a sentence"
+            },
+            "q103": {
+                "question": "A man cannot be successful, except he is determined. The underlined structure is a _______________________",
+                "options": ["A) dependent clause", "B) independent clause", "C) main clause", "D) none of the above"],
+                "answer": "A) dependent clause"
+            },
+            "q104": {
+                "question": "When there is a subordinator at the beginning of a clause then, the clause is an example of a/an__________________",
+                "options": ["A) independent clause", "B) dependent clause", "C) main clause", "D) all of the above"],
+                "answer": "B) dependent clause"
+            },
+            "q105": {
+                "question": "A noun clause functions in the following ways except_______",
+                "options": ["A) subject of the clause", "B) object of the clause", "C) qualifier", "D) as gerund"],
+                "answer": "C) qualifier"
+            },
+            "q106": {
+                "question": "A sentence is a complete grammatical utterance which contains ________",
+                "options": ["A) a linearly arranged words", "B) a structurally related words", "C) independent and dependent clause", "D) all of the above"],
+                "answer": "D) all of the above"
+            },
+            "q107": {
+                "question": "A statement is also referred to as _________",
+                "options": ["A) an imperative sentence", "B) interrogative sentence", "C) a declarative sentence", "D) an exclamatory"],
+                "answer": "C) a declarative sentence"
+            },
+            "q108": {
+                "question": "Which of these sentence types state a verifiable truth or situation?",
+                "options": ["A) an exclamatory sentence", "B) an imperative sentence", "C) a declarative sentence", "D) an interrogative sentence"],
+                "answer": "C) a declarative sentence"
+            },
+            "q109": {
+                "question": "Which of these is true of a simple sentence?",
+                "options": ["A) it contains only one independent clause", "B) it begins with a capital letter and ends a full stop", "C) it contains a subject and predicate", "D) all of the above"],
+                "answer": "D) all of the above"
+            },
+            "q110": {
+                "question": "The subject position in a sentence is occupied by which of the following clauses or words.",
+                "options": ["A) Noun", "B) adverb", "C) adjective", "D) verb"],
+                "answer": "A) Noun"
+            },
+            "q111": {
+                "question": "When two simple sentences are formed with the use of a coordinating conjunction, they become a_________________",
+                "options": ["A) complex sentence", "B) compound sentence", "C) compound complex sentence", "D) multiple sentence"],
+                "answer": "B) compound sentence"
+            },
+            "q112": {
+                "question": "A sentence that has one independent and one or more dependent clauses is a__________________",
+                "options": ["A) complex sentence", "B) compound sentence", "C) compound complex sentence", "D) multiple sentence"],
+                "answer": "A) complex sentence"
+            },
+            "q113": {
+                "question": "'Teachers are always happy when their students perform well because they are fulfilled.' The sentence above is a _________",
+                "options": ["A) simple", "B) compound", "C) complex", "D) compound complex"],
+                "answer": "C) complex"
+            },
+            "q114": {
+                "question": "'Kola is my enemy' is not a statement that comes from me, I can only quote the statement using __________",
+                "options": ["A) question mark", "B) parenthesis", "C) an hyphen", "D) an inverted comma"],
+                "answer": "D) an inverted comma"
+            },
+            "q115": {
+                "question": "A full stop performs one of the following functions ___________",
+                "options": ["A) marks the end of a sentence/thought", "B) shows surprise", "C) makes additional information in a sentence", "D) list items"],
+                "answer": "A) marks the end of a sentence/thought"
+            },
+            "q116": {
+                "question": "Which of these is/are the function(s) of a comma?",
+                "options": ["A) listing items", "B) separating an introductory or transitional words from other parts of a sentence", "C) gives additional information", "D) all of the above"],
+                "answer": "D) all of the above"
+            },
+            "q117": {
+                "question": "The chairman as well as his executive members________ invited to the meeting last week",
+                "options": ["A) is", "B) was", "C) were", "D) are"],
+                "answer": "B) was"
+            },
+            "q118": {
+                "question": "The president and commander-in-chief seeking a re-election in 2015",
+                "options": ["A) was", "B) were", "C) is", "D) were"],
+                "answer": "A) was"
+            },
+            "q119": {
+                "question": "The lecturers and the students_______ discussing the newly introduced course",
+                "options": ["A) is", "B) are", "C) was", "D) were"],
+                "answer": "B) are"
+            },
+            "q120": {
+                "question": "The speaker, accompanied by his ministers _________ in the meeting.",
+                "options": ["A) was", "B) were", "C) are", "D) is"],
+                "answer": "A) was"
+            },
+            "q121": {
+                "question": "Effective reading involves ________ cognitive processing.",
+                "options": ["A) passive", "B) unconscious", "C) active", "D) redundant"],
+                "answer": "C) active"
+            },
+            "q122": {
+                "question": "Reading is a process in which our minds translate _______ symbols into ideas.",
+                "options": ["A) printed", "B) spoken", "C) carved", "D) coloured"],
+                "answer": "A) printed"
+            },
+            "q123": {
+                "question": "Reading is a _______ skill",
+                "options": ["A) Expressive", "B) receptive", "C) primary", "D) symbolic"],
+                "answer": "B) receptive"
+            },
+            "q124": {
+                "question": "Reading for pleasure involves reading such materials like _____",
+                "options": ["A) novels", "B) newspapers", "C) magazines", "D) all of the above"],
+                "answer": "D) all of the above"
+            },
+            "q125": {
+                "question": "Qualities of an efficient reader include the following except______",
+                "options": ["A) forecasts", "B) flexible", "C) enjoys reading", "D) regresses"],
+                "answer": "D) regresses"
+            },
+            "q126": {
+                "question": "One of these is a deficiency in reading.",
+                "options": ["A) vocalization", "B) reads fast", "C) anticipates", "D) evaluates"],
+                "answer": "A) vocalization"
+            },
+            "q127": {
+                "question": "The reader who is skimming watches out for _______",
+                "options": ["A) keywords & headings", "B) A & C", "C) subheadings & graphic", "D) only C"],
+                "answer": "B) A & C"
+            },
+            "q128": {
+                "question": "Fast reading to locate dates, names, places and figures is called______",
+                "options": ["A) leisure reading", "B) regressing", "C) digest", "D) scanning"],
+                "answer": "D) scanning"
+            },
+            "q129": {
+                "question": "Study skills are also known as _______",
+                "options": ["A) detailed reading", "B) reading strategies", "C) processing", "D) recollection"],
+                "answer": "B) reading strategies"
+            },
+            "q130": {
+                "question": "An example of memory aids is ____",
+                "options": ["A) meditation", "B) M NEMONICS", "C) silence", "D) research"],
+                "answer": "B) M NEMONICS"
+            },
+            "q131": {
+                "question": "In the SQ3R method of reading, the second R stands for ________",
+                "options": ["A) recall", "B) reset", "C) repeat", "D) respond"],
+                "answer": "A) recall"
+            },
+            "q132": {
+                "question": "Factors affecting studying include all of the following except______",
+                "options": ["A) dedication", "B) concentration", "C) gender", "D) place of study"],
+                "answer": "C) gender"
+            },
+            "q133": {
+                "question": "Strategies used for studying effectively include ______",
+                "options": ["A) extraction of key points", "B) asking questions", "C) only A", "D) A & B"],
+                "answer": "D) A & B"
+            },
+            "q134": {
+                "question": "All except ________ constitute major reading skills in intensive reading",
+                "options": ["A) organization", "B) skimming", "C) scanning", "D) speed reading"],
+                "answer": "A) organization"
+            },
+            "q135": {
+                "question": "________ is subject specific",
+                "options": ["A) meaning", "B) extensive reading", "C) Intensive reading", "D) grammatical"],
+                "answer": "C) Intensive reading"
+            },
+            "q136": {
+                "question": "_________ is an information reception technique.",
+                "options": ["A) scanning", "B) note-making", "C) smiling", "D) driving"],
+                "answer": "B) note-making"
+            },
+            "q137": {
+                "question": "________ dictionaries are for specific professions",
+                "options": ["A) thesaurus", "B) formal", "C) specialized", "D) general"],
+                "answer": "C) specialized"
+            },
+            "q138": {
+                "question": "The dictionary can be used for all of the following except_________",
+                "options": ["A) spelling", "B) pronunciation", "C) building", "D) word entry"],
+                "answer": "C) building"
+            },
+            "q139": {
+                "question": "The ______ indicates the end of a complete statement.",
+                "options": ["A) full stop", "B) dash", "C) colon", "D) comma"],
+                "answer": "A) full stop"
+            },
+            "q140": {
+                "question": "The _______ is used to show possession",
+                "options": ["A) question mark", "B) hyphen", "C) apostrophe", "D) colon"],
+                "answer": "C) apostrophe"
+            },
+            "q141": {
+                "question": "Another name for concord is ______",
+                "options": ["A) ellipsis", "B) brackets", "C) mood", "D) agreement"],
+                "answer": "D) agreement"
+            },
+            "q142": {
+                "question": "A ______ can contain one or more clauses",
+                "options": ["A) phrase", "B) sentence", "C) word", "D) morpheme"],
+                "answer": "B) sentence"
+            },
+            "q143": {
+                "question": "________ are used as substitutes to nouns",
+                "options": ["A) pronouns", "B) adjective", "C) prepositions", "D) verbs"],
+                "answer": "A) pronouns"
+            },
+            "q144": {
+                "question": "________ verbs have receivers of actions",
+                "options": ["A) auxiliary", "B) finite", "C) transitive", "D) main"],
+                "answer": "C) transitive"
+            },
+            "q145": {
+                "question": "Non-finite verbs are in forms",
+                "options": ["A) two", "B) six", "C) four", "D) three"],
+                "answer": "D) three"
+            },
+            "q146": {
+                "question": "There are _____ major types of conjunctions.",
+                "options": ["A) seven", "B) three", "C) five", "D) two"],
+                "answer": "B) three"
+            },
+            "q147": {
+                "question": "________ conjunction connects equal words, phrases or clauses.",
+                "options": ["A) co-ordinating", "B) exclamative", "C) subordinating", "D) separating"],
+                "answer": "A) co-ordinating"
+            },
+            "q148": {
+                "question": "Words or sounds used for exclamation are called ______",
+                "options": ["A) adverbials", "B) interjections", "C) gerunds", "D) nouns"],
+                "answer": "B) interjections"
+            },
+            "q149": {
+                "question": "________ are used to mark the beginning of a sentence",
+                "options": ["A) semi-colons", "B) brackets", "C) capital letters", "D) commas"],
+                "answer": "C) capital letters"
+            },
+            "q150": {
+                "question": "Adjectives are also called ______ words",
+                "options": ["A) Joining", "B) doing", "C) naming", "D) describing"],
+                "answer": "D) describing"
+            },
+            "q151": {
+                "question": "He pressed on until he found his uncle, ______he found after questioning hundreds of people.",
+                "options": ["A) who", "B) whom", "C) that who", "D) for who"],
+                "answer": "B) whom"
+            },
+            "q152": {
+                "question": "She is one of those persons who _____never wrong.",
+                "options": ["A) Is", "B) are being", "C) be", "D) are"],
+                "answer": "D) are"
+            },
+            "q153": {
+                "question": "That belt isn't ____ is it?",
+                "options": ["A) of you", "B) your's", "C) of yours", "D) yours"],
+                "answer": "D) yours"
+            },
+            "q154": {
+                "question": "Would you like to take  bananas with you to eat with your lunch?",
+                "options": ["A) a little", "B) a few", "C) a small", "D) few"],
+                "answer": "B) a few"
+            },
+            "q155": {
+                "question": "If I _______you, I would not give him so much money.",
+                "options": ["A) have", "B) am", "C) was", "D) were"],
+                "answer": "D) were"
+            },
+            "q156": {
+                "question": "I prefer coffee _______ tea.",
+                "options": ["A) than", "B) better than", "C) by", "D) to"],
+                "answer": "D) to"
+            },
+            "q157": {
+                "question": "We drank ______coffee ______tea.",
+                "options": ["A) not only... but", "B) not only... but also", "C) not... but", "D) not... but"],
+                "answer": "B) not only... but also"
+            },
+            "q158": {
+                "question": "In 'Jospark teaches English', Jospark is a ________ noun.",
+                "options": ["A) common", "B) mass", "C) proper", "D) common"],
+                "answer": "C) proper"
+            },
+            "q159": {
+                "question": "The sentence 'What about it?' is________.",
+                "options": ["A) Imperative", "B) interrogative", "C) declarative", "D) exclamatory"],
+                "answer": "B) interrogative"
+            },
+            "q160": {
+                "question": "Three ______quarters of the hostel _____been painted green.",
+                "options": ["A) will have", "B) has", "C) have", "D) had"],
+                "answer": "B) has"
+            },
+            "q161": {
+                "question": "Kites", 
+                "options": ["A) last", "B) breeze", "C) sing", "D) looks"],
+                "answer": "D) looks"
+            },
+            "q162": {
+                "question": "Impressed",
+                "options": ["A) moved", "B) wicked", "C) tall", "D) kite"],
+                "answer": "C) tall"
+            },
+            "q163": {
+                "question": "Dirt",
+                "options": ["A) warm", "B) cart", "C) wet", "D) girl"],
+                "answer": "D) girl"
+            },
+            "q164": {
+                "question": "Rough",
+                "options": ["A) fight", "B) bought", "C) dough", "D) love"],
+                "answer": "A) fight"
+            },
+            "q165": {
+                "question": "Plait",
+                "options": ["A) pace", "B) cat", "C) race", "D) gate"],
+                "answer": "B) cat"
+            },
+            "q166": {
+                "question": "The available definitions of language emphasize its ______function.",
+                "options": ["A) communicative", "B) interactive", "C) transactional", "D) visual"],
+                "answer": "A) communicative"
+            },
+            "q167": {
+                "question": "Which of the following factors does not affect study skills?",
+                "options": ["A) examination invigilator", "B) study venue", "C) study time", "D) underlining"],
+                "answer": "A) examination invigilator"
+            },
+            "q168": {
+                "question": "Composition and comprehension skills are required in ______.",
+                "options": ["A) outlining", "B) essay", "C) letter", "D) summary writing"],
+                "answer": "A) outlining"
+            },
+            "q169": {
+                "question": "What is used to describe the rise and fall in pitch of utterances?",
+                "options": ["A) syllable", "B) stress", "C) intonation", "D) rhythm"],
+                "answer": "C) intonation"
+            },
+            "q170": {
+                "question": "The use of the sound /e/ instead of /eI/ is an instance of ______.",
+                "options": ["A) hypercorrection", "B) re-interpretation of sound", "C) under-differentiation", "D) sound substitution"],
+                "answer": "D) sound substitution"
+            },
+            "q171": {
+                "question": "The form of language used by an individual is known as _____",
+                "options": ["A) socialet", "B) dialet", "C) idiolect", "D) register"],
+                "answer": "C) idiolect"
+            },
+            "q172": {
+                "question": "The underlined parts of the sentence, 'We were impatient to start the engine' is an instance of ______phrase.",
+                "options": ["A) Infinitive", "B) participle", "C) gerun", "D) prepositional"],
+                "answer": "A) Infinitive"
+            },
+            "q173": {
+                "question": "The use of electronic media and information and communication technologies in the school system is known as _______.",
+                "options": ["A) CALL", "B) ICT", "C) EMIS", "D) E-learning"],
+                "answer": "D) E-learning"
+            },
+            "q174": {
+                "question": "Another concept of selective reading is ________.",
+                "options": ["A) scanning", "B) skimming", "C) glancing", "D) perusing"],
+                "answer": "B) skimming"
+            },
+            "q175": {
+                "question": "______Skill is less emphasized in GNS 111.",
+                "options": ["A) writing", "B) speaking", "C) listening", "D) reading"],
+                "answer": "A) writing"
+            },
+            "q176": {
+                "question": "Baba and ______ participated in the tournament.",
+                "options": ["A) him", "B) his", "C) he", "D) he's"],
+                "answer": "C) he"
+            },
+            "q177": {
+                "question": "He keeps his ______ clean always.",
+                "options": ["A) surroundings", "B) surrounding", "C) premise", "D) environment"],
+                "answer": "A) surroundings"
+            },
+            "q178": {
+                "question": "Some of the food _______spoilt.",
+                "options": ["A) Is", "B) are", "C) were", "D) have"],
+                "answer": "A) Is"
+            },
+            "q179": {
+                "question": "The fact that language can be broken up into units and smaller units of language make up larger ones makes it _______.",
+                "options": ["A) systematic", "B) rule-governed", "C) structured", "D) dynamic"],
+                "answer": "C) structured"
+            },
+            "q180": {
+                "question": "The punctuation mark used to separate alternative words or phrases is known as ______.",
+                "options": ["A) ellipses", "B) oblique", "C) parenthesis", "D) apostrophe"],
+                "answer": "B) oblique"
+            },
+            "q181": {
+                "question": "The word 'internalization' has how many morphemes?",
+                "options": ["A) four", "B) five", "C) six", "D) seven"],
+                "answer": "B) five"
+            },
+            "q182": {
+                "question": "It is high time the students ____ the class.",
+                "options": ["A) leave", "B) left", "C) have to leave", "D) do leave"],
+                "answer": "B) left"
+            },
+            "q183": {
+                "question": "Amaka Igwe film production, in conjunction with corporate pictures, ______ 'The New Dawn'.",
+                "options": ["A) present", "B) presents", "C) do present", "D) is presenting"],
+                "answer": "B) presents"
+            },
+            "q184": {
+                "question": "The suspect ______ when the DPO entered the office.",
+                "options": ["A) has been questioned", "B) have been questioned", "C) was being questioned", "D) is being questioned"],
+                "answer": "C) was being questioned"
+            },
+            "q185": {
+            "question": "The young man is an expert ______ Mechanical Engineering.",
+            "options": ["A) at", "B) in", "C) on", "D) of"],
+            "answer": "B) in"
+            },
+            "q186": {
+                "question": "The students were advised to look _______ difficult words in the dictionary.",
+                "options": ["A) at", "B) in", "C) of", "D) with"],
+                "answer": "B) in"
+            },
+            "q187": {
+                "question": "The student _______ before the principal arrived.",
+                "options": ["A) has to be punished", "B) has been punished", "C) have been punished", "D) had been punished"],
+                "answer": "D) had been punished"
+            },
+            "q188": {
+                "question": "Mr. Ayinla always tells people to know their religious_______",
+                "options": ["A) believe", "B) believing", "C) beliefs", "D) belief"],
+                "answer": "C) beliefs"
+            },
+            "q189": {
+                "question": "The two students did not appear before the _______ panel to look into their demands.",
+                "options": ["A) five man", "B) five-man", "C) five men", "D) five-men"],
+                "answer": "B) five-man"
+            },
+            "q190": {
+                "question": "The president's speech ______ at 9.p.m. yesterday.",
+                "options": ["A) is broadcast", "B) has been broadcast", "C) were broadcast", "D) was broadcast"],
+                "answer": "D) was broadcast"
+            },
+            "q191": {
+                "question": "The young manager has caused his bank to ______ millions of naira.",
+                "options": ["A) lost", "B) loss", "C) lose", "D) loose"],
+                "answer": "C) lose"
+            },
+            "q192": {
+                "question": "________ has been circulated that the workers are planning to go on industrial strike.",
+                "options": ["A) an information", "B) Informations", "C) the information", "D) some informations"],
+                "answer": "C) the information"
+            },
+            "q193": {
+                "question": "Since their quarrel, the two ladies have not been speaking _________",
+                "options": ["A) one to the other", "B) to themselves", "C) to each other", "D) to each another"],
+                "answer": "C) to each other"
+            },
+            "q194": {
+                "question": "One of the robbers who snatched the minister's car ________ has been arrested by the police.",
+                "options": ["A) has", "B) have", "C) had", "D) was"],
+                "answer": "A) has"
+            },
+            "q195": {
+                "question": "Neither the commissioners nor the governor _______ present at the political rally yesterday.",
+                "options": ["A) was", "B) were", "C) is", "D) are"],
+                "answer": "A) was"
+            },
+            "q196": {
+                "question": "The day Ade lost his beloved father was the _____ day of his life.",
+                "options": ["A) sad", "B) sadder", "C) saddest", "D) more saddest"],
+                "answer": "C) saddest"
+            },
+            "q197": {
+                "question": "The students ______ politics when the lecturer entered the lecture room.",
+                "options": ["A) are discussing", "B) were discussing about", "C) are discussing on", "D) were discussing"],
+                "answer": "D) were discussing"
+            },
+            "q198": {
+                "question": "______ were sent out of the class by the teacher.",
+                "options": ["A) I and Ade", "B) Ade and me", "C) Ade and I", "D) myself and Ade"],
+                "answer": "C) Ade and I"
+            },
+            "q199": {
+                "question": "The pastor addressed his ______ in a sonorous voice.",
+                "options": ["A) audience", "B) masses", "C) spectators", "D) congregation"],
+                "answer": "D) congregation"
+            },
+            "q200": {
+                "question": "The executive committee meeting was _______ till the next morning.",
+                "options": ["A) postponed", "B) proscribed", "C) delayed", "D) adjourned"],
+                "answer": "D) adjourned"
+            },
+            "q201": {
+                "question": "The man said he has never ______ in his life.",
+                "options": ["A) being so", "B) so being", "C) been so", "D) so been"],
+                "answer": "C) been so"
+            },
+            "q202": {
+                "question": "The Vice-chancellor with all the deputy Vice-chancellors ________ the new site every week.",
+                "options": ["A) visited", "B) visits", "C) visit", "D) visiting"],
+                "answer": "B) visits"
+            },
+            "q203": {
+                "question": "Olu says he is better at Mathematics _________",
+                "options": ["A) as me", "B) than I am", "C) as I am", "D) with me"],
+                "answer": "B) than I am"
+            },
+            "q204": {
+                "question": "Ladies and gentlemen, let us come together to know _____ better.",
+                "options": ["A) each other", "B) one another", "C) us", "D) ourselves"],
+                "answer": "B) one another"
+            },
+            "q205": {
+                "question": "The new group is committed to _____ for international peace.",
+                "options": ["A) work", "B) worked", "C) working", "D) be working"],
+                "answer": "C) working"
+            },
+            "q206": {
+                "question": "The governor _______ graduated from one of the best universities.",
+                "options": ["A) would have", "B) must have", "C) shall have", "D) will have"],
+                "answer": "B) must have"
+            },
+            "q207": {
+                "question": "The health workers' strike was _____ as a result of the new minister's intervention.",
+                "options": ["A) called back", "B) called in", "C) called off", "D) called up"],
+                "answer": "C) called off"
+            },
+            "q208": {
+                "question": "The principal as well as the teachers ______ the students every Monday.",
+                "options": ["A) address", "B) addresses", "C) addressed", "D) are addressing"],
+                "answer": "B) addresses"
+            },
+            "q209": {
+                "question": "The civil servants in the country are not likely ______ promoted until next year.",
+                "options": ["A) to be", "B) to have been", "C) to have", "D) to being"],
+                "answer": "A) to be"
+            },
+            "q210": {
+                "question": "When he visited the country last year, we asked him if he _____ pounded yam as lunch.",
+                "options": ["A) want", "B) wants", "C) wanted", "D) will has"],
+                "answer": "C) wanted"
+            },
+            "q211": {
+                "question": "The first level or stage of reading is ________.",
+                "options": ["A) studying", "B) skimming", "C) normal reading", "D) scanning"],
+                "answer": "D) scanning"
+            },
+            "q212": {
+                "question": "The smallest meaning-bearing unit of a language is _________.",
+                "options": ["A) sentence", "B) morpheme", "C) phrase", "D) word"],
+                "answer": "B) morpheme"
+            },
+            "q213": {
+                "question": "\"James will man the team\". As used in the sentence, the word \"man\" is a/an _________.",
+                "options": ["A) adjective", "B) adverb", "C) noun", "D) verb"],
+                "answer": "D) verb"
+            },
+            "q214": {
+                "question": "The expression: \"He had been stealing for long before he was caught this afternoon\" is in _______ tense.",
+                "options": ["A) past", "B) simple past", "C) past perfect", "D) past perfect progressive"],
+                "answer": "D) past perfect progressive"
+            },
+            "q215": {
+                "question": "The old man, as well as his children, _______ being interrogated by the police.",
+                "options": ["A) has", "B) have", "C) are", "D) is"],
+                "answer": "D) is"
+            },
+            "q216": {
+                "question": "Neither the boys nor the girl ______ responsible for breaking the glass yesterday.",
+                "options": ["A) Is", "B) was", "C) were", "D) are"],
+                "answer": "B) was"
+            },
+            "q217": {
+                "question": "\"Modifier, headword and qualifier (mhq) is the structure of a/an ________ phrase.\"",
+                "options": ["A) noun", "B) adjectival", "C) adverbial", "D) prepositional"],
+                "answer": "B) adjectival"
+            },
+            "q218": {
+                "question": "Honesty, etc._________ what every politician should possess.",
+                "options": ["A) are", "B) is", "C) shall be", "D) none of the above"],
+                "answer": "B) is"
+            },
+            "q219": {
+                "question": "The relation of lexical items along the horizontal axis is known as ________ relations.",
+                "options": ["A) syntagmatic", "B) syntactic", "C) paradigmatic", "D) lexical"],
+                "answer": "A) syntagmatic"
+            },
+            "q220": {
+                "question": "A group of related words without a finite verb, functioning as a particular word class is called _______.",
+                "options": ["A) Clause", "B) sentence", "C) pre-modifier", "D) phrase"],
+                "answer": "D) phrase"
+            },
+            "q221": {
+                "question": "A morpheme that is parasitic in nature is ______ morpheme.",
+                "options": ["A) bound", "B) free", "C) derivational", "D) inflectional"],
+                "answer": "A) bound"
+            },
+            "q222": {
+                "question": "The ________ is the largest unit on the grammatical rankscale.",
+                "options": ["A) clause", "B) phrase", "C) morpheme", "D) sentence"],
+                "answer": "D) sentence"
+            },
+            "q223": {
+                "question": "The language used in a particular field, discipline or profession is called________.",
+                "options": ["A) idiom", "B) register", "C) phrasal", "D) connotation"],
+                "answer": "B) register"
+            },
+            "q224": {
+                "question": "A bound morpheme that changes the word class of the free morpheme to which it is added is called a/an_________ morpheme.",
+                "options": ["A) directional", "B) derivational", "C) inflectional", "D) instructional"],
+                "answer": "B) derivational"
+            },
+            "q225": {
+                "question": "Because he was unserious, the student failed the examination. The expression: \"because he was unserious\" is a/an __________ clause.",
+                "options": ["A) adverbial", "B) adjectival", "C) noun", "D) prepositional"],
+                "answer": "A) adverbial"
+            },
+            "q226": {
+                "question": "One of the factors determining the choice of register is the ________ of discourse.",
+                "options": ["A) mode", "B) modal", "C) modality", "D) modification"],
+                "answer": "A) mode"
+            },
+            "q227": {
+                "question": "'Un__' in the word 'unconditional' is a/an ________.",
+                "options": ["A) suffix", "B) prefix", "C) infixation", "D) affixation"],
+                "answer": "B) prefix"
+            },
+            "q228": {
+                "question": "If I had got a ticket, I ______travelled since yesterday.",
+                "options": ["A) would have", "B) will", "C) should", "D) shall"],
+                "answer": "A) would have"
+            },
+            "q229": {
+                "question": "The man whose son won an award has arrived. The underlined part of the sentence is a/an _______clause.",
+                "options": ["A) adverbial", "B) prepositional", "C) adjectival", "D) noun"],
+                "answer": "C) adjectival"
+            },
+            "q230": {
+                "question": "I will marry you when I'm rich. The underlined part of the sentence is an adverbial clause of ________.",
+                "options": ["A) reason", "B) degree", "C) time", "D) place"],
+                "answer": "C) time"
+            },
+            "q231": {
+                "question": "The prize was won by John and ______.",
+                "options": ["A) I", "B) me", "C) myself", "D) we"],
+                "answer": "B) me"
+            },
+            "q232": {
+                "question": "Each of the medical students ______expected here later.",
+                "options": ["A) Is", "B) are", "C) was", "D) were"],
+                "answer": "A) Is"
+            },
+            "q233": {
+                "question": "Both Jonathan and ______must rule in 2015.",
+                "options": ["A) me", "B) myself", "C) I", "D) us"],
+                "answer": "C) I"
+            },
+            "q234": {
+                "question": "\"Will have been dancing\" is an example of _______ phrase.",
+                "options": ["A) noun", "B) verb", "C) adjectival", "D) adverbial"],
+                "answer": "B) verb"
+            },
+            "q235": {
+                "question": "\"Was dancing\" can be a good example of _______ tense.",
+                "options": ["A) past", "B) past perfect", "C) past perfect continuous", "D) Past continuous"],
+                "answer": "D) Past continuous"
+            },
+            "q236": {
+                "question": "\"Had been dancing\" can be a good example of _______tense.",
+                "options": ["A) past", "B) past perfect", "C) past perfect continuous", "D) past continuous"],
+                "answer": "C) past perfect continuous"
+            },
+            "q237": {
+                "question": "The _______is the most mobile element in a sentence.",
+                "options": ["A) subject", "B) predicate", "C) complement", "D) adjunct"],
+                "answer": "D) adjunct"
+            },
+            "q238": {
+                "question": "I, as well as members of my cabinet _____ here to rejoice with you now.",
+                "options": ["A) am", "B) are", "C) is", "D) have"],
+                "answer": "A) am"
+            },
+            "q239": {
+                "question": "The role or power relations between participants in a discussion are known as the ______ of discourse.",
+                "options": ["A) mode", "B) tenor", "C) field", "D) modality"],
+                "answer": "B) tenor"
+            },
+            "q240": {
+                "question": "Four house _______ too much for this exam.",
+                "options": ["A) Is", "B) are", "C) have been", "D) were"],
+                "answer": "A) Is"
+            },
+            "q241": {
+                "question": "It was ______ who saw it.",
+                "options": ["A) you and me", "B) you and I", "C) I and you", "D) you and me"],
+                "answer": "B) you and I"
+            },
+            "q242": {
+                "question": "It was ______ who need to be considered.",
+                "options": ["A) them", "B) they", "C) their", "D) theirs"],
+                "answer": "B) they"
+            },
+            "q243": {
+                "question": "He wanted you and _______",
+                "options": ["A) he", "B) I", "C) me", "D) they"],
+                "answer": "C) me"
+            },
+            "q244": {
+                "question": "Either Joy or you _______wanted.",
+                "options": ["A) Is wanting", "B) is", "C) was", "D) are"],
+                "answer": "B) is"
+            },
+            "q245": {
+                "question": "The twins hugged ______ when they met.",
+                "options": ["A) themselves", "B) theirselves", "C) each other", "D) one another"],
+                "answer": "C) each other"
+            },
+            "q246": {
+                "question": "Three quarters of the Chemistry laboratory _______ painted last week.",
+                "options": ["A) Is", "B) are", "C) was", "D) were"],
+                "answer": "C) was"
+            },
+            "q247": {
+                "question": "Knowledge Biology as well as Chemistry ________ required in the Pharmaceutical Company.",
+                "options": ["A) Is", "B) are", "C) will being", "D) were"],
+                "answer": "A) Is"
+            },
+            "q248": {
+                "question": "Everybody in the class ________ happy.",
+                "options": ["A) is", "B) were", "C) are to be", "D) are"],
+                "answer": "A) is"
+            },
+            "q249": {
+                "question": "The little baby was abandoned by _______mother.",
+                "options": ["A) her", "B) its", "C) his", "D) their"],
+                "answer": "A) her"
+            },
+            "q250": {
+                "question": "For one to be successful in life ________ should be diligent.",
+                "options": ["A) He", "B) she", "C) their", "D) one"],
+                "answer": "D) one"
+            },
+            "q251": {
+                "question": "\"I _______ be able to answer the question\" the candidate said candidly.",
+                "options": ["A) might", "B) must", "C) shall", "D) will"],
+                "answer": "D) will"
+            },
+            "q252": {
+                "question": "Bread and Butter _______ good for a growing child.",
+                "options": ["A) are", "B) is", "C) were", "D) has"],
+                "answer": "B) is"
+            },
+            "q253": {
+                "question": "When we leave later this month, we _______ spent four years in the university.",
+                "options": ["A) could have", "B) ought to have", "C) will have", "D) would have"],
+                "answer": "D) would have"
+            },
+            "q254": {
+                "question": "Ahmed is one of the boys who always ________ well in mathematics.",
+                "options": ["A) do", "B) does", "C) doing", "D) did"],
+                "answer": "A) do"
+            },
+            "q255": {
+                "question": "'He came but did not see her because she wasn't around.' The above sentence is an example of a ______ sentence.",
+                "options": ["A) simple", "B) compound", "C) complex", "D) compound complex"],
+                "answer": "D) compound complex"
+            },
+            "q256": {
+                "question": "Femi speaks in English because he has a foreign visitor. The underlined words is an example of a _________.",
+                "options": ["A) noun clause", "B) adjectival clause", "C) adverbial clause", "D) adverbial phrase"],
+                "answer": "C) adverbial clause"
+            },
+            "q257": {
+                "question": "The President of the United States of America visited Nigeria fortnight ago. The underlined words is an example of__________.",
+                "options": ["A) adverbial phrase", "B) noun phrase", "C) adjectival clause", "D) adverbial clause"],
+                "answer": "A) adverbial phrase"
+            },
+            "q258": {
+                "question": "Factors affecting effective study habit do not include___.",
+                "options": ["A) venue and time", "B) lack of concentration and motivation", "C) lack of laptop and textbooks", "D) negative attitude towards learning"],
+                "answer": "C) lack of laptop and textbooks"
+            },
+            "q259": {
+                "question": "One of the following is not among study skills strategies.",
+                "options": ["A) paraphrasing strategy", "B) Information integration", "C) effective use of professional dictionary", "D) note-making strategy"],
+                "answer": "C) effective use of professional dictionary"
+            },
+            "q260": {
+                "question": "A good dictionary aids a reader by providing useful information about a language which includes all except_______.",
+                "options": ["A) word usage", "B) meaning of words", "C) secret of words", "D) phonological information"],
+                "answer": "C) secret of words"
+            },
+            "q261": {
+                "question": "An extensive reading is meant.",
+                "options": ["A) to get complete information in a passage", "B) to gain general insights from the material being read", "C) to gain a detailed knowledge in a passage", "D) to scan through a passage"],
+                "answer": "B) to gain general insights from the material being read"
+            },
+            "q262": {
+                "question": "Skimming involves________.",
+                "options": ["A) scanning through a passage", "B) glancing through a passage", "C) reading a passage critically", "D) note-taking"],
+                "answer": "B) glancing through a passage"
+            },
+            "q263": {
+                "question": "______ entails suggestion of additional information beyond what is stated in a passage.",
+                "options": ["A) critical reading", "B) referential reading", "C) creative reading", "D) literal reading"],
+                "answer": "B) referential reading"
+            },
+            "q264": {
+                "question": "An interrogative sentence ends in ________.",
+                "options": ["A) a full stop", "B) an exclamation", "C) a question mark", "D) semi-colon"],
+                "answer": "C) a question mark"
+            },
+            "q265": {
+                "question": "A group of words without a finite verb can be referred to as ________.",
+                "options": ["A) a phrase", "B) a clause", "C) a subordinate clause", "D) a simple sentence"],
+                "answer": "A) a phrase"
+            },
+            "q266": {
+                "question": "_______ is the first stage or level of reading.",
+                "options": ["A) critical reading", "B) studying", "C) scanning", "D) skimming"],
+                "answer": "D) skimming"
+            },
+            "q267": {
+                "question": "Whereas _______ is the smallest grammatical unit _______ is the largest grammatical unit in the structure/rank of English grammar.",
+                "options": ["A) word/sentence", "B) morpheme/sentence", "C) phrase/paragraph", "D) subordinate/independent clause"],
+                "answer": "B) morpheme/sentence"
+            },
+            "q268": {
+                "question": "Language of a specific discipline can be referred to as _______.",
+                "options": ["A) professional language", "B) official language", "C) register", "D) slang"],
+                "answer": "C) register"
+            },
+            "q269": {
+                "question": "Hamlet is the prince of Denmark in William Shakespeare's Hamlet. The underlined expression is an example of _______.",
+                "options": ["A) subject", "B) object", "C) adjunct", "D) complement"],
+                "answer": "D) complement"
+            },
+            "q270": {
+                "question": "A main clause may be called_______.",
+                "options": ["A) a subordinate clause", "B) a noun phrase", "C) a sentence", "D) a dependent clause"],
+                "answer": "C) a sentence"
+            }
+   
+        }
+      },
+
+    {
+        "courseCode": "EDU 101",
+        "description":"Introduction to Education and Pedagogy",
+        "level":"100L",
+        "questions": {
+            "q1": {
+                "question": "__________ is the broadest educational outcome",
+                "options": ["A. OBJECTIVE", "B. GOAL", "C. VISION", "D. AIM"],
+                "answer": "D. AIM"
+            },
+            "q2": {
+                "question": "________ is centered to effective learning",
+                "options": ["A. TEACHING", "B. TRAINING", "C. LEARNING", "D. ASSISTANCE"],
+                "answer": "C. LEARNING"
+            },
+            "q3": {
+                "question": "The _______ socializes the child, gives him the right to manifest his instincts and drives and develop his personality",
+                "options": ["A. FAMILY", "B. COMMUNITY", "C. SCHOOL", "D. SOCIETY"],
+                "answer": "C. SCHOOL"
+            },
+            "q4": {
+                "question": "Students must learn to comply with rules and ________ in the school",
+                "options": ["A. NORMS", "B. RULES", "C. POLICIES", "D. REGULATIONS"],
+                "answer": "D. REGULATIONS"
+            },
+            "q5": {
+                "question": "_______ is the vehicle of education",
+                "options": ["A. TEACHING", "B. LEARNING", "C. TRAINING", "D. EDUCATION"],
+                "answer": "B. LEARNING"
+            },
+            "q6": {
+                "question": "________ syllabus arranges content in broad outlines",
+                "options": ["A. COURSE", "B. EXAMINATION", "C. ASSIGNMENTS", "D. SYLLABUS"],
+                "answer": "B. EXAMINATION"
+            },
+            "q7": {
+                "question": "Evaluation should be clear, precise, and ________",
+                "options": ["A. ACCURATE", "B. EFFICIENT", "C. OBJECTIVE", "D. CLEAR"],
+                "answer": "C. OBJECTIVE"
+            },
+            "q8": {
+                "question": "Students learn best when they are ________",
+                "options": ["A. INTERESTED", "B. READY", "C. FOCUSED", "D. ENGAGED"],
+                "answer": "B. READY"
+            },
+            "q9": {
+                "question": "Students who fail to ______ what is learnt are likened to forgetting",
+                "options": ["A. EXPERIENCE", "B. USE", "C. UNDERSTAND", "D. KNOW"],
+                "answer": "B. USE"
+            },
+            "q10": {
+                "question": "To be is to ________",
+                "options": ["A. ACT", "B. LEARN", "C. DO", "D. BE"],
+                "answer": "C. DO"
+            },
+            "q11": {
+                "question": "Teaching which is effective must result in meaningful _________",
+                "options": ["A. UNDERSTANDING", "B. LEARNING", "C. DEVELOPMENT", "D. EDUCATION"],
+                "answer": "B. LEARNING"
+            },
+            "q12": {
+                "question": "_______ method of teaching is best used for a large class",
+                "options": ["A. LECTURE", "B. DISCUSSION", "C. PROJECT", "D. ACTIVITY"],
+                "answer": "A. LECTURE"
+            },
+            "q13": {
+                "question": "_______ assist the child in moral development and learning",
+                "options": ["A. PEERS", "B. FAMILY", "C. COMMUNITY", "D. SCHOOL"],
+                "answer": "B. FAMILY"
+            },
+            "q14": {
+                "question": "________ domain deals with manipulative skills",
+                "options": ["A. PSYCHOMOTOR", "B. COGNITIVE", "D. SOCIAL", "C. AFFECTIVE"],
+                "answer": "A. PSYCHOMOTOR"
+            },
+            "q15": {
+                "question": "______ is the previous experience of the students as per the topic to be taught",
+                "options": ["A. BACKGROUND", "B. EXPERIENCE", "C. ENTRY BEHAVIOUR", "D. KNOWLEDGE"],
+                "answer": "C. ENTRY BEHAVIOUR"
+            },
+            "q16": {
+                "question": "_______ is the father of the lecture method",
+                "options": ["A. SOCRATES", "B. PLATO", "C. ARISTOTLE", "D. RUSKIN"],
+                "answer": "B. PLATO"
+            },
+            "q17": {
+                "question": "_______ plan is a guide for the teaching",
+                "options": ["A. SCHEDULE", "B. LESSON", "C. UNIT", "D. TERM"],
+                "answer": "B. LESSON"
+            },
+            "q18": {
+                "question": "_______ championed the playway method",
+                "options": ["A. PIAGET", "B. MARIAMONTESSORI", "C. FROEBEL", "D. VYGOTSKY"],
+                "answer": "B. MARIAMONTESSORI"
+            },
+            "q19": {
+                "question": "The most interactive method is _________",
+                "options": ["A. DISCUSSION", "B. LECTURE", "D. EXPERIMENT", "C. ROLE PLAY"],
+                "answer": "A. DISCUSSION"
+            },
+            "q20": {
+                "question": "The most economical method is __________",
+                "options": ["A. DISCUSSION", "B. LECTURE", "C. EXPERIMENT", "D. PROJECT"],
+                "answer": "B. LECTURE"
+            },
+            "q21": {
+                "question": "Students should have ________ listening in the class",
+                "options": ["A. PASSIVE", "B. ACTIVE", "C. LISTENING", "D. FOCUSED"],
+                "answer": "B. ACTIVE"
+            },
+            "q22": {
+                "question": "_________ syllabus are arranged in logical order",
+                "options": ["A. EXAMINATION", "B. LEARNING", "C. SYLLABUS", "D. TEACHING"],
+                "answer": "D. TEACHING"
+            },
+            "q23": {
+                "question": "________ syllabus arranges content haphazardly",
+                "options": ["A. CURRICULUM", "B. SCHOOL", "C. EXAMINATION", "C. SYLLABUS"],
+                "answer": "C. EXAMINATION"
+            },
+            "q24": {
+                "question": "__________ material appeals to the sense of sight",
+                "options": ["A. VISUAL", "D. SENSORY", "B. AUDITORY", "C. TACTILE"],
+                "answer": "A. VISUAL"
+            },
+            "q25": {
+                "question": "____________ method allows the students to carry out assignments and tasks on their own",
+                "options": ["A. DISCUSSION", "B. PROJECT", "C. LECTURE", "D. ROLE PLAY"],
+                "answer": "D. PROJECT"
+            },
+            "q26": {
+                "question": "Year plan is also called _________",
+                "options": ["A. TIMETABLE", "B. PLAN", "C. SCHEME OF WORK", "D. CALENDAR"],
+                "answer": "C. SCHEME OF WORK"
+            },
+            "q27": {
+                "question": "_________ materials are used when the real objects are not available",
+                "options": ["A. READILY AVAILABLE", "B. ASSISTIVE", "C. EXEMPLAR", "D. IMPROVISED"],
+                "answer": "D. IMPROVISED"
+            },
+            "q28": {
+                "question": "________ is a set of learning experiences set up in the school",
+                "options": ["A. EDUCATION", "B. TRAINING", "C. SYLLABUS", "D. CURRICULUM"],
+                "answer": "D. CURRICULUM"
+            },
+            "q29": {
+                "question": "The second level of cognition domain of learning is ________",
+                "options": ["A. COMPREHENSION", "B. APPLICATION", "C. EVALUATION", "D. SYNTHESIS"],
+                "answer": "A. COMPREHENSION"
+            },
+            "q30": {
+                "question": "________ is the father of the project method",
+                "options": ["A. KANT", "B. SOCRATES", "C. JOHN DEWEY", "D. PLATO"],
+                "answer": "C. JOHN DEWEY"
+            },
+            "q31": {
+                "question": "The low-ranking students are called ________",
+                "options": ["A. ABOVE AVERAGE", "B. GIFTED", "C. INTELLIGENT", "D. BASIC"],
+                "answer": "D. BASIC"
+            },
+            "q32": {
+                "question": "Questioning method is otherwise called ___________",
+                "options": ["A. SOCRATIC METHOD", "C. LEARNING METHOD", "B. EXAM METHOD", "D. VIGIL METHOD"],
+                "answer": "A. SOCRATIC METHOD"
+            },
+            "q33": {
+            "question": "Which of the following best defines a teacher?",
+            "options": ["A. Someone who provides moral support", "B. Someone who educates students", "C. Someone who assesses workers", "D. Someone who provides resources"],
+            "answer": "B. Someone who educates students"
+            },
+            "q34": {
+                "question": "Which of the following is NOT a type of education?",
+                "options": ["A. Formal", "B. Informal", "C. Cultural", "D. Non-formal"],
+                "answer": "C. Cultural"
+            },
+            "q35": {
+                "question": "Teaching is considered a profession because __________.",
+                "options": ["A. It involves imparting knowledge", "B. It requires professional training and certification", "C. It has flexible working hours", "D. It is accessible to everyone"],
+                "answer": "B. It requires professional training and certification"
+            },
+            "q36": {
+                "question": "Professionalization of teaching refers to __________.",
+                "options": ["A. The informal recognition of teachers", "B. The establishment of ethical standards and certifications", "C. The removal of teaching qualifications", "D. Reducing teaching to a hobby"],
+                "answer": "B. The establishment of ethical standards and certifications"
+            },
+            "q37": {
+                "question": "Which of these is NOT a quality of a professional teacher?",
+                "options": ["A. Patience", "B. Integrity", "C. Dishonesty", "D. Empathy"],
+                "answer": "C. Dishonesty"
+            },
+            "q38": {
+                "question": "Which method of teaching involves asking thought-provoking questions?",
+                "options": ["A. Direct Instruction", "B. Discussion Method", "C. Socratic Method", "D. Lecture Method"],
+                "answer": "C. Socratic Method"
+            },
+            "q39": {
+                "question": "The cognitive domain of learning is concerned with __________.",
+                "options": ["A. Emotional responses", "B. Physical skills", "C. Intellectual abilities", "D. Social interactions"],
+                "answer": "C. Intellectual abilities"
+            },
+            "q40": {
+                "question": "Evaluation in teaching is primarily used for __________.",
+                "options": ["A. Punishing students", "B. Understanding student learning outcomes", "C. Assigning random grades", "D. Increasing teacher workload"],
+                "answer": "B. Understanding student learning outcomes"
+            },
+            "q41": {
+                "question": "Which type of evaluation is conducted during the learning process?",
+                "options": ["A. Diagnostic", "B. Summative", "C. Formative", "D. Normative"],
+                "answer": "C. Formative"
+            },
+            "q42": {
+                "question": "A trade union in the education sector is primarily established to __________.",
+                "options": ["A. Protect teachers' rights", "B. Replace school administrators", "C. Enforce strict laws on students", "D. Reduce education budgets"],
+                "answer": "A. Protect teachers' rights"
+            },
+            "q43": {
+                "question": "The Nigerian Union of Teachers (NUT) was established in __________.",
+                "options": ["A. 1931", "B. 1945", "C. 1960", "D. 1976"],
+                "answer": "A. 1931"
+            },
+            "q44": {
+                "question": "The TRCN stands for __________.",
+                "options": ["A. Teaching Regulatory Council of Nigeria", "B. Teachers Registration Council of Nigeria", "C. Teachers Rating Council of Nigeria", "D. Training and Regulation Council of Nigeria"],
+                "answer": "B. Teachers Registration Council of Nigeria"
+            },
+            "q45": {
+                "question": "The mission of the TRCN is to __________.",
+                "options": ["A. Enforce strict teaching policies", "B. Regulate and improve teaching standards", "C. Conduct school inspections", "D. Organize teacher salaries"],
+                "answer": "B. Regulate and improve teaching standards"
+            },
+            "q46": {
+                "question": "The vision of TRCN is to __________.",
+                "options": ["A. Ensure teaching becomes a recognized profession globally", "B. Provide free education for all", "C. Establish more schools nationwide", "D. Fund teacher's salaries"],
+                "answer": "A. Ensure teaching becomes a recognized profession globally"
+            },
+            "q47": {
+                "question": "One of the major programs of TRCN is __________.",
+                "options": ["A. Teacher registration and licensing", "B. Establishing new schools", "C. Providing free teacher resources", "D. Setting exam policies"],
+                "answer": "A. Teacher registration and licensing"
+            },
+            "q48": {
+                "question": "Which of the following is NOT a domain of learning?",
+                "options": ["A. Affective", "B. Cognitive", "C. Physical", "D. Psychomotor"],
+                "answer": "C. Physical"
+            },
+            "q49": {
+                "question": "Ethics in teaching refers to __________.",
+                "options": ["A. Adhering to moral principles and professional standards", "B. Punishing students for misconduct", "C. Having personal relationships with students", "D. Giving gifts to students"],
+                "answer": "A. Adhering to moral principles and professional standards"
+            },
+            "q50": {
+                "question": "Summative evaluation is conducted __________.",
+                "options": ["A. Before teaching begins", "B. During the teaching process", "C. After teaching has concluded", "D. Randomly"],
+                "answer": "C. After teaching has concluded"
+            },
+            "q51": {
+                "question": "The history of the Nigerian Union of Teachers (NUT) is significant because __________.",
+                "options": ["A. It unified teachers across the country", "B. It reduced the number of teachers", "C. It dissolved trade unions", "D. It introduced new school curriculums"],
+                "answer": "A. It unified teachers across the country"
+            },
+            "q52": {
+                "question": "Which of the following is an essential characteristic of a teacher?",
+                "options": ["A. Arrogance", "B. Empathy", "C. Impatience", "D. Dishonesty"],
+                "answer": "B. Empathy"
+            },
+            "q53": {
+                "question": "Which of the following is a primary goal of formal education?",
+                "options": ["A. To pass time", "B. To provide structured learning", "C. To engage in social activities", "D. To experiment with hobbies"],
+                "answer": "B. To provide structured learning"
+            },
+            "q54": {
+                "question": "Which of these is NOT an ethical principle in teaching?",
+                "options": ["A. Fairness", "B. Confidentiality", "C. Prejudice", "D. Professionalism"],
+                "answer": "C. Prejudice"
+            },
+            "q55": {
+                "question": "The psychomotor domain of learning focuses on __________.",
+                "options": ["A. Developing attitudes", "B. Physical and motor skills", "C. Cognitive reasoning", "D. Emotional growth"],
+                "answer": "B. Physical and motor skills"
+            },
+            "q56": {
+                "question": "Which of the following best describes non-formal education?",
+                "options": ["A. Education without structure", "B. Organized learning outside traditional schools", "C. Learning that occurs in everyday life", "D. Mandatory schooling for children"],
+                "answer": "B. Organized learning outside traditional schools"
+            },
+            "q57": {
+                "question": "Which teaching method involves students actively participating in experiments or projects?",
+                "options": ["A. Lecture Method", "B. Project Method", "C. Questioning Method", "D. Demonstration Method"],
+                "answer": "B. Project Method"
+            },
+            "q58": {
+                "question": "The affective domain of learning is concerned with __________.",
+                "options": ["A. Physical abilities", "B. Emotional attitudes and values", "C. Technical knowledge", "D. Logical reasoning"],
+                "answer": "B. Emotional attitudes and values"
+            },
+            "q59": {
+                "question": "Which of the following is an example of diagnostic evaluation?",
+                "options": ["A. Pre-test", "B. Mid-term test", "C. Final examination", "D. Group assignment"],
+                "answer": "A. Pre-test"
+            },
+            "q60": {
+                "question": "Trade unions for teachers aim to __________.",
+                "options": ["A. Promote student welfare", "B. Advocate for teachers' rights and welfare", "C. Replace government policies", "D. Establish new schools"],
+                "answer": "B. Advocate for teachers' rights and welfare"
+            },
+            "q61": {
+                "question": "The teaching profession requires __________.",
+                "options": ["A. No special training", "B. Professional qualifications and ethical standards", "C. Strict physical strength", "D. Minimal effort"],
+                "answer": "B. Professional qualifications and ethical standards"
+            },
+            "q62": {
+                "question": "The establishment of TRCN was aimed at __________.",
+                "options": ["A. Regulating the teaching profession in Nigeria", "B. Eliminating the need for teacher certification", "C. Funding teachers' salaries", "D. Training non-professionals"],
+                "answer": "A. Regulating the teaching profession in Nigeria"
+            },
+            "q63": {
+                "question": "Which of the following is a characteristic of a good teacher?",
+                "options": ["A. Bias", "B. Commitment", "C. Impatience", "D. Dishonesty"],
+                "answer": "B. Commitment"
+            },
+            "q64": {
+                "question": "Which type of evaluation provides feedback to improve learning during instruction?",
+                "options": ["A. Summative", "B. Formative", "C. Normative", "D. Diagnostic"],
+                "answer": "B. Formative"
+            },
+            "q65": {
+                "question": "The lecture method is most suitable for __________.",
+                "options": ["A. Practical sessions", "B. Large groups of students", "C. Group discussions", "D. Experiments"],
+                "answer": "B. Large groups of students"
+            },
+            "q66": {
+                "question": "The Nigerian Union of Teachers (NUT) plays a vital role in __________.",
+                "options": ["A. Organizing student activities", "B. Negotiating better conditions for teachers", "C. Monitoring school fees", "D. Reducing classroom sizes"],
+                "answer": "B. Negotiating better conditions for teachers"
+            },
+            "q67": {
+                "question": "Which method of teaching is learner-centered and focuses on group collaboration?",
+                "options": ["A. Demonstration Method", "B. Lecture Method", "C. Discussion Method", "D. Questioning Method"],
+                "answer": "C. Discussion Method"
+            },
+            "q68": {
+                "question": "Which of the following is NOT part of TRCN's mission?",
+                "options": ["A. Registration of teachers", "B. Enforcement of teaching standards", "C. Organizing student education programs", "D. Licensing of teachers"],
+                "answer": "C. Organizing student education programs"
+            },
+            "q69": {
+                "question": "Which teaching method is most effective for developing practical skills?",
+                "options": ["A. Lecture Method", "B. Demonstration Method", "C. Socratic Method", "D. Discussion Method"],
+                "answer": "B. Demonstration Method"
+            },
+            "q70": {
+                "question": "The ethical code for teachers is important because __________.",
+                "options": ["A. It ensures consistency in teaching practices", "B. It allows teachers to break rules", "C. It reduces teaching workload", "D. It focuses solely on student discipline"],
+                "answer": "A. It ensures consistency in teaching practices"
+            },
+            "q71": {
+                "question": "___is charged with the responsibility of recruiting and sacking of Teachers in Nigeria.",
+                "options": ["A. NUT", "B. NTRC", "C. ASUU", "D. NASU"],
+                "answer": "B. NTRC"
+            },
+            "q72": {
+                "question": "A sequence or series of all learning experiences set up in school is ___",
+                "options": ["A. syllabus", "B. scheme of work", "C. curriculum", "D. project"],
+                "answer": "C. curriculum"
+            },
+            "q73": {
+                "question": "___ is not a component of EDUCATION",
+                "options": ["A. subject matter", "B. objectives", "C. subject knowledge", "D. evaluation"],
+                "answer": "C. subject knowledge"
+            },
+            "q74": {
+                "question": "All of the following except ___ is not a component of lesson note",
+                "options": ["A. introduction", "B. teacher's activity", "C. presentation", "D. evaluation"],
+                "answer": "B. teacher's activity"
+            },
+            "q75": {
+                "question": "Education involves both theory and ___",
+                "options": ["A. provision", "B. principles", "C. practice", "D. philosophy"],
+                "answer": "C. practice"
+            },
+            "q76": {
+                "question": "All but one is not a quality of a good teacher",
+                "options": ["A. artist", "B. enthusiast", "C. studentship", "D. inquisitive and despotic"],
+                "answer": "D. inquisitive and despotic"
+            },
+            "q77": {
+                "question": "___ is the vehicle of Education",
+                "options": ["A. teaching", "B. learning", "C. indoctrination", "D. development"],
+                "answer": "B. learning"
+            },
+            "q78": {
+                "question": "___ and ___ will not be meaningful without determining the outcome of student learning",
+                "options": ["A. teachers and learners", "B. teaching and learning", "C. essay and objectives", "D. test and assessment"],
+                "answer": "B. teaching and learning"
+            },
+            "q79": {
+                "question": "There is no better teaching made by the teacher in the classroom without ___",
+                "options": ["A. classwork", "B. assessment", "C. evaluation", "D. test"],
+                "answer": "C. evaluation"
+            },
+            "q80": {
+                "question": "The Question and Answer method of teaching is also referred to as the ___ method",
+                "options": ["A. Direct", "B. Inquiry", "C. Interactive", "D. Socratic"],
+                "answer": "D. Socratic"
+            },
+            "q81": {
+                "question": "LIRS means ___",
+                "options": ["A. learning and instructional resources", "B. learning and immediate resources", "C. learning and independent resources", "D. none"],
+                "answer": "A. learning and instructional resources"
+            },
+            "q82": {
+                "question": "___ is a progressive process and continuum in life",
+                "options": ["A. learning", "B. education", "C. teaching", "D. training"],
+                "answer": "A. learning"
+            },
+            "83": {
+                "question": "___ is the first teacher of a child",
+                "options": ["A. mother", "B. father", "C. parents", "D. none"],
+                "answer": "A. mother"
+            },
+            "q84": {
+                "question": "The play-way method of teaching was propounded by ___",
+                "options": ["A. Maria Montessori", "B. Aristotle", "C. Socrates", "D. None"],
+                "answer": "A. Maria Montessori"
+            },
+            "q85": {
+                "question": "___ is a guide to academic work",
+                "options": ["A. scheme of work", "B. syllabus", "C. curriculum", "D. All"],
+                "answer": "C. curriculum"
+            },
+            "q86": {
+                "question": "OHP means ___",
+                "options": ["A. overhead production", "B. overhead projection", "C. overhead projector", "D. All"],
+                "answer": "C. overhead projector"
+            },
+            "q87": {
+                "question": "There are ___ dimensions of Education",
+                "options": ["A. 4", "B. 3", "C. 2", "D. 1"],
+                "answer": "B. 3"
+            },
+            "q88": {
+                "question": "According to Taiwo (1980), an educated person is one who conforms with the ___ of the society",
+                "options": ["A. rules", "B. standards", "C. norms", "D. principles"],
+                "answer": "C. norms"
+            },
+            "q89": {
+                "question": "Teaching is said to be polymorphic when it takes place ___",
+                "options": ["A. in series", "B. in different series", "C. in different set", "D. in different complex"],
+                "answer": "B. in different series"
+            },
+            "q90": {
+            "question": "A process where individuals acquire skills can be achieved through ____.",
+            "options": ["A. teaching", "B. training", "C. ALL", "D. NONE"],
+            "answer": "B. training"
+            },
+            "q91": {
+                "question": "___ is the broadest in Education.",
+                "options": ["A. aim", "B. goal", "C. objective", "D. purpose"],
+                "answer": "A. aim"
+            },
+            "q92": {
+                "question": "Evaluation done in the classroom to detect fault of a learner is called ___.",
+                "options": ["A. formative", "B. summative", "C. precursive", "D. none"],
+                "answer": "D. none"
+            },
+            "q93": {
+                "question": "The first lessons of a child are ___.",
+                "options": ["A. love and care", "B. love and affection", "C. love, care and affection", "D. ALL"],
+                "answer": "C. love, care and affection"
+            },
+            "q94": {
+                "question": "Instructional materials have features except ___.",
+                "options": ["A. usability", "B. feasibility", "C. durability", "D. portability"],
+                "answer": "B. feasibility"
+            },
+            "q95": {
+                "question": "Educere is derived from a ___ word.",
+                "options": ["A. latin", "B. greek", "C. german", "D. none"],
+                "answer": "A. latin"
+            },
+            "q96": {
+                "question": "Instructional materials are categorized into ___.",
+                "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+                "answer": "A. 2"
+            },
+            "q97": {
+                "question": "___ media are the oldest in Education.",
+                "options": ["A. human", "B. non-human", "C. print", "D. ALL"],
+                "answer": "C. print"
+            },
+            "q98": {
+                "question": "The taxonomy of learning was built by ___.",
+                "options": ["A. B.S Bloom", "B. Jean Piaget", "C. Aristotle", "D. Socrates"],
+                "answer": "A. B.S Bloom"
+            },
+            "q99": {
+                "question": "Overhead projector appeals to the sense of ___.",
+                "options": ["A. audio", "B. visual", "C. audio-visual", "D. ALL"],
+                "answer": "B. visual"
+            },
+            "q100": {
+                "question": "Free Education was introduced in Nigeria ___.",
+                "options": ["A. 1955", "B. 1976", "C. 1966", "D. 1965"],
+                "answer": "A. 1955"
+            },
+            "q101": {
+                "question": "___ is a relatively permanent change in an individual which occurs as a result of experiences.",
+                "options": ["A. teaching", "B. learning", "C. induction", "D. ALL"],
+                "answer": "B. learning"
+            },
+            "q102": {
+                "question": "Learning only takes place when the learner is ___.",
+                "options": ["A. useful", "B. dedicated", "C. ready", "D. ALL"],
+                "answer": "C. ready"
+            },
+            "q103": {
+                "question": "___ is synonymous to Previous Knowledge.",
+                "options": ["A. instructional materials", "B. behavioral objectives", "C. learning tools", "D. NONE"],
+                "answer": "D. NONE"
+            },
+            "q104": {
+                "question": "There are ___ types of Projectors.",
+                "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+                "answer": "B. 3"
+            },
+            "q105": {
+            "question": "All but one of these factors is not considered in selecting instructional materials.",
+            "options": ["A. cost", "B. time", "C. availability", "D. control"],
+            "answer": "D. control"
+            },
+            "q106": {
+                "question": "Another name for teacher-learner centered approach is called ___.",
+                "options": ["A. midday", "B. midway", "C. broad-way", "D. NONE"],
+                "answer": "B. midway"
+            },
+            "q107": {
+                "question": "___ domains with manipulative skills.",
+                "options": ["A. cognitive", "B. affective", "C. psychomotor", "D. NONE"],
+                "answer": "A. cognitive"
+            },
+            "q108": {
+                "question": "Riding a bicycle by a child is a ___ domain.",
+                "options": ["A. affective", "B. cognitive", "C. psychomotor", "D. A and B"],
+                "answer": "C. psychomotor"
+            },
+            "q109": {
+                "question": "___ is the main actor of a curriculum design.",
+                "options": ["A. government", "B. principals", "C. teachers", "D. students"],
+                "answer": "C. teachers"
+            },
+            "q110": {
+                "question": "POST-UTME is an example of ___ evaluation.",
+                "options": ["A. precursive", "B. prognostic", "C. summative", "D. formative"],
+                "answer": "B. prognostic"
+            },
+            "q111": {
+                "question": "Universal Basic Education was introduced in ___.",
+                "options": ["A. 1955", "B. 1966", "C. 1976", "D. 1999"],
+                "answer": "D. 1999"
+            },
+            "q112": {
+                "question": "The first National Policy on Education was built in ___.",
+                "options": ["A. 1966", "B. 1976", "C. 1977", "D. 1979"],
+                "answer": "C. 1977"
+            },
+            "q113": {
+                "question": "CAI means ___.",
+                "options": ["A. computer assisted inbuilt", "B. computer assisted induction", "C. computer assisted instruction", "D. A and B"],
+                "answer": "C. computer assisted instruction"
+            },
+            "q114": {
+                "question": "___ domains deal with mental skills.",
+                "options": ["A. cognitive", "B. affective", "C. psychomotor", "D. A and B"],
+                "answer": "A. cognitive"
+            },
+            "q115": {
+                "question": "___ is the entire program provided by a school.",
+                "options": ["A. syllabus", "B. curriculum", "C. scheme of work", "D. A and B"],
+                "answer": "B. curriculum"
+            },
+            "q116": {
+                "question": "The body who coordinates the implementation of programs at levels is ___.",
+                "options": ["A. SUBEB", "B. UBEC", "C. NASTRA", "D. A and B"],
+                "answer": "B. UBEC"
+            },
+            "q117": {
+                "question": "Universal Free Primary Education was launched in ___.",
+                "options": ["A. 1955", "B. 1966", "C. 1967", "D. 1976"],
+                "answer": "D. 1976"
+            },
+            "q118": {
+                "question": "The Universal Basic Education is a __ year basic educational programme.",
+                "options": ["A. 6", "B. 9", "C. 3", "D. 12"],
+                "answer": "B. 9"
+            },
+            "q119": {
+                "question": "Universal Basic Education was flagged at ___.",
+                "options": ["A. Abuja", "B. Lagos", "C. Sokoto", "D. Zaria"],
+                "answer": "C. Sokoto"
+            },
+            "q120": {
+            "question": "___ is not an example of noise in the class.",
+            "options": ["A. Side talking", "B. Eating", "C. Gesticulating", "D. Memorizing"],
+            "answer": "D. Memorizing"
+             },
+            "q121": {
+                "question": "UBE was introduced to eradicate the following except ___.",
+                "options": ["A. Illiteracy", "B. Corruption", "C. Poverty", "D. Ignorance"],
+                "answer": "B. Corruption"
+            },
+            "q122": {
+                "question": "An agent which assists the child for a larger social integration is ___.",
+                "options": ["A. Peer groups", "B. School", "C. Family", "D. Mass media"],
+                "answer": "A. Peer groups"
+            },
+            "q123": {
+                "question": "Students must be familiar with rules and ___ of the school.",
+                "options": ["A. Duties", "B. Rights", "C. Regulations", "D. Expectations"],
+                "answer": "C. Regulations"
+            },
+            "q124": {
+                "question": "An agent(s) which helps the child with the development of latent skills and emotional stability is ___.",
+                "options": ["A. School", "B. Family", "C. Peer group", "D. A and B"],
+                "answer": "D. A and B"
+            },
+            "q125": {
+                "question": "Teaching must be ___.",
+                "options": ["A. Useful", "B. Purposeful", "C. Creative", "D. A and B"],
+                "answer": "B. Purposeful"
+            },
+            "q126": {
+                "question": "UBE was launched in ___.",
+                "options": ["A. September 24", "B. July 10", "C. September 30", "D. June 10"],
+                "answer": "C. September 30"
+            },
+            "q127": {
+                "question": "The first home of the child is the ___.",
+                "options": ["A. School", "B. Society", "C. Mother", "D. Family"],
+                "answer": "C. Mother"
+            },
+            "q128": {
+                "question": "Teachers must serve as ___ model to pupils in the classroom.",
+                "options": ["A. Role", "B. Behavioral", "C. Learning", "D. Moral"],
+                "answer": "A. Role"
+            },
+            "q129": {
+                "question": "___ is geared towards furnishing a learner to lasting direction.",
+                "options": ["A. Induction", "B. Indoctrination", "C. Instruction", "D. Teaching"],
+                "answer": "C. Instruction"
+            },
+            "q130": {
+                "question": "Teachers Registration Council of Nigeria was established ___.",
+                "options": ["A. 1991", "B. 1992", "C. 1993", "D. 1994"],
+                "answer": "C. 1993"
+            },
+            "q131": {
+                "question": "No society can excel without an effective and virile ___ profession.",
+                "options": ["A. Teaching", "B. Leadership", "C. Technical", "D. Research"],
+                "answer": "A. Teaching"
+            },
+            "q132": {
+                "question": "The body which helps in certification, licensing, and promotion of teaching practice in Nigeria is ___.",
+                "options": ["A. NUT", "B. TRCN", "C. NCCE", "D. NCE"],
+                "answer": "B. TRCN"
+            },
+            "q133": {
+                "question": "The major challenge faced by Teaching as a Profession is ___.",
+                "options": ["A. Lack of infrastructural facilities", "B. Funding problem", "C. Illiteracy", "D. All"],
+                "answer": "B. Funding problem"
+            },
+            "q134": {
+                "question": "Which of the following is not a trait of Professionalism in Teaching?",
+                "options": ["A. Code of ethics", "B. Specialized knowledge", "C. Feasibility", "D. High degree of autonomy"],
+                "answer": "C. Feasibility"
+            },
+            "q135": {
+                "question": "The best method of teaching in the classroom condition is ___ method.",
+                "options": ["A. Discovery", "B. Discussion", "C. Lecture", "D. Socratic"],
+                "answer": "B. Discussion"
+            },
+            "q136": {
+                "question": "Teaching is best done when the learner is physically and mentally ___.",
+                "options": ["A. Alert", "B. Ready", "C. Fit", "D. Motivated"],
+                "answer": "B. Ready"
+            },
+            "q137": {
+                "question": "The Nigerian Union of Teachers was formed in ___.",
+                "options": ["A. 1930", "B. 1931", "C. 1932", "D. 1933"],
+                "answer": "B. 1931"
+            },
+            "q138": {
+                "question": "___ was the first President of Lagos Union of Teachers.",
+                "options": ["A. Rev. Canon J.O. Lucas", "B. Oludotun Ransome-Kuti", "C. Obafemi Awolowo", "D. None"],
+                "answer": "A. Rev. Canon J.O. Lucas"
+            },
+            "q139": {
+                "question": "___ introduced Free Education in Nigeria.",
+                "options": ["A. Rev. C.J.O. Lucas", "B. Oludotun Ransome-Kuti", "C. Obafemi Awolowo", "D. Herbert Macaulay"],
+                "answer": "C. Obafemi Awolowo"
+            },
+            "q140": {
+                "question": "Which of the following is not the aim of Nigeria Union Of Teachers?",
+                "options": ["A. Fostering of unity and progress among Nigerian Teachers", "B. Raising the status of teaching as a profession", "C. Nigerian Nationalism", "D. Nigerian Federalism"],
+                "answer": "D. Nigerian Federalism"
+            },
+            "q141": {
+                "question": "___ is the Chief Executive of Teachers Registration Council of Nigeria.",
+                "options": ["A. Prof. Olusegun Ajiboye", "B. Prof. Olusegun Mimiko", "C. Prof. O.E. Abdullahi", "D. Prof. Alfred Adegoke"],
+                "answer": "A. Prof. Olusegun Ajiboye"
+            },
+            "q142": {
+                "question": "NTEP means ___.",
+                "options": ["A. National Teacher Education Policy", "B. National Teacher Education Practice", "C. National Teacher Education Principle", "D. National Teacher Education Prospects"],
+                "answer": "A. National Teacher Education Policy"
+            },
+            "q143": {
+                "question": "Teaching is the ___ of all Professions.",
+                "options": ["A. Father", "B. Grand Patron", "C. Mother", "D. All"],
+                "answer": "C. Mother"
+            },
+            "q144": {
+                "question": "The Teacher's Training College was formed in ___.",
+                "options": ["A. 1906", "B. 1907", "C. 1908", "D. 1909"],
+                "answer": "D. 1909"
+            },
+            "q145": {
+                "question": "Teaching is a/an ___.",
+                "options": ["A. Art", "B. Science", "C. Social Science", "D. A and B"],
+                "answer": "D. A and B"
+            },
+            "q146": {
+                "question": "Sophists are otherwise called ___.",
+                "options": ["A. Teachers", "B. Scholars", "C. Orators", "D. Philosophers"],
+                "answer": "A. Teachers"
+            },
+            "q147": {
+                "question": "Teachers Registration Council of Nigeria was established in ___.",
+                "options": ["A. 1991", "B. 1992", "C. 1993", "D. 1994"],
+                "answer": "C. 1993"
+            },
+            "q148": {
+                "question": "The Teachers Registration Council of Nigeria was flagged by ___.",
+                "options": ["A. Prof. Abdulsalam Abubakar", "B. Prof. Ayeni Dorojaiye", "C. Prof. Babalola Borishade", "D. Dr. H.T. Yusuf"],
+                "answer": "C. Prof. Babalola Borishade"
+            },
+            "q149": {
+                "question": "Teaching has a ___ status.",
+                "options": ["A. Noble", "B. Professional", "C. Legal", "D. Ethical"],
+                "answer": "C. Legal"
+            },
+            "q150": {
+                "question": "Which of this type of education is given in a seminar?",
+                "options": ["A. none formal", "B. formal", "C. inform", "D. non formal"],
+                "answer": "C. formal"
+            }
+
+
+
+        }
+    }
+    
+      
+      
+      
+]
+
+

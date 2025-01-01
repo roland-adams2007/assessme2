@@ -12,6 +12,29 @@
           transition: width 0.4s ease-in-out;
       }
   </style>
+  <style>
+      body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .scrollbar {
+            scrollbar-width: thin;
+            scrollbar-color: #2563eb #f3f4f6;
+        }
+
+        .scrollbar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .scrollbar::-webkit-scrollbar-thumb {
+            background-color: #2563eb;
+            border-radius: 10px;
+        }
+
+        .scrollbar::-webkit-scrollbar-track {
+            background: #f3f4f6;
+        }
+  </style>
    <script>
     tailwind.config = {
         theme: {
@@ -23,6 +46,7 @@
         }
     };
 </script>
+<title> AssessMe Quiz App</title>
   </head>
   <body>
     <div id="root"></div>
