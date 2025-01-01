@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Cookies } from "react-cookie";
 
-const Profile = () => {
+const Profile = ({setMainTab}) => {
   const cookies = new Cookies();
 
   const [userDetails, setUserDetails] = useState({});
@@ -61,7 +61,9 @@ const Profile = () => {
   const handleDeleteAccount = () => {
     if (localStorage.getItem("userDetails")) {
       localStorage.removeItem("userDetails");
+      localStorage.removeItem("history");
       cookies.remove("userStatus", { path: "/" });
+      setMainTab('account')
       alert("Account deleted successfully!");
     } else {
       alert("You don't have an account to delete");

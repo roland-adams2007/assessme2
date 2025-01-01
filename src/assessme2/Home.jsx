@@ -44,7 +44,7 @@ const Home = ({setMainTab}) => {
     const handleSetNavTab = (e, tab) => {
         e.preventDefault();
         if (isQuestionsActive) {
-            alert('Finish the questions before you can redirect to another page');
+            alert('All Questions must be answered, before  you can be proceed to another page.');
             return;
         } else {
             setNavTab(tab);
@@ -82,7 +82,7 @@ const Home = ({setMainTab}) => {
                         )}
 
                         {navTab === 'profile' && (
-                            <Profile />
+                            <Profile setMainTab={setMainTab} />
                         )}
 
                         {navTab === 'history' && (
