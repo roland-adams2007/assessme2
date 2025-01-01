@@ -129,7 +129,10 @@ const Account = ({ setMainTab }) => {
 
   const handleDeleteAccount = () => {
    if(localStorage.getItem('userDetails')){
-    localStorage.removeItem("userDetails");
+    localStorage.removeItem("userDetails");     
+     localStorage.removeItem("history");
+    localStorage.removeItem('mainTab');
+    localStorage.removeItem('navTab');
     cookies.remove("userStatus", { path: "/" });
     alert("Account deleted successfully!");
     
@@ -144,7 +147,7 @@ const Account = ({ setMainTab }) => {
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
         <div className="flex items-center justify-center mb-6">
           <i
-            className="fas fa-users text-blue-500 text-4xl mr-2"
+            className="fas fa-clipboard-list text-blue-500 text-4xl mr-2"
             aria-label="Account Icon"
           />
           <h2 className="text-2xl font-semibold text-center text-gray-700">

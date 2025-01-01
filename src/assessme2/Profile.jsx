@@ -62,6 +62,8 @@ const Profile = ({setMainTab}) => {
     if (localStorage.getItem("userDetails")) {
       localStorage.removeItem("userDetails");
       localStorage.removeItem("history");
+      localStorage.removeItem('mainTab');
+      localStorage.removeItem('navTab');
       cookies.remove("userStatus", { path: "/" });
       setMainTab('account')
       alert("Account deleted successfully!");

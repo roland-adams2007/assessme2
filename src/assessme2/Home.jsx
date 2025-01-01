@@ -44,7 +44,7 @@ const Home = ({setMainTab}) => {
     const handleSetNavTab = (e, tab) => {
         e.preventDefault();
         if (isQuestionsActive) {
-            alert('All Questions must be answered, before  you can be proceed to another page.');
+            alert('All questions must be answered, before  you can proceed to another page.');
             return;
         } else {
             setNavTab(tab);
