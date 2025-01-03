@@ -135,7 +135,6 @@ const Account = ({ setMainTab }) => {
     localStorage.removeItem('navTab');
     cookies.remove("userStatus", { path: "/" });
     alert("Account deleted successfully!");
-    
    }else{
       alert('You dont have account to delete');
    }
@@ -155,9 +154,19 @@ const Account = ({ setMainTab }) => {
           </h2>
         </div>
 
+
+        {localStorage.getItem('userDetails') ? (
         <p className="text-gray-600 text-sm mb-4">
-          If you want to log in, the name field is optional if you already have an account.
+          Log in to continue your progress.
         </p>
+        ) : (
+          <p className="text-gray-600 text-sm mb-4">
+          Create an account to start assessing yourself.
+        </p>
+        )}
+
+    
+
 
         {error && (
           <div className="text-red-500 text-center mb-4 font-medium">
@@ -167,7 +176,8 @@ const Account = ({ setMainTab }) => {
 
         <form onSubmit={handleSubmit}>
           {/* Name Field */}
-          <div className="mb-4">
+          {!(localStorage.getItem('userDetails')) && (
+            <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">
               Name
             </label>
@@ -185,6 +195,7 @@ const Account = ({ setMainTab }) => {
               <p className="text-red-500 text-sm mt-1">{errors.name}</p>
             )}
           </div>
+          )}
 
           {/* Phone Number Field */}
           <div className="mb-4">
@@ -231,7 +242,13 @@ const Account = ({ setMainTab }) => {
             type="submit"
             className="w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            {loading ? "Loading..." : "Register/Login"}
+            {loading ? "Loading..." : <>
+              {localStorage.getItem('userDetails') ? (
+                "Login"
+                ) : (
+                  "Register"
+                )}
+            </>}
           </button>
         </form>
 

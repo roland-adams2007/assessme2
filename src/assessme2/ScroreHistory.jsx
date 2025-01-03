@@ -12,7 +12,6 @@ const History = () => {
 
   useEffect(() => {
     const history = JSON.parse(localStorage.getItem("history")) || [];
-    // Sort the history in descending order by date
     history.sort((a, b) => new Date(b.date) - new Date(a.date));
     setScoreHistory(history);
     setFilteredHistory(history);
@@ -29,7 +28,7 @@ const History = () => {
       );
     });
     setFilteredHistory(filtered);
-    setCurrentPage(1); // Reset to first page when searching
+    setCurrentPage(1);
   };
 
   // Pagination logic
@@ -37,7 +36,6 @@ const History = () => {
   const firstIndex = lastIndex - historyPerPage;
   const currentHistory = filteredHistory.slice(firstIndex, lastIndex);
 
-  // Handle page change
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
@@ -46,20 +44,28 @@ const History = () => {
     <main className="flex flex-col flex-1 overflow-y-auto scrollbar items-center">
       <h1 className="text-4xl mt-5 font-bold text-center text-indigo-700 mb-12">Score History</h1>
       <div className="mb-4 flex items-center space-x-4 flex-wrap gap-2">
+        <div className="flex flex-col gap-1 justify-center items-center">
+          <label htmlFor="start_date">Start Date</label>
         <input
           type="date"
           value={startDate}
+          id="start_date"
           onChange={(e) => setStartDate(e.target.value)}
           className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
           placeholder="Start Date"
         />
+        </div>
+        <div className="flex flex-col gap-1 justify-center items-center">
+          <label htmlFor="end_date">End Date</label>
         <input
-          type="date"
-          value={endDate}
-          onChange={(e) => setEndDate(e.target.value)}
-          className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
-          placeholder="End Date"
-        />
+                  type="date"
+                  id="end_date"
+                  value={endDate}
+                  onChange={(e) => setEndDate(e.target.value)}
+                  className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  placeholder="End Date"
+                />
+        </div>
         <button
           className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700"
           onClick={handleSearch}

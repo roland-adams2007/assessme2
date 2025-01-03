@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 import questions from "./questions.json";
 
 const CourseSelection = ({setNavTab}) => {
@@ -15,7 +16,7 @@ const CourseSelection = ({setNavTab}) => {
     }
 
     const filteredData = questions.filter((course) =>
-      course.courseCode.toLowerCase().includes(word)
+      (course.courseCode.toLowerCase().includes(word) )
     );
 
     setSearchedCourse(filteredData);
@@ -74,7 +75,7 @@ const CourseSelection = ({setNavTab}) => {
                 </div>
             </div>
         ) : (
-            <p className="text-gray-500 text-center mt-6">No Available Courses</p>
+            <p className="text-gray-500 text-center mt-6">No Available Courses for &quot;{searchWord}&quot;</p>
         )}
 
       </main>
