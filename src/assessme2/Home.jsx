@@ -6,8 +6,20 @@ import Profile from './Profile';
 import Questions from './Questions';
 import Score from './Score';
 import History from  './ScroreHistory';
+// import { Cookies } from "react-cookie";
+
+// const cookies = new Cookies();
 
 const Home = ({setMainTab}) => {
+
+    //   useEffect(() => {
+    //     const userStatus = cookies.get("userStatus");
+    //     if (userStatus !== "Active") {
+    //       setMainTab("account");
+    //     }
+    //   }, [setMainTab]);
+    
+
     const currentYear = new Date().getFullYear();
     const [navTab, setNavTab] = useState(localStorage.getItem('navTab') || 'courseSelection');
     const [isQuestionsActive, setIsQuestionsActive] = useState(false);
