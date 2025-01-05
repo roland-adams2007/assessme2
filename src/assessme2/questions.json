@@ -1391,7 +1391,7 @@
             "q6": {
                 "question": "________ syllabus arranges content in broad outlines",
                 "options": ["A. COURSE", "B. EXAMINATION", "C. ASSIGNMENTS", "D. SYLLABUS"],
-                "answer": "B. EXAMINATION"
+                "answer": "A. COURSE"
             },
             "q7": {
                 "question": "Evaluation should be clear, precise, and ________",
@@ -1430,7 +1430,7 @@
             },
             "q14": {
                 "question": "________ domain deals with manipulative skills",
-                "options": ["A. PSYCHOMOTOR", "B. COGNITIVE", "D. SOCIAL", "C. AFFECTIVE"],
+                "options": ["A. PSYCHOMOTOR", "B. COGNITIVE", "C. AFFECTIVE", "D. SOCIAL"],
                 "answer": "A. PSYCHOMOTOR"
             },
             "q15": {
@@ -1474,9 +1474,9 @@
                 "answer": "D. TEACHING"
             },
             "q23": {
-                "question": "________ syllabus arranges content haphazardly",
-                "options": ["A. CURRICULUM", "B. SCHOOL", "C. EXAMINATION", "C. SYLLABUS"],
-                "answer": "C. EXAMINATION"
+                "question": "________ arranges content haphazardly",
+                "options": ["A. CURRICULUM", "B. SCHOOL", "C. EXAMINATION", "D. SYLLABUS"],
+                "answer": "D. SYLLABUS"
             },
             "q24": {
                 "question": "__________ material appeals to the sense of sight",
@@ -1896,7 +1896,7 @@
             "q107": {
                 "question": "___ domains with manipulative skills.",
                 "options": ["A. cognitive", "B. affective", "C. psychomotor", "D. NONE"],
-                "answer": "A. cognitive"
+                "answer": "C. psychomotor"
             },
             "q108": {
                 "question": "Riding a bicycle by a child is a ___ domain.",
@@ -2109,10 +2109,61 @@
                 "answer": "C. Legal"
             },
             "q150": {
-                "question": "Which of this type of education is given in a seminar?",
-                "options": ["A. none formal", "B. formal", "C. inform", "D. non formal"],
-                "answer": "C. formal"
+            "question": "Which type of education is given in a seminar?",
+            "options": ["A. non-formal", "B. formal", "C. informal", "D. none"],
+            "answer": "A. non-formal"
+            },
+            "q151": {
+                "question": "Which of the following is a principle of effective teaching?",
+                "options": ["A. Be punctual", "B. Be prepared", "C. Use varied teaching methods", "D. All of the above"],
+                "answer": "D. All of the above"
+            },
+            "q152": {
+                "question": "Which of the following is a characteristic of a good teacher?",
+                "options": ["A. Patience", "B. Communication skills", "C. Empathy", "D. All of the above"],
+                "answer": "D. All of the above"
+            },
+            "q153": {
+                "question": "The first university in Nigeria was established in ___.",
+                "options": ["A. Lagos", "B. Ibadan", "C. Zaria", "D. Kano"],
+                "answer": "B. Ibadan"
+            },
+            "q154": {
+                "question": "The National Policy on Education was revised in ___.",
+                "options": ["A. 1981", "B. 1988", "C. 1993", "D. 2004"],
+                "answer": "B. 1988"
+            },
+            "q155": {
+                "question": "The first female Nigerian university professor was ___.",
+                "options": ["A. Grace Alele-Williams", "B. Ngozi Okonjo-Iweala", "C. Dora Akunyili", "D. Chimamanda Ngozi Adichie"],
+                "answer": "A. Grace Alele-Williams"
+            },
+            "q156": {
+                "question": "The highest level of education in Nigeria is ___.",
+                "options": ["A. Primary", "B. Secondary", "C. Tertiary", "D. Postgraduate"],
+                "answer": "C. Tertiary"
+            },
+            "q157": {
+                "question": "The body responsible for accrediting Nigerian universities is ___.",
+                "options": ["A. NUC", "B. TRCN", "C. NCCE", "D. JAMB"],
+                "answer": "A. NUC"
+            },
+            "q158": {
+                "question": "The National Youth Service Corps (NYSC) was established in ___.",
+                "options": ["A. 1970", "B. 1973", "C. 1975", "D. 1980"],
+                "answer": "B. 1973"
+            },
+            "q159": {
+                "question": "The role of the government in education includes ___.",
+                "options": ["A. Funding schools", "B. Curriculum development", "C. Setting educational standards", "D. All of the above"],
+                "answer": "D. All of the above"
+            },
+            "q160": {
+                "question": "The process of assessing a student's progress is called ___.",
+                "options": ["A. Evaluation", "B. Measurement", "C. Testing", "D. Assessment"],
+                "answer": "A. Evaluation"
             }
+
 
 
 
