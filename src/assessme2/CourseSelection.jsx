@@ -22,9 +22,9 @@ const CourseSelection = ({setNavTab}) => {
     setSearchedCourse(filteredData);
   };
 
-  const handleSelectCourse = (e,selectedCourseCode) => {
+  const handleSelectCourse = (selectedCourseCode) => {
      localStorage.setItem('courseCode',selectedCourseCode);
-     setNavTab(e,'questions');
+     setNavTab('questions');
   };
 
   return (
@@ -65,7 +65,7 @@ const CourseSelection = ({setNavTab}) => {
                         </p>
                     </div>
                     <button
-                        onClick={(e) => handleSelectCourse(e,course.courseCode)}
+                        onClick={() => handleSelectCourse(course.courseCode)}
                         className="mt-4 w-full py-2 px-4 bg-blue-600 text-white font-medium rounded-lg shadow-sm hover:bg-blue-700 hover:shadow-md transition"
                     >
                         Proceed

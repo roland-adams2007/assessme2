@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { useState, useEffect } from "react";
+import { useState, useEffect,useRef } from "react";
 import questionsJson from "./questions.json";
 
 function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
@@ -12,9 +12,22 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
   const [timeLeft, setTimeLeft] = useState(900);
   const [timerRunning, setTimerRunning] = useState(true);
 
+
+  // useEffect(() => {
+  //   handleIsQuestionsActive(true); 
+  //   return () => handleIsQuestionsActive(false); 
+  // }, [handleIsQuestionsActive]);
+
   useEffect(() => {
-    handleIsQuestionsActive(true);
-  }, []);
+    const timeout = setTimeout(() => handleIsQuestionsActive(true), 0);
+    return () => {
+      clearTimeout(timeout);
+      handleIsQuestionsActive(false);
+    };
+  }, [handleIsQuestionsActive]);
+  
+  
+  
 
   useEffect(() => {
     const savedCourseCode = localStorage.getItem("courseCode");
@@ -68,7 +81,7 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
     setSelectedAnswers(updatedAnswers);
   };
 
-  const submitQuiz = (e) => {
+  const submitQuiz = () => {
     const results = questions.map((q, i) => ({
       question: q.question,
       selectedAnswer: selectedAnswers[i],
@@ -77,8 +90,17 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
     }));
     handleIsQuestionsActive(false);
     setResults(results);
-    setNavTab(e,"score");
+    setNavTab("score");
   };
+
+ const handleSubmitQuiz = (e) => {
+  e.preventDefault(); 
+  const userConfirmed = confirm('Are you sure you want to submit?');
+  if (userConfirmed) {
+    submitQuiz();
+  }
+};
+
 
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
@@ -138,7 +160,7 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
             {/* Question Info */}
             <div className="text-center mb-6">
               <h2 className="text-4xl font-semibold text-blue-800">Question {currentQuestionIndex + 1}</h2>
-              <p className="text-gray-600 text-xl mt-3">{currentQuestion.question}</p>
+              <p className="text-gray-600 text-xl mt-3 break-words">{currentQuestion.question}</p>
             </div>
 
             {/* Answer Options */}
@@ -180,7 +202,7 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
                   type="button"
                   onClick={(e) =>
                     currentQuestionIndex + 1 === questions.length
-                      ? submitQuiz(e)
+                      ? handleSubmitQuiz(e)
                       : handleNavigation(1)
                   }
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700"

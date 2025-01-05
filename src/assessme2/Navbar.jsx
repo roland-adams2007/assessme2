@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Cookies } from "react-cookie";
 
 const Navbar = ({setNavTab,setActiveTab,activeTab,setMainTab}) => {
@@ -37,22 +38,22 @@ const Navbar = ({setNavTab,setActiveTab,activeTab,setMainTab}) => {
                 </div>
             </div>
             <nav className="flex-1 mt-6 px-4 space-y-4">
-                <a href="#" onClick={(e)=>setNavTab(e,'courseSelection')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
+                <button type="button" onClick={()=>setNavTab('courseSelection')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
                     <i className="fas fa-home"></i>
                     <span>Dashboard</span>
-                </a>
-                <a href="#" onClick={(e)=>setNavTab(e,'history')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
+                </button>
+                <button type="button" onClick={()=>setNavTab('history')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
                     <i className="fas fa-history"></i>
                     <span>History</span>
-                </a>
-                <a href="#"  onClick={(e)=>setNavTab(e,'profile')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
+                </button>
+                <button type="button"  onClick={()=>setNavTab('profile')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
                     <i className="fas fa-user"></i>
                     <span>Profile</span>
-                </a>
-                <a href="#" onClick={e=>handleLogout(e)} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-red-500 transition duration-200">
+                </button>
+                <button type="button" onClick={(e)=>handleLogout(e)} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-red-500 transition duration-200">
                     <i className="fas fa-sign-out-alt"></i>
                     <span>Logout</span>
-                </a>
+                </button>
             </nav>
         </div>
        </aside> 

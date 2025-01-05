@@ -121,13 +121,13 @@ function Score({ setNavTab, results }) {
     }
   };
 
-  const handleStartOver = (e) => {
-    setNavTab(e, 'questions');
+  const handleStartOver = () => {
+    setNavTab('questions');
   };
 
-  const handleChooseCourse = (e) => {
+  const handleChooseCourse = () => {
     localStorage.removeItem('courseCode');
-    setNavTab(e, 'courseSelection');
+    setNavTab('courseSelection');
   };
 
   return (

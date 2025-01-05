@@ -1,25 +1,13 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react';
 import Navbar from './Navbar';
 import CourseSelection from './CourseSelection';
 import Profile from './Profile';
 import Questions from './Questions';
 import Score from './Score';
-import History from  './ScroreHistory';
-// import { Cookies } from "react-cookie";
+import History from './ScroreHistory';
 
-// const cookies = new Cookies();
-
-const Home = ({setMainTab}) => {
-
-    //   useEffect(() => {
-    //     const userStatus = cookies.get("userStatus");
-    //     if (userStatus !== "Active") {
-    //       setMainTab("account");
-    //     }
-    //   }, [setMainTab]);
-    
-
+const Home = ({ setMainTab }) => {
     const currentYear = new Date().getFullYear();
     const [navTab, setNavTab] = useState(localStorage.getItem('navTab') || 'courseSelection');
     const [isQuestionsActive, setIsQuestionsActive] = useState(false);
@@ -29,11 +17,11 @@ const Home = ({setMainTab}) => {
 
     useEffect(() => {
         if (navTab) {
-          const params = new URLSearchParams(window.location.search);
-          params.set("navtab", navTab);
-          window.history.replaceState(null, "", `?${params.toString()}`);
+            const params = new URLSearchParams(window.location.search);
+            params.set('navtab', navTab);
+            window.history.replaceState(null, '', `?${params.toString()}`);
         }
-      }, [navTab]);
+    }, [navTab]);
 
     useEffect(() => {
         localStorage.setItem('navTab', navTab);
@@ -48,30 +36,29 @@ const Home = ({setMainTab}) => {
         }
     }, []);
 
-    const handleIsQuestionsActive = (response) => {
-        setIsQuestionsActive(response);
+    const handleIsQuestionsActive = useCallback((isActive) => {
+        setIsQuestionsActive(isActive);
+    }, []);
 
-    }
+    useEffect(() => {
+        console.log('isQuestionsActive state updated:', isQuestionsActive);
+    }, [isQuestionsActive]);
 
-    const handleSetNavTab = (e, tab) => {
-        e.preventDefault();
+    const handleSetNavTab = (tab) => {
         if (isQuestionsActive) {
-            alert('All questions must be answered, before  you can proceed to another page.');
+            alert('All questions must be answered before you can proceed to another page.');
             return;
-        } else {
-            setNavTab(tab);
         }
-    }
+        setNavTab(tab);
+    };
 
     const handleSetActiveTab = (active) => {
         setActiveTab(active);
-    }
+    };
 
-    useEffect(()=>{
+    useEffect(() => {
         handleSetActiveTab(false);
-    },[navTab])
-
-
+    }, [navTab]);
 
     return (
         <div className="h-screen bg-gray-100 overflow-hidden">
@@ -101,8 +88,6 @@ const Home = ({setMainTab}) => {
                             <History />
                         )}
 
-
-
                         {navTab === 'questions' && (
                             <Questions handleIsQuestionsActive={handleIsQuestionsActive} setResults={setResults} setNavTab={handleSetNavTab} />
                         )}
@@ -120,6 +105,6 @@ const Home = ({setMainTab}) => {
             </div>
         </div>
     );
-}
+};
 
 export default Home;
