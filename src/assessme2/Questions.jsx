@@ -4,7 +4,7 @@
 import { useState, useEffect,useRef } from "react";
 import questionsJson from "./questions.json";
 
-function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
+function Questions({ setResults, setNavTab }) {
   const [courseCode, setCourseCode] = useState("");
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -18,13 +18,13 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
   //   return () => handleIsQuestionsActive(false); 
   // }, [handleIsQuestionsActive]);
 
-  useEffect(() => {
-    const timeout = setTimeout(() => handleIsQuestionsActive(true), 0);
-    return () => {
-      clearTimeout(timeout);
-      handleIsQuestionsActive(false);
-    };
-  }, [handleIsQuestionsActive]);
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => handleIsQuestionsActive(true), 0);
+  //   return () => {
+  //     clearTimeout(timeout);
+  //     handleIsQuestionsActive(false);
+  //   };
+  // }, [handleIsQuestionsActive]);
   
   
   
@@ -88,10 +88,28 @@ function Questions({ handleIsQuestionsActive, setResults, setNavTab }) {
       correctAnswer: q.answer,
       isCorrect: selectedAnswers[i] === q.answer,
     }));
-    handleIsQuestionsActive(false);
+    // handleIsQuestionsActive(false);
     setResults(results);
     setNavTab("score");
   };
+
+  // useEffect(() => {
+  //   if (selectedAnswers.length === questions.length) {
+  //     const results = questions.map((q, i) => ({
+  //       question: q.question,
+  //       selectedAnswer: selectedAnswers[i],
+  //       correctAnswer: q.answer,
+  //       isCorrect: selectedAnswers[i] === q.answer,
+  //     }));
+  //     setResults(results); // this triggers after calculations
+  //   }
+  // }, [selectedAnswers, questions]);
+  
+  // const submitQuiz = () => {
+  //   // delay the navigation to score tab until after results are set
+  //   setNavTab("score");
+  // };
+  
 
  const handleSubmitQuiz = (e) => {
   e.preventDefault(); 

@@ -10,7 +10,7 @@ import History from './ScroreHistory';
 const Home = ({ setMainTab }) => {
     const currentYear = new Date().getFullYear();
     const [navTab, setNavTab] = useState(localStorage.getItem('navTab') || 'courseSelection');
-    const [isQuestionsActive, setIsQuestionsActive] = useState(false);
+    // const [isQuestionsActive, setIsQuestionsActive] = useState(false);
     const [userDetails, setUserDetails] = useState({});
     const [activeTab, setActiveTab] = useState(false);
     const [results, setResults] = useState(null);
@@ -36,19 +36,15 @@ const Home = ({ setMainTab }) => {
         }
     }, []);
 
-    const handleIsQuestionsActive = useCallback((isActive) => {
-        setIsQuestionsActive(isActive);
-    }, []);
-
-    useEffect(() => {
-        console.log('isQuestionsActive state updated:', isQuestionsActive);
-    }, [isQuestionsActive]);
+    // const handleIsQuestionsActive = useCallback((isActive) => {
+    //     setIsQuestionsActive(isActive);
+    // }, []);
 
     const handleSetNavTab = (tab) => {
-        if (isQuestionsActive) {
-            alert('All questions must be answered before you can proceed to another page.');
-            return;
-        }
+        // if (isQuestionsActive) {
+        //     alert('All questions must be answered before you can proceed to another page.');
+        //     return;
+        // }
         setNavTab(tab);
     };
 
@@ -89,7 +85,7 @@ const Home = ({ setMainTab }) => {
                         )}
 
                         {navTab === 'questions' && (
-                            <Questions handleIsQuestionsActive={handleIsQuestionsActive} setResults={setResults} setNavTab={handleSetNavTab} />
+                            <Questions  setResults={setResults} setNavTab={handleSetNavTab} />
                         )}
 
                         {navTab === 'score' && (
