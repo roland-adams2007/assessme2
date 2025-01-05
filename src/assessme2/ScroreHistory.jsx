@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 
 const History = () => {
@@ -40,31 +39,40 @@ const History = () => {
     setCurrentPage(pageNumber);
   };
 
+
+  const clearHistory = () => {
+    localStorage.removeItem("history"); 
+    setScoreHistory([]);
+    setFilteredHistory([]); 
+    alert('History Cleared');
+  };
+
   return (
     <main className="flex flex-col flex-1 overflow-y-auto scrollbar items-center">
       <h1 className="text-4xl mt-5 font-bold text-center text-indigo-700 mb-12">Score History</h1>
+      
       <div className="mb-4 flex items-center space-x-4 flex-wrap gap-2">
         <div className="flex flex-col gap-1 justify-center items-center">
           <label htmlFor="start_date">Start Date</label>
-        <input
-          type="date"
-          value={startDate}
-          id="start_date"
-          onChange={(e) => setStartDate(e.target.value)}
-          className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
-          placeholder="Start Date"
-        />
+          <input
+            type="date"
+            value={startDate}
+            id="start_date"
+            onChange={(e) => setStartDate(e.target.value)}
+            className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="Start Date"
+          />
         </div>
         <div className="flex flex-col gap-1 justify-center items-center">
           <label htmlFor="end_date">End Date</label>
-        <input
-                  type="date"
-                  id="end_date"
-                  value={endDate}
-                  onChange={(e) => setEndDate(e.target.value)}
-                  className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
-                  placeholder="End Date"
-                />
+          <input
+            type="date"
+            id="end_date"
+            value={endDate}
+            onChange={(e) => setEndDate(e.target.value)}
+            className="p-3 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            placeholder="End Date"
+          />
         </div>
         <button
           className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700"
@@ -72,10 +80,18 @@ const History = () => {
         >
           Search
         </button>
+
+        {/* Clear History Button */}
+        <button
+          className="bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700"
+          onClick={clearHistory}
+        >
+          Clear History
+        </button>
       </div>
 
       {/* History Table */}
-      <div className="bg-white shadow rounded-lg  w-full p-4 overflow-auto scrollbar">
+      <div className="bg-white shadow rounded-lg w-full p-4 overflow-auto scrollbar">
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="bg-gray-100 border-b">
@@ -95,10 +111,7 @@ const History = () => {
               ))
             ) : (
               <tr>
-                <td
-                  colSpan="3"
-                  className="py-3 px-4 text-center text-gray-500"
-                >
+                <td colSpan="3" className="py-3 px-4 text-center text-gray-500">
                   No history available.
                 </td>
               </tr>
@@ -134,4 +147,3 @@ const History = () => {
 };
 
 export default History;
-
