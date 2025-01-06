@@ -23,6 +23,8 @@ const Home = ({ setMainTab }) => {
         }
     }, [navTab]);
 
+
+
     useEffect(() => {
         localStorage.setItem('navTab', navTab);
     }, [navTab]);
@@ -56,6 +58,10 @@ const Home = ({ setMainTab }) => {
         handleSetActiveTab(false);
     }, [navTab]);
 
+    const handleSetResult = (result) =>{
+      setResults(result);
+    }
+
     return (
         <div className="h-screen bg-gray-100 overflow-hidden">
             <div className="flex h-full">
@@ -85,7 +91,7 @@ const Home = ({ setMainTab }) => {
                         )}
 
                         {navTab === 'questions' && (
-                            <Questions  setResults={setResults} setNavTab={handleSetNavTab} />
+                            <Questions  setResults={handleSetResult} setNavTab={handleSetNavTab} />
                         )}
 
                         {navTab === 'score' && (
