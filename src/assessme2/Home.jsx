@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from './Navbar';
 import CourseSelection from './CourseSelection';
 import Profile from './Profile';
