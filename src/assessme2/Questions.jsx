@@ -98,7 +98,7 @@ function Questions({ setResults, setNavTab }) {
       style={{ backgroundImage: "url(assets/images/notebook.jpg)", backgroundSize: "cover" }}
     >
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-600 to-blue-800 sticky top-0 left-0 text-white py-6 px-3 shadow-lg">
+      <header className="bg-gradient-to-r from-blue-600 to-blue-800 sticky top-0 z-20 left-0 text-white py-6 px-3 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-3xl font-semibold">{courseCode}</h1>
           <div className="flex items-center space-x-8">
