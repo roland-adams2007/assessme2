@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Account from "./assessme2/Account";
 import Home from "./assessme2/Home";
 import { Cookies } from "react-cookie";
+import { Analytics } from '@vercel/analytics/react';
 
 const cookies = new Cookies();
 
@@ -41,6 +42,7 @@ function App() {
       {isValidTab && mainTab === "account" && <Account setMainTab={handleSetMainTab} />}
       {isValidTab && mainTab === "home" && <Home setMainTab={handleSetMainTab} />}
       {!isValidTab && <NotFound />}
+      <Analytics />
     </>
   );
 }
