@@ -100,7 +100,7 @@ const Home = ({ setMainTab }) => {
 
                         <footer className="h-16 flex-col flex items-center justify-center bg-white shadow-md sticky bottom-0 px-3 py-6 mt-4 text-center">
                             <p className="text-sm text-gray-600">© {currentYear} AssessMe. All Rights Reserved.</p>
-                            <p className="text-xs">Made with ❤️ by Roland Adams, Department of Educational Technology.</p>
+                            <p className="text-xs">Made with ❤️ by DOCMOS, Department of Educational Technology.</p>
                         </footer>
                     </div>
                 </div>
