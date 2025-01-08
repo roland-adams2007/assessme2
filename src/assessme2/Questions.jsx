@@ -5,6 +5,7 @@
 import { useState, useEffect } from "react";
 import questionsJson from "./questions.json";
 
+// Update the Questions component
 function Questions({ setResults, setNavTab }) {
   const [courseCode, setCourseCode] = useState("");
   const [questions, setQuestions] = useState([]);
@@ -32,18 +33,17 @@ function Questions({ setResults, setNavTab }) {
     }
   }, [courseCode]);
 
-  // Handle timer with side effects
   useEffect(() => {
     if (timeLeft <= 0) {
-      submitQuiz(); // Handle quiz submission when the timer runs out
+      submitQuiz();
       return;
     }
 
     const interval = setInterval(() => {
       setTimeLeft((prev) => prev - 1);
-    }, 750);
+    }, 1000);
 
-    return () => clearInterval(interval); // Cleanup interval
+    return () => clearInterval(interval);
   }, [timeLeft]);
 
   const currentQuestion = questions[currentQuestionIndex] || {};
@@ -52,9 +52,13 @@ function Questions({ setResults, setNavTab }) {
     setCurrentQuestionIndex((prev) =>
       Math.min(
         Math.max(prev + direction, 0),
-        questions.length - (direction < 0 ? 1 : 0)
+        questions.length - 1
       )
     );
+  };
+
+  const handleBoxNavigation = (index) => {
+    setCurrentQuestionIndex(index);
   };
 
   const handleAnswerChange = (e) => {
@@ -88,7 +92,6 @@ function Questions({ setResults, setNavTab }) {
     return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
   };
 
-  // Add dynamic class for timer color
   const timerClass = timeLeft <= 300 ? "text-red-500" : "text-yellow-400";
 
   return (
@@ -96,7 +99,6 @@ function Questions({ setResults, setNavTab }) {
       className="flex flex-col flex-1 overflow-y-auto scrollbar"
       style={{ backgroundImage: "url(assets/images/notebook.jpg)", backgroundSize: "cover" }}
     >
-      {/* Header */}
       <header className="bg-gradient-to-r from-blue-600 to-blue-800 sticky top-0 z-20 left-0 text-white py-6 px-3 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-3xl font-semibold">{courseCode}</h1>
@@ -113,7 +115,6 @@ function Questions({ setResults, setNavTab }) {
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="container mx-auto p-8 bg-white bg-opacity-90 rounded-xl shadow-xl mt-6 flex-1">
         {questions.length === 0 ? (
           <div className="text-center text-xl font-bold text-red-600">
@@ -158,7 +159,7 @@ function Questions({ setResults, setNavTab }) {
                 ))}
               </div>
 
-              <div className="flex justify-between mt-8">
+              <div className="flex justify-between mb-8">
                 <button
                   type="button"
                   onClick={() => handleNavigation(-1)}
@@ -179,6 +180,23 @@ function Questions({ setResults, setNavTab }) {
                   {currentQuestionIndex + 1 === questions.length ? "Submit" : "Next"}
                 </button>
               </div>
+
+              <div className="grid grid-cols-5 gap-2 mb-8">
+                {questions.map((_, index) => (
+                  <button
+                    key={index}
+                    type="button"
+                    onClick={() => handleBoxNavigation(index)}
+                    className={`w-12 h-12 rounded-full text-white font-bold ${
+                      index === currentQuestionIndex ? "bg-blue-600" : "bg-gray-400 hover:bg-gray-500"
+                    }`}
+                  >
+                    {index + 1}
+                  </button>
+                ))}
+              </div>
+
+              
             </form>
           </div>
         )}
@@ -186,5 +204,6 @@ function Questions({ setResults, setNavTab }) {
     </div>
   );
 }
+
 
 export default Questions;
