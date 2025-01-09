@@ -111,7 +111,7 @@ function Questions({ setResults, setNavTab }) {
               <i className={`fas fa-clock text-2xl ${timerClass}`} />
               <span className={`text-lg font-bold ${timerClass}`}>{formatTime(timeLeft)}</span>
             </div>
-             {(timeLeft <= 350 || currentQuestionIndex + 1 === questions.length || selectedAnswers.length === questions.length/2) && (
+             {(timeLeft <= 350  || selectedAnswers.length === questions.length/2) && (
               <div>
                <button type="button" onClick={(e)=>handleSubmitQuiz(e)} className="bg-blue-600 text-white px-6 py-2 text-sm rounded-lg shadow-lg hover:bg-blue-700">Submit</button>
               </div>
