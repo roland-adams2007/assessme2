@@ -11,12 +11,14 @@ function Questions({ setResults, setNavTab }) {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(900);
+  const [timeLeft, setTimeLeft] = useState(localStorage.getItem('timeLeft') || 900);
 
   useEffect(() => {
     const savedCourseCode = localStorage.getItem("courseCode");
     if (savedCourseCode) setCourseCode(savedCourseCode);
   }, []);
+
+ 
 
   useEffect(() => {
     const courseQuestions = questionsJson.find(
@@ -41,7 +43,8 @@ function Questions({ setResults, setNavTab }) {
 
     const interval = setInterval(() => {
       setTimeLeft((prev) => prev - 1);
-    }, 1000);
+      localStorage.setItem('timeLeft',timeLeft)
+    }, 750);
 
     return () => clearInterval(interval);
   }, [timeLeft]);
@@ -68,6 +71,7 @@ function Questions({ setResults, setNavTab }) {
   };
 
   const submitQuiz = () => {
+    localStorage.removeItem('timeLeft');
     const results = questions.map((q, i) => ({
       question: q.question,
       selectedAnswer: selectedAnswers[i],
@@ -107,10 +111,11 @@ function Questions({ setResults, setNavTab }) {
               <i className={`fas fa-clock text-2xl ${timerClass}`} />
               <span className={`text-lg font-bold ${timerClass}`}>{formatTime(timeLeft)}</span>
             </div>
-            <span className="text-sm font-medium">
-              <strong>{currentQuestionIndex + 1}</strong> /{" "}
-              <strong>{questions.length}</strong>
-            </span>
+             {(timeLeft <= 350 || currentQuestionIndex + 1 === questions.length || selectedAnswers.length === questions.length/2) && (
+              <div>
+               <button type="button" onClick={(e)=>handleSubmitQuiz(e)} className="bg-blue-600 text-white px-6 py-2 text-sm rounded-lg shadow-lg hover:bg-blue-700">Submit</button>
+              </div>
+             )}
           </div>
         </div>
       </header>
@@ -129,7 +134,11 @@ function Questions({ setResults, setNavTab }) {
         ) : (
           <div>
             <div className="text-center mb-6">
-              <h2 className="text-4xl font-semibold text-blue-800">Question {currentQuestionIndex + 1}</h2>
+              <span className="text-sm font-medium shadow-md rounded-md py-1 px-5 bg-blue-600 text-white">
+                <strong>{currentQuestionIndex + 1}</strong> /{" "}
+                <strong>{questions.length}</strong>
+              </span>
+              <h2 className="text-4xl font-semibold text-blue-800 mt-2">Question {currentQuestionIndex + 1}</h2>
               <p className="text-gray-600 text-xl mt-3 break-words">
                 <span dangerouslySetInnerHTML={{ __html: currentQuestion.question }} />
               </p>
@@ -163,39 +172,49 @@ function Questions({ setResults, setNavTab }) {
                 <button
                   type="button"
                   onClick={() => handleNavigation(-1)}
-                  className="bg-gray-400 text-white px-6 py-3 rounded-lg shadow hover:bg-gray-500 disabled:opacity-50"
-                  disabled={currentQuestionIndex === 0}
+                  className={`bg-gray-400 text-white px-6 py-3 rounded-lg shadow hover:bg-gray-500 disabled:opacity-50 ${
+                    currentQuestionIndex === 0 ? 'hidden' : ''
+                  }`}
                 >
                   Previous
                 </button>
                 <button
                   type="button"
-                  onClick={(e) =>
-                    currentQuestionIndex + 1 === questions.length
-                      ? handleSubmitQuiz(e)
-                      : handleNavigation(1)
-                  }
-                  className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700"
+                  onClick={() => handleNavigation(1)}
+                  className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 ${
+                    currentQuestionIndex + 1 === questions.length ? 'hidden' : ''
+                  }`}
                 >
-                  {currentQuestionIndex + 1 === questions.length ? "Submit" : "Next"}
+                  Next
                 </button>
+
+
+                
               </div>
 
               <div className="grid grid-cols-5 gap-2 mb-8">
-                {questions.map((_, index) => (
-                  <button
-                    key={index}
-                    type="button"
-                    onClick={() => handleBoxNavigation(index)}
-                    className={`w-12 h-12 rounded-full text-white font-bold ${
-                      index === currentQuestionIndex ? "bg-blue-600" : "bg-gray-400 hover:bg-gray-500"
-                    }`}
-                  >
-                    {index + 1}
-                  </button>
-                ))}
-              </div>
+                {questions.map((_, index) => {
+                  const isAnswered = !!selectedAnswers[index]; // Check if an answer exists for this question
+                  const isCurrent = index === currentQuestionIndex;
 
+                  return (
+                    <button
+                      key={index}
+                      type="button"
+                      onClick={() => handleBoxNavigation(index)}
+                      className={`w-12 h-12 rounded-full font-bold ${
+                        isCurrent
+                          ? "bg-blue-600 text-white"
+                          : isAnswered
+                          ? "bg-green-500 text-white" // Green for answered questions
+                          : "bg-gray-400 text-white hover:bg-gray-500"
+                      }`}
+                    >
+                      {index + 1}
+                    </button>
+                  );
+                })}
+              </div>
               
             </form>
           </div>
