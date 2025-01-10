@@ -9,32 +9,28 @@ function Questions({ setResults, setNavTab }) {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(
-    parseInt(localStorage.getItem(`timeLeft_${courseCode}`), 10) || 900
-  );
+  const [timeLeft, setTimeLeft] = useState(900);
 
+  // Load course code from localStorage on mount
   useEffect(() => {
-    // Load the course code from localStorage
     const savedCourseCode = localStorage.getItem("courseCode");
     if (savedCourseCode) {
       setCourseCode(savedCourseCode);
     }
   }, []);
 
+  // Load questions, answers, and time from localStorage or initialize them
   useEffect(() => {
     if (!courseCode) return;
 
-    // Retrieve saved questions for the specific course from localStorage
     const savedQuestions = JSON.parse(localStorage.getItem(`questions_${courseCode}`));
     const savedAnswers = JSON.parse(localStorage.getItem(`answers_${courseCode}`));
+    const savedTime = parseInt(localStorage.getItem(`timeLeft_${courseCode}`), 10);
 
     if (savedQuestions && savedQuestions.length > 0) {
       setQuestions(savedQuestions);
-      if (savedAnswers) {
-        setSelectedAnswers(savedAnswers);
-      }
+      if (savedAnswers) setSelectedAnswers(savedAnswers);
     } else {
-      // Load fresh questions from the JSON file for the course
       const courseQuestions = questionsJson.find(
         (quest) => quest.courseCode === courseCode
       )?.questions;
@@ -49,8 +45,16 @@ function Questions({ setResults, setNavTab }) {
         setQuestions([]);
       }
     }
+
+    // Initialize the timer
+    if (!isNaN(savedTime)) {
+      setTimeLeft(savedTime);
+    } else {
+      localStorage.setItem(`timeLeft_${courseCode}`, 900);
+    }
   }, [courseCode]);
 
+  // Timer logic
   useEffect(() => {
     if (timeLeft <= 0) {
       submitQuiz();
@@ -68,8 +72,8 @@ function Questions({ setResults, setNavTab }) {
     return () => clearInterval(interval);
   }, [timeLeft]);
 
+  // Save selected answers to localStorage
   useEffect(() => {
-    // Save selected answers for the specific course
     if (courseCode && selectedAnswers.length > 0) {
       localStorage.setItem(`answers_${courseCode}`, JSON.stringify(selectedAnswers));
     }
@@ -137,11 +141,17 @@ function Questions({ setResults, setNavTab }) {
               <span className={`text-lg font-bold ${timerClass}`}>{formatTime(timeLeft)}</span>
             </div>
             <div>
-            {(timeLeft <= 350  || selectedAnswers.length === questions.length/2) && (
-              <div>
-               <button type="button" onClick={(e)=>handleSubmitQuiz(e)} className="bg-blue-600 text-white px-6 py-2 text-sm rounded-lg shadow-lg hover:bg-blue-700">Submit</button>
-              </div>
-             )}
+              {(timeLeft <= 350 || selectedAnswers.length === questions.length / 2) && (
+                <div>
+                  <button
+                    type="button"
+                    onClick={(e) => handleSubmitQuiz(e)}
+                    className="bg-blue-600 text-white px-6 py-2 text-sm rounded-lg shadow-lg hover:bg-blue-700"
+                  >
+                    Submit
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -217,7 +227,7 @@ function Questions({ setResults, setNavTab }) {
 
               <div className="grid grid-cols-5 gap-2 mb-8">
                 {questions.map((_, index) => {
-                  const isAnswered = !!selectedAnswers[index]; // Check if an answer exists for this question
+                  const isAnswered = !!selectedAnswers[index];
                   const isCurrent = index === currentQuestionIndex;
 
                   return (
@@ -229,8 +239,8 @@ function Questions({ setResults, setNavTab }) {
                         isCurrent
                           ? "bg-blue-600 text-white"
                           : isAnswered
-                          ? "bg-green-500 text-white" // Green for answered questions
-                          : "bg-gray-400 text-white hover:bg-gray-500"
+                          ? "bg-green-500 text-white"
+                          : "bg-gray-400 text-white"
                       }`}
                     >
                       {index + 1}
@@ -247,3 +257,4 @@ function Questions({ setResults, setNavTab }) {
 }
 
 export default Questions;
+
