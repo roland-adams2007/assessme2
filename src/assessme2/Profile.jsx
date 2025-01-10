@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { Cookies } from "react-cookie";
 
@@ -6,7 +7,7 @@ const Profile = ({setMainTab}) => {
 
   const [userDetails, setUserDetails] = useState({});
   const [deleteConfirmation, setDeleteConfirmation] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);  // State for managing loader
+  const [isLoading, setIsLoading] = useState(false);  
   const [changePasswordData, setChangePasswordData] = useState({
     phone: "",
     newPassword: "",

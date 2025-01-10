@@ -1,37 +1,53 @@
 
-
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import questionsJson from "./questions.json";
 
-// Update the Questions component
 function Questions({ setResults, setNavTab }) {
   const [courseCode, setCourseCode] = useState("");
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(localStorage.getItem('timeLeft') || 900);
+  const [timeLeft, setTimeLeft] = useState(
+    parseInt(localStorage.getItem(`timeLeft_${courseCode}`), 10) || 900
+  );
 
   useEffect(() => {
+    // Load the course code from localStorage
     const savedCourseCode = localStorage.getItem("courseCode");
-    if (savedCourseCode) setCourseCode(savedCourseCode);
+    if (savedCourseCode) {
+      setCourseCode(savedCourseCode);
+    }
   }, []);
 
- 
-
   useEffect(() => {
-    const courseQuestions = questionsJson.find(
-      (quest) => quest.courseCode === courseCode
-    )?.questions;
+    if (!courseCode) return;
 
-    if (courseQuestions) {
-      const randomQuestions = Object.values(courseQuestions)
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 50);
-      setQuestions(randomQuestions);
+    // Retrieve saved questions for the specific course from localStorage
+    const savedQuestions = JSON.parse(localStorage.getItem(`questions_${courseCode}`));
+    const savedAnswers = JSON.parse(localStorage.getItem(`answers_${courseCode}`));
+
+    if (savedQuestions && savedQuestions.length > 0) {
+      setQuestions(savedQuestions);
+      if (savedAnswers) {
+        setSelectedAnswers(savedAnswers);
+      }
     } else {
-      setQuestions([]);
+      // Load fresh questions from the JSON file for the course
+      const courseQuestions = questionsJson.find(
+        (quest) => quest.courseCode === courseCode
+      )?.questions;
+
+      if (courseQuestions) {
+        const randomQuestions = Object.values(courseQuestions)
+          .sort(() => Math.random() - 0.5)
+          .slice(0, 50);
+        setQuestions(randomQuestions);
+        localStorage.setItem(`questions_${courseCode}`, JSON.stringify(randomQuestions));
+      } else {
+        setQuestions([]);
+      }
     }
   }, [courseCode]);
 
@@ -42,21 +58,28 @@ function Questions({ setResults, setNavTab }) {
     }
 
     const interval = setInterval(() => {
-      setTimeLeft((prev) => prev - 1);
-      localStorage.setItem('timeLeft',timeLeft)
+      setTimeLeft((prev) => {
+        const newTimeLeft = prev - 1;
+        localStorage.setItem(`timeLeft_${courseCode}`, newTimeLeft);
+        return newTimeLeft;
+      });
     }, 750);
 
     return () => clearInterval(interval);
   }, [timeLeft]);
 
+  useEffect(() => {
+    // Save selected answers for the specific course
+    if (courseCode && selectedAnswers.length > 0) {
+      localStorage.setItem(`answers_${courseCode}`, JSON.stringify(selectedAnswers));
+    }
+  }, [selectedAnswers, courseCode]);
+
   const currentQuestion = questions[currentQuestionIndex] || {};
 
   const handleNavigation = (direction) => {
     setCurrentQuestionIndex((prev) =>
-      Math.min(
-        Math.max(prev + direction, 0),
-        questions.length - 1
-      )
+      Math.min(Math.max(prev + direction, 0), questions.length - 1)
     );
   };
 
@@ -71,7 +94,9 @@ function Questions({ setResults, setNavTab }) {
   };
 
   const submitQuiz = () => {
-    localStorage.removeItem('timeLeft');
+    localStorage.removeItem(`timeLeft_${courseCode}`);
+    localStorage.removeItem(`questions_${courseCode}`);
+    localStorage.removeItem(`answers_${courseCode}`);
     const results = questions.map((q, i) => ({
       question: q.question,
       selectedAnswer: selectedAnswers[i],
@@ -111,11 +136,13 @@ function Questions({ setResults, setNavTab }) {
               <i className={`fas fa-clock text-2xl ${timerClass}`} />
               <span className={`text-lg font-bold ${timerClass}`}>{formatTime(timeLeft)}</span>
             </div>
-             {(timeLeft <= 350  || selectedAnswers.length === questions.length/2) && (
+            <div>
+            {(timeLeft <= 350  || selectedAnswers.length === questions.length/2) && (
               <div>
                <button type="button" onClick={(e)=>handleSubmitQuiz(e)} className="bg-blue-600 text-white px-6 py-2 text-sm rounded-lg shadow-lg hover:bg-blue-700">Submit</button>
               </div>
              )}
+            </div>
           </div>
         </div>
       </header>
@@ -135,8 +162,7 @@ function Questions({ setResults, setNavTab }) {
           <div>
             <div className="text-center mb-6">
               <span className="text-sm font-medium shadow-md rounded-md py-1 px-5 bg-blue-600 text-white">
-                <strong>{currentQuestionIndex + 1}</strong> /{" "}
-                <strong>{questions.length}</strong>
+                <strong>{currentQuestionIndex + 1}</strong> / <strong>{questions.length}</strong>
               </span>
               <h2 className="text-4xl font-semibold text-blue-800 mt-2">Question {currentQuestionIndex + 1}</h2>
               <p className="text-gray-600 text-xl mt-3 break-words">
@@ -173,7 +199,7 @@ function Questions({ setResults, setNavTab }) {
                   type="button"
                   onClick={() => handleNavigation(-1)}
                   className={`bg-gray-400 text-white px-6 py-3 rounded-lg shadow hover:bg-gray-500 disabled:opacity-50 ${
-                    currentQuestionIndex === 0 ? 'hidden' : ''
+                    currentQuestionIndex === 0 ? "hidden" : ""
                   }`}
                 >
                   Previous
@@ -182,14 +208,11 @@ function Questions({ setResults, setNavTab }) {
                   type="button"
                   onClick={() => handleNavigation(1)}
                   className={`bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 ${
-                    currentQuestionIndex + 1 === questions.length ? 'hidden' : ''
+                    currentQuestionIndex + 1 === questions.length ? "hidden" : ""
                   }`}
                 >
                   Next
                 </button>
-
-
-                
               </div>
 
               <div className="grid grid-cols-5 gap-2 mb-8">
@@ -215,7 +238,6 @@ function Questions({ setResults, setNavTab }) {
                   );
                 })}
               </div>
-              
             </form>
           </div>
         )}
@@ -223,6 +245,5 @@ function Questions({ setResults, setNavTab }) {
     </div>
   );
 }
-
 
 export default Questions;

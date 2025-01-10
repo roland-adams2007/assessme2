@@ -10,22 +10,22 @@
             "answer": "B. keep up with"
           },
           "q2": {
-            "question": "Some people are failures or under-achievers because ____________.",
+            "question": "Some people are failures or under-achievers because ________.",
             "options": ["A. they don't like the library", "B. they are unable to manage their time effectively", "C. they are poor readers", "D. they are quiet speakers"],
             "answer": "B. they are unable to manage their time effectively"
           },
           "q3": {
-            "question": "Anyone who wants to communicate effectively using English must___________.",
+            "question": "Anyone who wants to communicate effectively using English must________.",
             "options": ["A. learn to verbalize", "B. understand how others act and feel", "C. take pains to learn the rules", "D. take pains to listen"],
             "answer": "C. take pains to learn the rules"
           },
           "q4": {
-            "question": "As a system of communication, a given language has its own sets of _____________.",
+            "question": "As a system of communication, a given language has its own sets of _________.",
             "options": ["A. conversions", "B. conventions", "C. corrections", "D. conversations"],
             "answer": "B. conventions"
           },
           "q5": {
-            "question": "Learning involves the following activities except______________.",
+            "question": "Learning involves the following activities except_________.",
             "options": ["A. sleeping", "B. reflecting", "C. thinking", "D. organizing facts"],
             "answer": "A. sleeping"
           },
@@ -50,12 +50,12 @@
             "answer": "C. discipline"
           },
           "q10": {
-            "question": "Which of the following is not a study skill strategy for the English as a second language learner___________?",
+            "question": "Which of the following is not a study skill strategy for the English as a second language learner________?",
             "options": ["A. PQRST", "B. time management", "C. Personal motivation", "D. Personal equipment"],
             "answer": "D. Personal equipment"
           },
           "q11": {
-            "question": "Learners frequent interactions with colleague, teachers and scholars on-line help to ensure_____________.",
+            "question": "Learners frequent interactions with colleague, teachers and scholars on-line help to ensure________.",
             "options": ["A. academic objectiveness", "B. academic currency", "C. academic harvest", "D. academic competence"],
             "answer": "B. academic currency"
           },
@@ -85,7 +85,7 @@
             "answer": "C. phrases"
           },
           "q17": {
-            "question": "An important feature of language is its ___________",
+            "question": "An important feature of language is its ________",
             "options": ["A. structure", "B. texture", "C. strength", "D. stature"],
             "answer": "A. structure"
           },
@@ -125,7 +125,7 @@
             "answer": "C. consists of"
           },
           "q25": {
-            "question": "Agnes left the school very late, _____________________",
+            "question": "Agnes left the school very late, _________",
             "options": ["A. didn't she?", "B. isn't it?", "C. hasn't she?", "D. hadn't she?"],
             "answer": "A. didn't she?"
           },
@@ -315,7 +315,7 @@
                 "answer": "C) would"
             },
             "q63": {
-                "question": "If I ___________an elephant I would run!",
+                "question": "If I _______an elephant I would run!",
                 "options": ["A) saw", "B) see", "C) have seen", "D) had seen"],
                 "answer": "B) see"
             },
@@ -475,12 +475,12 @@
                 "answer": "A) stress"
             },
             "q95": {
-                "question": "The study skill which allows the learners to focus on core elements in a material under study is called _______________________",
+                "question": "The study skill which allows the learners to focus on core elements in a material under study is called __________",
                 "options": ["A) note-making", "B) note-taking", "C) outlining", "D) comprehension"],
                 "answer": "C) outlining"
             },
             "q96": {
-                "question": "The first step in the use of a dictionary is to _________________",
+                "question": "The first step in the use of a dictionary is to _______",
                 "options": ["A) consult the dictionary straightaway", "B) break the word into smaller unit", "C) determine the contextual usage of the word", "D) determine the word's part of speech"],
                 "answer": "C) determine the contextual usage of the word"
             },
@@ -515,7 +515,7 @@
                 "answer": "C) a sentence"
             },
             "q103": {
-                "question": "A man cannot be successful, <u>except he is determined</u>. The underlined structure is a ___________",
+                "question": "A man cannot be successful, <u>except he is determined</u>. The underlined structure is a ________",
                 "options": ["A) dependent clause", "B) independent clause", "C) main clause", "D) none of the above"],
                 "answer": "A) dependent clause"
             },
@@ -555,12 +555,12 @@
                 "answer": "A) Noun"
             },
             "q111": {
-                "question": "When two simple sentences are formed with the use of a coordinating conjunction, they become a_________________",
+                "question": "When two simple sentences are formed with the use of a coordinating conjunction, they become a_______",
                 "options": ["A) complex sentence", "B) compound sentence", "C) compound complex sentence", "D) multiple sentence"],
                 "answer": "B) compound sentence"
             },
             "q112": {
-                "question": "A sentence that has one independent and one or more dependent clauses is a__________________",
+                "question": "A sentence that has one independent and one or more dependent clauses is a________",
                 "options": ["A) complex sentence", "B) compound sentence", "C) compound complex sentence", "D) multiple sentence"],
                 "answer": "A) complex sentence"
             },
@@ -575,7 +575,7 @@
                 "answer": "D) an inverted comma"
             },
             "q115": {
-                "question": "A full stop performs one of the following functions ___________",
+                "question": "A full stop performs one of the following functions _______",
                 "options": ["A) marks the end of a sentence/thought", "B) shows surprise", "C) makes additional information in a sentence", "D) list items"],
                 "answer": "A) marks the end of a sentence/thought"
             },
@@ -1555,7 +1555,7 @@
                 "answer": "A) Library material"
             },
             "q305": {
-                "question": "UNILORIN holds its biennial programme. The 'biennial' means ___________",
+                "question": "UNILORIN holds its biennial programme. The 'biennial' means ________",
                 "options": ["A) once in a year", "B) twice in one year", "C) twice in two years", "D) once in two years"],
                 "answer": "D) once in two years"
             },
@@ -1575,7 +1575,7 @@
                 "answer": "C) had"
             },
             "q309": {
-                "question": "The full meaning of LC in Use of Library is _______________",
+                "question": "The full meaning of LC in Use of Library is _________",
                 "options": ["A) Library Congress", "B) Library Classification Scheme", "C) Library of Congress", "D) Library of Classification Scheme"],
                 "answer": "C) Library of Congress"
             },
@@ -1590,7 +1590,7 @@
                 "answer": "C) Social science"
             },
             "q312": {
-                "question": "Listening to someone in the public includes the following except ____________",
+                "question": "Listening to someone in the public includes the following except ________",
                 "options": ["A) Repeating", "B) Deciphering", "C) Accepting", "D) Storing"],
                 "answer": "C) Accepting"
             },
@@ -1600,7 +1600,7 @@
                 "answer": "A) Either the singer or the dancer"
             },
             "q314": {
-                "question": "The highest level of listening is the ___________",
+                "question": "The highest level of listening is the ______",
                 "options": ["A) marginal", "B) attentive", "C) appreciative", "D) analytical"],
                 "answer": "D) analytical"
             },
@@ -1625,7 +1625,7 @@
                 "answer": "C) special need"
             },
             "q319": {
-                "question": "The longest stretch of grammatical class is ___________",
+                "question": "The longest stretch of grammatical class is _______",
                 "options": ["A) clauses", "B) phrases", "C) sentences", "D) paragraphs"],
                 "answer": "D) paragraphs"
             },
@@ -1655,7 +1655,7 @@
                 "answer": "D) library"
             },
             "q325": {
-                "question": "The social roles of the Library are the following except _____________",
+                "question": "The social roles of the Library are the following except _________",
                 "options": ["A) store house of information", "B) resource/information center", "C) means of information", "D) house of collections"],
                 "answer": "D) house of collections"
             },
@@ -1670,12 +1670,12 @@
                 "answer": "A) True"
             },
             "q328": {
-                "question": "___________ provides electronic support for library users",
+                "question": "________ provides electronic support for library users",
                 "options": ["A) Electronic services support division", "B) Electronic services division", "C) Electronic support services division", "D) Electronic support division"],
                 "answer": "C) Electronic support services division"
             },
             "q329": {
-                "question": "The Electronic support services division of the University of Ilorin library operates the following interrelated sections except _____________",
+                "question": "The Electronic support services division of the University of Ilorin library operates the following interrelated sections except _________",
                 "options": ["A) Library section", "B) Structure section", "C) Digital Library section", "D) Automation section"],
                 "answer": "B) Structure section"
             },
@@ -1922,7 +1922,7 @@
                         "answer": "A. VISUAL"
                     },
                     "q25": {
-                        "question": "____________ method allows the students to carry out assignments and tasks on their own",
+                        "question": "_______ method allows the students to carry out assignments and tasks on their own",
                         "options": ["A. DISCUSSION", "B. PROJECT", "C. LECTURE", "D. ROLE PLAY"],
                         "answer": "B. PROJECT"
                     },
@@ -1957,7 +1957,7 @@
                         "answer": "D. BASIC"
                     },
                     "q32": {
-                        "question": "Questioning method is otherwise called ___________",
+                        "question": "Questioning method is otherwise called _______",
                         "options": ["A. SOCRATIC METHOD", "C. LEARNING METHOD", "B. EXAM METHOD", "D. VIGIL METHOD"],
                         "answer": "A. SOCRATIC METHOD"
                     },

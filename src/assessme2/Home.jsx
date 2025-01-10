@@ -43,10 +43,6 @@ const Home = ({ setMainTab }) => {
     // }, []);
 
     const handleSetNavTab = (tab) => {
-        // if (isQuestionsActive) {
-        //     alert('All questions must be answered before you can proceed to another page.');
-        //     return;
-        // }
         setNavTab(tab);
     };
 
@@ -91,6 +87,7 @@ const Home = ({ setMainTab }) => {
                         )}
 
                         {navTab === 'questions' && (
+                            
                             <Questions  setResults={handleSetResult} setNavTab={handleSetNavTab} />
                         )}
 

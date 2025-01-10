@@ -14,10 +14,16 @@ function App() {
 
   useEffect(() => {
     const userStatus = cookies.get("userStatus");
+    const userDetails = JSON.parse(localStorage.getItem('userDetails'));
+
 
     if (userStatus !== "Active" || !userStatus) {
       setMainTab("account");
     } else {
+      if(!userDetails){
+        cookies.set("userStatus", "NotActive", { path: "/", maxAge: 432000 });
+        setMainTab("account");
+      }
       localStorage.setItem("mainTab", mainTab);
     }
   }, [mainTab]);
