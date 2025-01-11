@@ -141,7 +141,7 @@ function Questions({ setResults, setNavTab }) {
               <span className={`text-lg font-bold ${timerClass}`}>{formatTime(timeLeft)}</span>
             </div>
             <div>
-              {(timeLeft <= 350 || selectedAnswers.length === questions.length / 2) && (
+              {(timeLeft <= 350 || selectedAnswers.length >= questions.length / 2) && (
                 <div>
                   <button
                     type="button"
