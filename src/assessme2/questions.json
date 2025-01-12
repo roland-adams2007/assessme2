@@ -2600,7 +2600,472 @@
                         "question": "The process of assessing a student's progress is called ___.",
                         "options": ["A. Evaluation", "B. Measurement", "C. Testing", "D. Assessment"],
                         "answer": "A. Evaluation"
-                    }
+                    },
+                    "q161": {
+                        "question": "____ Union of Teachers (Nigerian)",
+                        "options": ["A. Nigerian", "B. National", "C. Notable", "D. Northern"],
+                        "answer": "B. National"
+                    },
+                    "q162": {
+                        "question": "_____ Registration Council of Nigeria (Teachers)",
+                        "options": ["A. Teachers", "B. Teaching", "C. Nigerian", "D. National"],
+                        "answer": "A. Teachers"
+                    },
+                    "q163": {
+                        "question": "Teaching is a ____ profession.",
+                        "options": ["A. Noble", "B. Regular", "C. Skillful", "D. Logical"],
+                        "answer": "A. Noble"
+                    },
+                    "q164": {
+                        "question": "____ syllabuses are arranged in logical order.",
+                        "options": ["A. Teaching syllabus", "B. Examination syllabus", "C. Scheme syllabus", "D. Unit syllabus"],
+                        "answer": "A. Teaching syllabus"
+                    },
+                    "q165": {
+                        "question": "____ domain of learning deals with mental skills.",
+                        "options": ["A. Cognitive", "B. Affective", "C. Psychomotor", "D. A and B only"],
+                        "answer": "A. Cognitive"
+                    },
+                    "q166": {
+                        "question": "_____ is synonymous to previous knowledge.",
+                        "options": ["A. Entry behavior", "B. Behavioural objective", "C. Instructional objective", "D. Direct objective"],
+                        "answer": "A. Entry behavior"
+                    },
+                    "q167": {
+                        "question": "____ plan is a guide for teaching.",
+                        "options": ["A. Lesson", "B. Instructional", "C. Learning", "D. Syllabus"],
+                        "answer": "A. Lesson"
+                    },
+                    "q168": {
+                        "question": "____ is used by the teacher to disseminate teaching to the learners in the classroom.",
+                        "options": ["A. Lesson note", "B. Curriculum", "C. Syllabus", "D. Textbook"],
+                        "answer": "A. Lesson note"
+                    },
+                    "q169": {
+                        "question": "____ is broader than teaching.",
+                        "options": ["A. Instruction", "B. Learning", "C. Syllabus", "D. Education"],
+                        "answer": "A. Instruction"
+                    },
+                    "q170": {
+                        "question": "___ syllabuses are arranged in haphazard manner.",
+                        "options": ["A. Teaching syllabus", "B. Examination syllabus", "C. Unit syllabus", "D. Plan syllabus"],
+                        "answer": "B. Examination syllabus"
+                    },
+                    "q171": {
+                        "question": "NUT was formed in ____.",
+                        "options": ["A. 1931", "B. 1993", "C. 1934", "D. 1936"],
+                        "answer": "A. 1931"
+                    },
+                    "q172": {
+                        "question": "The pioneering president of NUT is _____.",
+                        "options": ["A. Professor Segun Ajiboye", "B. Prof Abdulsalam Adebutu", "C. Professor Mudashir Yusuf", "D. Oludotun Ransome Kuti"],
+                        "answer": "D. Oludotun Ransome Kuti"
+                    },
+                    "q173": {
+                        "question": "The best method of teaching in the four walls of the classroom is the ____ method.",
+                        "options": ["A. Lecture", "B. Socratic", "C. Discussion", "D. Playway"],
+                        "answer": "C. Discussion"
+                    },
+                    "q174": {
+                        "question": "Discussion leads to _____.",
+                        "options": ["A. Discovery", "B. Conflict", "C. Understanding", "D. Knowledge"],
+                        "answer": "A. Discovery"
+                    },
+                    "q175": {
+                        "question": "____ is a guide to academic work.",
+                        "options": ["A. Lesson note", "B. Lesson plan", "C. Curriculum", "D. Syllabus"],
+                        "answer": "C. Curriculum"
+                    },
+                    "q176": {
+                    "question": "Teaching is _____ when it takes place in different series.",
+                    "options": ["A. Sequential", "B. Systematic", "C. Polymorphic", "D. Dynamic"],
+                    "answer": "C. Polymorphic"
+                },
+                "q177": {
+                    "question": "Teachers Registration Council of Nigeria was established by a Decree, now ___.",
+                    "options": ["A. Act", "B. Law", "C. Bill", "D. Policy"],
+                    "answer": "A. Act"
+                },
+                "q178": {
+                    "question": "TRCN was established in _____.",
+                    "options": ["A. 1993", "B. 1994", "C. 1995", "D. 1996"],
+                    "answer": "C. 1995"
+                },
+                "q179": {
+                    "question": "Universal Basic Education was introduced in _____.",
+                    "options": ["A. 1993", "B. 1994", "C. 1999", "D. 2003"],
+                    "answer": "C. 1999"
+                },
+                "q180": {
+                    "question": "___ domain of learning deals with manipulative skills.",
+                    "options": ["A. Cognitive", "B. Affective", "C. Psychomotor", "D. All of the above"],
+                    "answer": "C. Psychomotor"
+                },
+                "q181": {
+                    "question": "All are the qualities of a teacher except ___.",
+                    "options": ["A. Non-judgmental", "B. Inquisitive", "C. Despotic", "D. Enthusiastic"],
+                    "answer": "C. Despotic"
+                },
+                "q182": {
+                    "question": "Teaching graduates from simple to ____.",
+                    "options": ["A. Complex", "B. Advanced", "C. Detailed", "D. Structured"],
+                    "answer": "A. Complex"
+                },
+                "q183": {
+                    "question": "Teaching graduates from known to _____.",
+                    "options": ["A. Unknown", "B. Complex", "C. Abstract", "D. Advanced"],
+                    "answer": "A. Unknown"
+                },
+                "q184": {
+                    "question": "No profession can be successful without a noble ____ profession.",
+                    "options": ["A. Teaching", "B. Medical", "C. Law", "D. Leadership"],
+                    "answer": "A. Teaching"
+                },
+                "q185": {
+                    "question": "NPE means ____ Policy on Education.",
+                    "options": ["A. National", "B. Nigerian", "C. Noble", "D. Notable"],
+                    "answer": "A. National"
+                },
+                "q186": {
+                    "question": "Learners learn best when they are ____.",
+                    "options": ["A. Ready", "B. Motivated", "C. Curious", "D. Supported"],
+                    "answer": "A. Ready"
+                },
+                "q187": {
+                    "question": "There are three dimensions of Education.",
+                    "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+                    "answer": "B. 3"
+                },
+                "q188": {
+                    "question": "The Teachers Registration Council of Nigeria was flagged by _____.",
+                    "options": ["A. Professor Babalola Borishade", "B. Professor Adeyemi Idowu", "C. Professor Mudashir Yusuf", "D. Professor Babatunde Fafunwa"],
+                    "answer": "A. Professor Babalola Borishade"
+                },
+                "q189": {
+                    "question": "Teaching is the ____ of all professions.",
+                    "options": ["A. Father", "B. Mother", "C. God", "D. All of the above"],
+                    "answer": "B. Mother"
+                },
+                "q190": {
+                    "question": "Teaching has a ____ status.",
+                    "options": ["A. Legal", "B. Noble", "C. Respectful", "D. Important"],
+                    "answer": "A. Legal"
+                },
+                "q191": {
+                    "question": "The body responsible for licensing and certification of all qualified teachers is ___.",
+                    "options": ["A. NUT", "B. TRCN", "C. NUC", "D. WAEC"],
+                    "answer": "B. TRCN"
+                },
+                "q192": {
+                    "question": "Continuous Assessment is an example of ____ evaluation.",
+                    "options": ["A. Formative", "B. Diagnostic", "C. Summative", "D. Prognostic"],
+                    "answer": "A. Formative"
+                },
+                "q193": {
+                    "question": "Teachers must serve as a ____ model to pupils in the classroom.",
+                    "options": ["A. Role", "B. Learning", "C. Behavioral", "D. Mentoring"],
+                    "answer": "A. Role"
+                },
+                "q194": {
+                    "question": "National Policy on Education was introduced in 1977 and first revised in ___.",
+                    "options": ["A. 1981", "B. 1982", "C. 1984", "D. 1986"],
+                    "answer": "A. 1981"
+                },
+                "q195": {
+                    "question": "____ is the vehicle of Education.",
+                    "options": ["A. Teaching", "B. Learning", "C. Training", "D. Indoctrination"],
+                    "answer": "B. Learning"
+                },
+                "q196": {
+                    "question": "The Northern Association of Teachers was championed by ___.",
+                    "options": ["A. Aminu Kano", "B. Rabiu Kwankwaso", "C. Sanusi Lamido", "D. Ibrahim Ganduje"],
+                    "answer": "A. Aminu Kano"
+                },
+                "q197": {
+                    "question": "____ is called the year plan.",
+                    "options": ["A. Syllabus", "B. Curriculum", "C. Scheme of Work", "D. Lesson Note"],
+                    "answer": "C. Scheme of Work"
+                },
+                "q198": {
+                    "question": "The process which involves making available alternative options when real objects are not available is called ____.",
+                    "options": ["A. Improvisation", "B. Simulation", "C. Experimentation", "D. Substitution"],
+                    "answer": "A. Improvisation"
+                },
+                "q199": {
+                    "question": "Behavioral objectives are called _____ objectives.",
+                    "options": ["A. Learning", "B. Teaching", "C. Educational", "D. Developmental"],
+                    "answer": "A. Learning"
+                },
+                "q200": {
+                    "question": "Northern Association of Nigeria was formed in ____.",
+                    "options": ["A. 1948", "B. 1949", "C. 1952", "D. 1954"],
+                    "answer": "B. 1949"
+                },
+                "q201": {
+                    "question": "Lagos Union of Teachers was formed in ___.",
+                    "options": ["A. 1925", "B. 1926", "C. 1927", "D. 1928"],
+                    "answer": "C. 1927"
+                },
+                "q202": {
+                    "question": "The First TRCN Chief Registrar is _____.",
+                    "options": ["A. Anjikwi Musa Ciwar", "B. Segun Ajiboye", "C. Oludotun Ransome Kuti", "D. J.O Lucas"],
+                    "answer": "A. Anjikwi Musa Ciwar"
+                },
+                "q204": {
+                    "question": "Teaching act involves three basic stages which are Planning, Implementation, and ____.",
+                    "options": ["A. Evaluation", "B. Assessment", "C. Reflection", "D. Supervision"],
+                    "answer": "A. Evaluation"
+                },
+                "q205": {
+                    "question": "The motto of TRCN is ____.",
+                    "options": ["A. Teaching for excellence", "B. Service and truth", "C. Service and trust", "D. Power and truth"],
+                    "answer": "B. Service and truth"
+                },
+                "q206": {
+                    "question": "PQE means _____ Qualifying Examination.",
+                    "options": ["A. Professional", "B. Provisional", "C. Practical", "D. Public"],
+                    "answer": "A. Professional"
+                },
+                "q207": {
+                    "question": "A teacher must prepare ____ at the beginning of the year.",
+                    "options": ["A. Syllabus", "B. Scheme of work", "C. Lesson note", "D. Lesson plan"],
+                    "answer": "B. Scheme of work"
+                },
+                "q210": {
+                    "question": "____ is the father of lecture method.",
+                    "options": ["A. Plato", "B. Aristotle", "C. Socrates", "D. John Dewey"],
+                    "answer": "A. Plato"
+                },
+                "q212": {
+                    "question": "The most economical method of teaching is ____.",
+                    "options": ["A. Lecture", "B. Discussion", "C. Project", "D. Discovery"],
+                    "answer": "A. Lecture"
+                },
+                "q214": {
+                    "question": "____ objective tells the teacher what to do and how to do it.",
+                    "options": ["A. Instructional", "B. Behavioral", "C. Call", "D. Mediate"],
+                    "answer": "A. Instructional"
+                },
+                "q216": {
+                    "question": "____ evaluation is used at the end of instructional programme.",
+                    "options": ["A. Summative", "B. Formative", "C. Diagnostic", "D. Precursive"],
+                    "answer": "A. Summative"
+                },
+                "q217": {
+        "question": "A teacher should serve as a ____ to the learners.",
+        "options": ["A. Leader", "B. Facilitator", "C. Advisor", "D. Controller"],
+        "answer": "B. Facilitator"
+    },
+    "q219": {
+        "question": "Teaching is incomplete until ____ has taken place.",
+        "options": ["A. Writing", "B. Speaking", "C. Learning", "D. Listening"],
+        "answer": "C. Learning"
+    },
+    "q221": {
+        "question": "Teaching can graduate from ____ to abstract.",
+        "options": ["A. Concrete", "B. Simple", "C. Broad", "D. Narrow"],
+        "answer": "A. Concrete"
+    },
+    "q222": {
+        "question": "Teaching is a ____ profession.",
+        "options": ["A. Complex", "B. Basic", "C. Specialized", "D. Ordinary"],
+        "answer": "B. Basic"
+    },
+    "q223": {
+        "question": "In teaching process, the teacher is the ____. ",
+        "options": ["A. Encoder", "B. Decoder", "C. Facilitator", "D. Moderator"],
+        "answer": "A. Encoder"
+    },
+    "q224": {
+        "question": "A job for all comers is not a ____. ",
+        "options": ["A. Skill", "B. Profession", "C. Career", "D. Trade"],
+        "answer": "B. Profession"
+    },
+                "q225": {
+                    "question": "____ domains of learning deals with feelings and emotions.",
+                    "options": ["A. Affective", "B. Cognitive", "C. Psychomotor", "D. All of the above"],
+                    "answer": "A. Affective"
+                },
+                "q226": {
+                    "question": "____ teaching method is used for a large class.",
+                    "options": ["A. Lecture", "B. Discussion", "C. Project", "D. Question-answer"],
+                    "answer": "A. Lecture"
+                },
+                "q227": {
+                    "question": "____ evaluation is done to identify learners’ difficulties.",
+                    "options": ["A. Diagnostic", "B. Formative", "C. Summative", "D. Prognostic"],
+                    "answer": "A. Diagnostic"
+                },
+                "q228": {
+                    "question": "TRCN was formed by Decree ___ of 1993.",
+                    "options": ["A. 31", "B. 32", "C. 33", "D. 34"],
+                    "answer": "B. 32"
+                },
+                "q229": {
+                    "question": "All but one is not part of the programme of TRCN.",
+                    "options": [
+                        "A. Registration and licensing of qualified teachers",
+                        "B. Accreditation and monitoring of courses and programmes",
+                        "C. Stipends and payment of salaries",
+                        "D. Enforcement of professional ethics"
+                    ],
+                    "answer": "C. Stipends and payment of salaries"
+                },
+                "q230": {
+                    "question": "____ objective is the change in learners' performance.",
+                    "answer": "Behavioral"
+                },
+                "q231": {
+                    "question": "STUP means ____ Teacher Upgrading Programme.",
+                    "options": ["A. Standard", "B. Special", "C. Specific", "D. Secondary"],
+                    "answer": "B. Special"
+                },
+                "q232": {
+                    "question": "STAN means ____ Teachers Association of Nigeria.",
+                    "options": ["A. Science", "B. Social", "C. Secondary", "D. Specific"],
+                    "answer": "A. Science"
+                },
+                "q233": {
+                    "question": "INTRA means ____ Forum of Teacher Regulatory Authorities.",
+                    "options": ["A. Independent", "B. International", "C. Internal", "D. Intercontinental"],
+                    "answer": "B. International"
+                },
+                "q234": {
+                    "question": "___ is the teacher's detailed description of the course of instruction.",
+                    "options": ["A. Lesson plan", "B. Lesson note", "C. Scheme of work", "D. Syllabus"],
+                    "answer": "A. Lesson plan"
+                },
+                "q235": {
+                    "question": "____ knowledge is the past experience of the learner related to the new lesson the teacher plans to teach.",
+                    "options": ["A. Prior", "B. Previous", "C. Past", "D. Present"],
+                    "answer": "B. Previous"
+                },
+                "q236": {
+                    "question": "Teacher’s ____ of conduct is a statement of principles, rules, and values that establishes a set of standards for how learners in the school should behave.",
+                    "options": ["A. Code", "B. Manual", "C. Rule", "D. Ethics"],
+                    "answer": "A. Code"
+                },
+                "q237": {
+                    "question": "A code of ____ outlines teachers’ primary responsibilities to their students and defines their role in a student’s life.",
+                    "options": ["A. Conduct", "B. Ethics", "C. Values", "D. Principles"],
+                    "answer": "B. Ethics"
+                },
+                "q238": {
+                    "question": "The end product of learning is ____.",
+                    "options": ["A. Change", "B. Growth", "C. Improvement", "D. Knowledge"],
+                    "answer": "A. Change"
+                },
+                "q239": {
+                    "question": "Teaching is a profession that requires ____ skills.",
+                    "options": ["A. General", "B. Basic", "C. Special", "D. Advanced"],
+                    "answer": "C. Special"
+                },
+                "q240": {
+                    "question": "Teaching is a ____ union.",
+                    "options": ["A. Professional", "B. Trade", "C. General", "D. Functional"],
+                    "answer": "B. Trade"
+                },
+                "q241": {
+                    "question": "____ is the extent to which objectives have been achieved.",
+                    "options": ["A. Evaluation", "B. Assessment", "C. Testing", "D. Measurement"],
+                    "answer": "A. Evaluation"
+                },
+                "q242": {
+                    "question": "Noise can ____ teaching-learning process in the classroom.",
+                    "options": ["A. Inhibit", "B. Improve", "C. Enhance", "D. Strengthen"],
+                    "answer": "A. Inhibit"
+                },
+                "q243": {
+                    "question": "The domain of learning concerned with motor skills is ____.",
+                    "options": ["A. Psycho-motor", "B. Affective", "C. Cognitive", "D. All of the above"],
+                    "answer": "A. Psycho-motor"
+                },
+                "q244": {
+                    "question": "A school record in a year is known as ____.",
+                    "options": ["A. Scheme of work", "B. Syllabus", "C. Curriculum", "D. Praxis"],
+                    "answer": "C. Curriculum"
+                },
+                "q245": {
+                    "question": "Free Education was introduced in ____.",
+                    "options": ["A. 1945", "B. 1955", "C. 1965", "D. 1975"],
+                    "answer": "B. 1955"
+                },
+                "q246": {
+                    "question": "Universal Primary Education was launched in ____.",
+                    "options": ["A. 1966", "B. 1976", "C. 1986", "D. 1996"],
+                    "answer": "B. 1976"
+                },
+                "q247": {
+                    "question": "Teaching must result into a ____ learning.",
+                    "options": ["A. Purposeful", "B. Accidental", "C. Continuous", "D. Practical"],
+                    "answer": "A. Purposeful"
+                },
+                "q248": {
+                    "question": "Learning is a ____ process.",
+                    "options": ["A. Short", "B. Temporary", "C. Continuous", "D. Sporadic"],
+                    "answer": "C. Continuous"
+                },
+                "q249": {
+                    "question": "LIMS means Learning and Instructional ____.",
+                    "options": ["A. Materials", "B. Methods", "C. Manuals", "D. Media"],
+                    "answer": "A. Materials"
+                },
+                "q250": {
+                    "question": "All except one is not considered in selecting instructional materials.",
+                    "options": ["A. Control", "B. Cost", "C. Usability", "D. Time"],
+                    "answer": "A. Control"
+                },
+                "q251": {
+                    "question": "All except one is not a factor militating against teaching as a profession.",
+                    "options": ["A. Automation", "B. Illiteracy", "C. Poverty", "D. Funding"],
+                    "answer": "A. Automation"
+                },
+                "q252": {
+                    "question": "All of the following are qualities of a good evaluation except:",
+                    "options": ["A. Subjective", "B. Objective", "C. Clarity", "D. Precision"],
+                    "answer": "A. Subjective"
+                },
+                "q253": {
+                    "question": "____ syllabuses arrange content in broad outlines.",
+                    "options": ["A. Examination", "B. Scheme", "C. Curriculum", "D. Module"],
+                    "answer": "A. Examination"
+                },
+                "q254": {
+                    "question": "____ institution teaches moral values.",
+                    "options": ["A. Religious", "B. School", "C. Family", "D. Peer groups"],
+                    "answer": "A. Religious"
+                },
+                "q255": {
+                    "question": "Micro teachings last for ____ minutes.",
+                    "options": ["A. 15", "B. 20", "C. 25", "D. 30"],
+                    "answer": "B. 20"
+                },
+                "q256": {
+                    "question": "____ materials appeal to the sight.",
+                    "options": ["A. Visual", "B. Audio", "C. Tactile", "D. Written"],
+                    "answer": "A. Visual"
+                },
+                "q257": {
+                    "question": "Professionals and experts in teaching as a discipline are called ____ persons.",
+                    "options": ["A. Resource", "B. Skilled", "C. Academic", "D. Specialist"],
+                    "answer": "A. Resource"
+                },
+                "q258": {
+                    "question": "____ is the broad educational outcome.",
+                    "options": ["A. Objective", "B. Goal", "C. Plan", "D. Vision"],
+                    "answer": "A. Objective"
+                },
+                "q259": {
+                    "question": "___ method of teaching allows the learners to perform tasks on their own.",
+                    "options": ["A. Project", "B. Lecture", "C. Demonstration", "D. Discussion"],
+                    "answer": "A. Project"
+                },
+                "q260": {
+                    "question": "Unit plan is called ____ plan.",
+                    "options": ["A. Weekly", "B. Monthly", "C. Daily", "D. Annual"],
+                    "answer": "A. Weekly"
+                }
+
 
 
 
