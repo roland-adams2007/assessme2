@@ -42,15 +42,15 @@
 
 //     setLoading(true);
 
-//     setTimeout(() => {
-//       localStorage.setItem(
-//         "user_details",
-//         JSON.stringify({ name: formData.name, phone: formData.phone })
-//       );
-//       setLoading(false);
-//       toast.success("Account created successfully", { autoClose: 5000 });
-//       setTab('courses');
-//     }, 2000);
+    // setTimeout(() => {
+    //   localStorage.setItem(
+    //     "user_details",
+    //     JSON.stringify({ name: formData.name, phone: formData.phone })
+    //   );
+    //   setLoading(false);
+    //   toast.success("Account created successfully", { autoClose: 5000 });
+    //   setTab('courses');
+    // }, 2000);
 //   };
 
 //   return (

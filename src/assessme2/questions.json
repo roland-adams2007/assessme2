@@ -1,5 +1,5 @@
 [
-    {
+        {
         "courseCode": "GST 111",
         "description":"General Studies: Nigerian History",
         "level":"100L",
@@ -1794,9 +1794,9 @@
                     
         
              }
-            },
+        },
 
-            {
+        {
                 "courseCode": "EDU 101",
                 "description":"Introduction to Education and Pedagogy",
                 "level":"100L",
@@ -3071,7 +3071,264 @@
 
 
                 }
+        },
+        {
+            "courseCode": "EDT 103",
+            "description": "ICT APPLICATION IN EDUCATION",
+            "level": "100L",
+            "questions": {
+                "q1": {
+                    "question": "CONTROL + S is to save while CONTROL + O is to _____ on the computer system",
+                    "options": ["A. Organise document", "B. Organised document", "C. Organisation document", "D. Open document"],
+                    "answer": "D. Open document"
+                },
+                "q2": {
+                    "question": "______ is the component of the computer system that can be seen and touched",
+                    "options": ["A. Software", "B. Hardware", "C. Humanware", "D. All options are correct"],
+                    "answer": "B. Hardware"
+                },
+                "q3": {
+                    "question": "Computer as a system is made up of (i) Hardware and Software (ii) Hardware and Humanware (iii) Hardware and Software and Humanware",
+                    "options": ["A. i and ii only", "B. ii only", "C. iii only", "D. i, ii, and iii are not correct"],
+                    "answer": "C. iii only"
+                },
+                "q4": {
+                    "question": "The _____ generation of computer uses VACUUM TUBES for their circuit",
+                    "options": ["A. 2nd generation", "B. 3rd generation", "C. 1st generation", "D. 5th generation"],
+                    "answer": "C. 1st generation"
+                },
+                "q5": {
+                    "question": "Computers are now used in schools to_________? (i) Teach and for marking (ii) Process results (iii) Teach, Mark, and Process results (iv) Teach Students",
+                    "options": ["A. i and ii only", "B. iii only", "C. i and iv", "D. i only"],
+                    "answer": "B. iii only"
+                },
+                "q6": {
+                    "question": "Which generation of computer marks the evolution of MICRO computers?",
+                    "options": ["A. 3rd generation", "B. 4th generation", "C. 2nd generation", "D. 1st generation"],
+                    "answer": "B. 4th generation"
+                },
+                "q7": {
+                    "question": "A special multi-purpose (MACHINE) that is capable of receiving instruction, storing and processing it, and giving a desired result as an output accurately at an incredibly high speed is known as_________?",
+                    "options": ["A. System", "B. Machine", "C. Computer", "D. All of the above"],
+                    "answer": "C. Computer"
+                },
+                "q8": {
+                    "question": "5th generation of computer has to do with artificial intelligence. TRUE/FALSE",
+                    "options": ["A. TRUE", "B. FALSE"],
+                    "answer": "A. TRUE"
+                },
+                "q9": {
+                    "question": "Peripheral devices are detachable devices. YES/NO",
+                    "options": ["A. YES", "B. NO"],
+                    "answer": "A. YES"
+                },
+                "q10": {
+                    "question": "______ is an example of an input device",
+                    "options": ["A. Mouse", "B. Speakers", "C. Monitor", "D. Hard disk"],
+                    "answer": "A. Mouse"
+                },
+                "q11": {
+                    "question": "_____ takes data from the computer system and converts it to a form that can be interpreted by humans",
+                    "options": ["A. Input device", "B. Outlet device", "C. Humanware", "D. Output device"],
+                    "answer": "D. Output device"
+                },
+                "q12": {
+                    "question": "CPU is the acronym for",
+                    "options": ["A. Central Processing Unit", "B. Central Processing Uniform"],
+                    "answer": "A. Central Processing Unit"
+                },
+                "q13": {
+                    "question": "_____ component of the computer can be stored in digital form within computer memory",
+                    "options": ["A. Hardware", "B. Software", "C. Software and Hardware", "D. All of the above"],
+                    "answer": "B. Software"
+                },
+                "q14": {
+                    "question": "______ is a type of software designed to help analyze, configure, optimize, or maintain a computer",
+                    "options": ["A. Utility", "B. System", "C. Application"],
+                    "answer": "A. Utility"
+                },
+                "q15": {
+                    "question": "The computer can perform almost any task as a result of ____ characteristics of the computer",
+                    "options": ["A. Accuracy", "B. Velocity", "C. Speed", "D. Versatility"],
+                    "answer": "D. Versatility"
+                },
+                "q16": {
+                    "question": "The characteristic of the computer that says computers perform complex activities and arithmetic operations is ____",
+                    "options": ["A. Speed", "B. Velocity", "C. Computation", "D. Versatility"],
+                    "answer": "C. Computation"
+                },
+                "q17": {
+                    "question": "The combination of computers, communication equipment, Telephone, and Video Conferencing are classified as",
+                    "options": ["A. Information carrier", "B. Digital Information", "C. Information Technology", "D. Library and Information Science"],
+                    "answer": "C. Information Technology"
+                },
+                "q18": {
+                    "question": "ABACUS was developed in _____",
+                    "options": ["A. Africa", "B. USA", "C. America", "D. China"],
+                    "answer": "D. China"
+                },
+                "q19": {
+                    "question": "ABACUS is called",
+                    "options": ["A. Counting frame", "B. Editing Frame", "C. Touching Foam", "D. A and C are correct"],
+                    "answer": "A. Counting frame"
+                },
+                "q20": {
+                    "question": "Lady Augusta was the first",
+                    "options": ["A. Computerist", "B. Programmer", "C. Technologist", "D. Arcar"],
+                    "answer": "B. Programmer"
+                },
+                "q21": {
+                    "question": "ABACUS was introduced in _____",
+                    "options": ["A. 1000 AD", "B. 1000 BC", "C. 500 BC", "D. 300 AD"],
+                    "answer": "B. 1000 BC"
+                },
+                "q22": {
+                    "question": "John Napier lived from",
+                    "options": ["A. 1350-1670", "B. 1550-1590", "C. 1550-1599", "D. 1550-1617"],
+                    "answer": "D. 1550-1617"
+                },
+                "q23": {
+                    "question": "Who invented the Slide Rule?",
+                    "options": ["A. Adam Smith", "B. Pascal", "C. William Oughtred", "D. Charles Babbage"],
+                    "answer": "C. William Oughtred"
+                },
+                "q24": {
+                    "question": "Who is the father of the computer?",
+                    "options": ["A. Charles Babbage", "B. Ivan Pavlov", "C. Jose Marie Jacquard", "D. Pascal"],
+                    "answer": "A. Charles Babbage"
+                },
+                "q25": {
+                    "question": "Generation of computer was built between 1945-1959",
+                    "options": ["A. Second Generation", "B. First Generation", "C. Third Generation", "D. Fifth Generation"],
+                    "answer": "B. First Generation"
+                },
+                "q26": {
+                    "question": "All but one are the computers built in the first generation",
+                    "options": ["A. IBM 650", "B. COLLOSSUS", "C. IBM 701", "D. IBM 7000"],
+                    "answer": "D. IBM 7000"
+                },
+                "q27": {
+                    "question": "IBM 7000 was built in which generation of computers?",
+                    "options": ["A. Second", "B. Third", "C. First", "D. Twenty"],
+                    "answer": "B. Third"
+                },
+                "q28": {
+                    "question": "5th generation of computer has to do with artificial intelligence. TRUE/FALSE",
+                    "options": ["A. TRUE", "B. FALSE"],
+                    "answer": "A. TRUE"
+                },
+                "q29": {
+                    "question": "The following are means of sending information except",
+                    "options": ["A. Manual", "B. Internet", "C. Data connection", "D. Internet"],
+                    "answer": "A. Manual"
+                },
+                "q30": {
+                    "question": "All these cannot be used to send information except?",
+                    "options": ["A. Pentium", "B. Reading", "C. Internet", "D. COBOL"],
+                    "answer": "C. Internet"
+                },
+                "q31": {
+                    "question": "All these are the classification of computers according to service and speed of operation except _____",
+                    "options": ["A. Monster", "B. Mainframe", "C. Manual", "D. Mini-Computer"],
+                    "answer": "A. Monster"
+                },
+                "q32": {
+                    "question": "A computer designed to be used by one person at a time is called",
+                    "options": ["A. Mainframe", "B. Micro-Computer", "C. Mini-Computer", "D. Monitor"],
+                    "answer": "B. Micro-Computer"
+                },
+                "q33": {
+                    "question": "___ can be best described as a/an example of a Micro-Computer",
+                    "options": ["A. Monitor", "B. Laptop", "C. Peripheral device", "D. Detachable device"],
+                    "answer": "B. Laptop"
+                },
+                "q34": {
+                    "question": "Which of these classifications of computers combines the functions of both Analogue and Digital Computers?",
+                    "options": ["A. Hybrid", "B. Analogue", "C. Digited", "D. B & C"],
+                    "answer": "A. Hybrid"
+                },
+                "q35": {
+                    "question": "Which generation of computer was built between 1966 – 1975?",
+                    "options": ["A. Second", "B. Third", "C. First", "D. Fifth"],
+                    "answer": "B. Third"
+                },
+                "q36": {
+                    "question": "Which of the following is mostly used in financial and banking operations?",
+                    "options": ["A. PowerPoint", "B. Excel", "C. Coreldraw", "D. Microsoft Word"],
+                    "answer": "B. Excel"
+                },
+                "q37": {
+                    "question": "Control + N allows you to_____",
+                    "options": ["A. Highlight the whole page", "B. Highlight one side of the page", "C. Open a new page", "D. Negotiate page"],
+                    "answer": "C. Open a new page"
+                },
+                "q38": {
+                    "question": "Which of the following is mostly used for presentation in the classroom?",
+                    "options": ["A. Analogue Computer", "B. Digital Computer", "C. Hybrid Computer", "D. PowerPoint"],
+                    "answer": "D. PowerPoint"
+                },
+                "q39": {
+                    "question": "What is the course title for EDT 103?",
+                    "options": ["A. Computer of Education", "B. ICT in Education", "C. Educational Computer", "D. ICT-Education"],
+                    "answer": "B. ICT in Education"
+                },
+                "q40": {
+                    "question": "The ____ generation of computer uses TRANSISTORS in place of VACUUM TUBES?",
+                    "options": ["A. 2nd generation", "B. 4th generation", "C. 5th generation", "D. 1st generation"],
+                    "answer": "A. 2nd generation"
+                },
+                "q41": {
+                    "question": "The generation of computer that employs large integrated circuits with microprocessors while INPUT and OUTPUT were implemented upon is ____",
+                    "options": ["A. 1st generation", "B. 2nd generation", "C. 3rd generation", "D. 4th generation"],
+                    "answer": "C. 3rd generation"
+                },
+                "q42": {
+                    "question": "The ____ generation of computer is mostly concerned with knowledge-based oriented processing",
+                    "options": ["A. 2nd, 3rd, and 1st generation", "B. 5th generation only", "C. 4th and 3rd generation", "D. 2nd generation only"],
+                    "answer": "B. 5th generation only"
+                },
+                "q43": {
+                    "question": "______ generation of computer has to do with artificial intelligence",
+                    "options": ["A. 1st", "B. 3rd", "C. 4th", "D. 5th"],
+                    "answer": "D. 5th"
+                },
+                "q44": {
+                    "question": "Control + V allows you to ____ on a computer system?",
+                    "options": ["A. Bold a document", "B. Paste a document", "C. Copy a document", "D. Venture a document"],
+                    "answer": "B. Paste a document"
+                },
+                "q45": {
+                    "question": "All these are storage devices except_____?",
+                    "options": ["A. Mps player", "B. Hard disk", "C. Memory card", "D. Compact disk"],
+                    "answer": "A. Mps player"
+                },
+                "q46": {
+                    "question": "In computer operation, GARBAGE IN GARBAGE ____",
+                    "options": ["A. Out", "B. Left", "C. Middle", "D. Inside"],
+                    "answer": "A. Out"
+                },
+                "q47": {
+                    "question": "ICT means _____?",
+                    "options": ["A. Information Communication and Technology", "B. Information and Communication Technology", "C. Information and Communication and Technology", "D. Information Communication Technology"],
+                    "answer": "B. Information and Communication Technology"
+                },
+                "q48": {
+                    "question": "To cut or copy an object on a system, you do the following (i) select an object (ii) click edit (iii) click on copy or cut (iv) press control V",
+                    "options": ["A. i and iii only", "B. iii only", "C. i, ii, and iii only", "D. i, ii, iii, and iv only"],
+                    "answer": "C. i, ii, and iii only"
+                },
+                "q49": {
+                    "question": "(WWW) means____?",
+                    "options": ["A. Word wide web", "B. World wide web", "C. World wide webu", "D. Word wider web"],
+                    "answer": "B. World wide web"
+                },
+                "q50": {
+                    "question": "To move an object you must ____",
+                    "options": ["A. Drag an object to a new position in the drawing", "B. Press control M", "C. Press control D", "D. All of the above"],
+                    "answer": "A. Drag an object to a new position in the drawing"
+                }
             }
+        }
     
       
       
