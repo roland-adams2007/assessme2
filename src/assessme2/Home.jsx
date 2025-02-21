@@ -66,8 +66,8 @@ const Home = ({ setMainTab }) => {
                 <div className="flex-1">
                     <div className="w-full h-full flex flex-col">
                         <header className="flex items-center justify-between h-20 bg-white shadow p-4 shadow-md sticky top-0">
-                            <button id="menuOpen" onClick={() => handleSetActiveTab(true)} className="md:hidden text-gray-600 text-2xl">
-                                <i className="fas fa-bars"></i>
+                            <button id="menuOpen" onClick={() => handleSetActiveTab(true)} className="md:hidden text-gray-600 text-2xl border bg-blue-500 text-white text-sm md:text-lg">
+                               Menu
                             </button>
                             <div className="flex items-center space-x-4">
                                 <p className="text-gray-800 font-medium">Welcome, {userDetails.name || 'Loading...'}!</p>

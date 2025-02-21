@@ -32,8 +32,8 @@ const Navbar = ({setNavTab,setActiveTab,activeTab,setMainTab}) => {
                         
                         <h1 className="text-lg font-bold">AssessMe</h1>
                     </div>
-                    <button id="menuClose" onClick={()=>setActiveTab(false)} className="md:hidden text-white text-2xl">
-                        <i className="fas fa-x"></i>
+                    <button id="menuClose" onClick={()=>setActiveTab(false)} className="md:hidden text-white text-2xl text-white bg-blue-500 p-1 rounded-sm text-sm md:text-lg">
+                        Close
                     </button>
                 </div>
             </div>
