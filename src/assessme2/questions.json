@@ -5391,6 +5391,161 @@
         "question": "Which computer shortcut is used to access the edit options in a program?",
         "options": ["A. Alt + F", "B. Ctrl + A", "C. Alt + E", "D. Ctrl + S"],
         "answer": "C. Alt + E"
+      },
+      "q73": {
+        "question": "What does Ctrl + N do in Microsoft Word?",
+        "options": [
+          "A. Create a new document",
+          "B. Open an existing document",
+          "C. Save the current document",
+          "D. Print the document"
+        ],
+        "answer": "A. Create a new document"
+      },
+      "q74": {
+        "question": "Which shortcut opens an existing document?",
+        "options": ["A. Ctrl + N", "B. Ctrl + O", "C. Ctrl + S", "D. Ctrl + P"],
+        "answer": "B. Ctrl + O"
+      },
+      "q75": {
+        "question": "What is the function of Ctrl + S?",
+        "options": [
+          "A. Create a new document",
+          "B. Open an existing document",
+          "C. Save the current document",
+          "D. Print the document"
+        ],
+        "answer": "C. Save the current document"
+      },
+      "q76": {
+        "question": "Which shortcut is used to print a document?",
+        "options": ["A. Ctrl + P", "B. Ctrl + O", "C. Ctrl + S", "D. Ctrl + N"],
+        "answer": "A. Ctrl + P"
+      },
+      "q77": {
+        "question": "What does Ctrl + Z do in Microsoft Word?",
+        "options": [
+          "A. Redo the last action",
+          "B. Undo the last action",
+          "C. Save the document",
+          "D. Create a new document"
+        ],
+        "answer": "B. Undo the last action"
+      },
+      "q78": {
+        "question": "Which shortcut redoes the last undone action?",
+        "options": ["A. Ctrl + Z", "B. Ctrl + Y", "C. Ctrl + X", "D. Ctrl + V"],
+        "answer": "B. Ctrl + Y"
+      },
+      "q79": {
+        "question": "What is the function of Ctrl + W?",
+        "options": [
+          "A. Save the document",
+          "B. Print the document",
+          "C. Close the current document",
+          "D. Open a new document"
+        ],
+        "answer": "C. Close the current document"
+      },
+      "q80": {
+        "question": "Ctrl + Q is used to:",
+        "options": [
+          "A. Remove paragraph formatting",
+          "B. Bold text",
+          "C. Underline text",
+          "D. Copy text"
+        ],
+        "answer": "A. Remove paragraph formatting"
+      },
+      "q81": {
+        "question": "Which shortcut applies bold formatting to selected text?",
+        "options": [
+          "A. Ctrl + I",
+          "B. Ctrl + B",
+          "C. Ctrl + U",
+          "D. Ctrl + Shift + K"
+        ],
+        "answer": "B. Ctrl + B"
+      },
+      "q82": {
+        "question": "Which shortcut italicizes selected text?",
+        "options": [
+          "A. Ctrl + I",
+          "B. Ctrl + B",
+          "C. Ctrl + U",
+          "D. Ctrl + Shift + W"
+        ],
+        "answer": "A. Ctrl + I"
+      },
+      "q83": {
+        "question": "Which shortcut underlines selected text?",
+        "options": [
+          "A. Ctrl + Shift + D",
+          "B. Ctrl + U",
+          "C. Ctrl + Shift + K",
+          "D. Ctrl + Shift + <"
+        ],
+        "answer": "B. Ctrl + U"
+      },
+      "q84": {
+        "question": "What does Ctrl + Shift + D do?",
+        "options": [
+          "A. Bold text",
+          "B. Double underline selected text",
+          "C. Increase font size",
+          "D. Create a new document"
+        ],
+        "answer": "B. Double underline selected text"
+      },
+      "q85": {
+        "question": "Ctrl + Shift + W underlines:",
+        "options": [
+          "A. The entire paragraph",
+          "B. Words only (excluding spaces)",
+          "C. Headings",
+          "D. Selected table cells"
+        ],
+        "answer": "B. Words only (excluding spaces)"
+      },
+      "q86": {
+        "question": "Which shortcut converts selected text to small caps?",
+        "options": [
+          "A. Ctrl + Shift + K",
+          "B. Ctrl + Shift + L",
+          "C. Ctrl + Shift + C",
+          "D. Ctrl + Shift + V"
+        ],
+        "answer": "A. Ctrl + Shift + K"
+      },
+      "q87": {
+        "question": "What does Ctrl + Shift + > do?",
+        "options": [
+          "A. Decrease font size",
+          "B. Increase font size",
+          "C. Bold text",
+          "D. Open the Font dialog box"
+        ],
+        "answer": "B. Increase font size"
+      },
+      "q88": {
+        "question": "Which shortcut decreases the font size?",
+        "options": [
+          "A. Ctrl + Shift + >",
+          "B. Ctrl + Shift + <",
+          "C. Ctrl + D",
+          "D. Ctrl + Shift + K"
+        ],
+        "answer": "B. Ctrl + Shift + <"
+      },
+      "q89": {
+        "question": "Ctrl + D opens which dialog box?",
+        "options": [
+          "A. Save As",
+          "B. Font",
+          "C. Paragraph",
+          "D. Document Properties"
+        ],
+        "answer": "B. Font"
       }
     }
   }
