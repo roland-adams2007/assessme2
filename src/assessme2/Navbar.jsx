@@ -1,65 +1,90 @@
 /* eslint-disable react/prop-types */
 import { Cookies } from "react-cookie";
 
-const Navbar = ({setNavTab,setActiveTab,activeTab,setMainTab}) => {
+const Navbar = ({ setNavTab, setActiveTab, activeTab, setMainTab }) => {
+  const cookies = new Cookies();
 
-    const cookies = new Cookies();
+  const handleLogout = (e) => {
+    e.preventDefault();
 
-    const handleLogout = (e) => {
-        e.preventDefault();
-    
-        const userStatus = cookies.get("userStatus");
-    
-        if (userStatus) {
-            cookies.set("userStatus", "NotActive", { path: "/", maxAge: 432000 });
-            window.history.replaceState(null, "", "/");
-            setMainTab("account");
-        }
-    
+    const userStatus = cookies.get("userStatus");
 
-    };
-    
-    
+    if (userStatus) {
+      cookies.set("userStatus", "NotActive", { path: "/", maxAge: 432000 });
+      window.history.replaceState(null, "", "/");
+      setMainTab("account");
+    }
+  };
+
   return (
     <>
-
-        <aside id="sidebar" className={`${!activeTab && 'hidden'} absolute h-full z-30 md:relative md:block w-[250px] bg-blue-600 text-white shadow-lg`}>
+      <aside
+        id="sidebar"
+        className={`${
+          !activeTab && "hidden"
+        } absolute h-full z-30 md:relative md:block w-[250px] bg-blue-600 text-white shadow-lg`}>
         <div className="h-full flex flex-col">
-            <div className="p-4 text-center bg-blue-700">
-                <div className="w-full h-full flex justify-between items-center">
-                    <div className="flex items-center justify-center space-x-3">
-                        <i className="fas fa-clipboard-list text-2xl"></i> 
-                        
-                        <h1 className="text-lg font-bold">AssessMe</h1>
-                    </div>
-                    <button id="menuClose" onClick={()=>setActiveTab(false)} className="md:hidden text-white text-2xl text-white bg-blue-500 p-1 rounded-sm text-sm md:text-lg">
-                        Close
-                    </button>
-                </div>
-            </div>
-            <nav className="flex-1 mt-6 px-4 space-y-4">
-                <button type="button" onClick={()=>setNavTab('courseSelection')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
-                    <i className="fas fa-home"></i>
-                    <span>Dashboard</span>
-                </button>
-                <button type="button" onClick={()=>setNavTab('history')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
-                    <i className="fas fa-history"></i>
-                    <span>History</span>
-                </button>
-                <button type="button"  onClick={()=>setNavTab('profile')} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
-                    <i className="fas fa-user"></i>
-                    <span>Profile</span>
-                </button>
-                <button type="button" onClick={(e)=>handleLogout(e)} className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-red-500 transition duration-200">
-                    <i className="fas fa-sign-out-alt"></i>
-                    <span>Logout</span>
-                </button>
-            </nav>
-        </div>
-       </aside> 
-    
-    </>
-  )
-}
+          <div className="p-4 text-center bg-blue-700">
+            <div className="w-full h-full flex justify-between items-center">
+              <div className="flex items-center justify-center space-x-3">
+                <i className="fas fa-clipboard-list text-2xl"></i>
 
-export default Navbar
+                <h1 className="text-lg font-bold">AssessMe</h1>
+              </div>
+              <button
+                id="menuClose"
+                onClick={() => setActiveTab(false)}
+                className="md:hidden text-white text-2xl bg-blue-500 p-1 rounded-sm text-sm md:text-lg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <nav className="flex-1 mt-6 px-4 space-y-4">
+            <button
+              type="button"
+              onClick={() => setNavTab("courseSelection")}
+              className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
+              <i className="fas fa-home"></i>
+              <span>Dashboard</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setNavTab("history")}
+              className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
+              <i className="fas fa-history"></i>
+              <span>History</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setNavTab("profile")}
+              className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-blue-700 transition duration-200">
+              <i className="fas fa-user"></i>
+              <span>Profile</span>
+            </button>
+            <button
+              type="button"
+              onClick={(e) => handleLogout(e)}
+              className="flex items-center space-x-3 px-4 py-3 rounded-lg hover:bg-red-500 transition duration-200">
+              <i className="fas fa-sign-out-alt"></i>
+              <span>Logout</span>
+            </button>
+          </nav>
+        </div>
+      </aside>
+    </>
+  );
+};
+
+export default Navbar;

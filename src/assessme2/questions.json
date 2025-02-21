@@ -5546,6 +5546,691 @@
           "D. Document Properties"
         ],
         "answer": "B. Font"
+      },
+      "q90": {
+        "question": "Which of the following is NOT included in the scope of ICT in education?",
+        "options": [
+          "A. Educational Delivery",
+          "B. Educational Management",
+          "C. Learning Enhancement",
+          "D. Traditional Memorization"
+        ],
+        "answer": "D. Traditional Memorization"
+      },
+      "q91": {
+        "question": "Which major historical development in ICT in education occurred during the 1990s?",
+        "options": [
+          "A. Use of radio and television for education",
+          "B. Introduction of computers in schools",
+          "C. Rise of the Internet",
+          "D. Development of digital devices"
+        ],
+        "answer": "C. Rise of the Internet"
+      },
+      "q92": {
+        "question": "One of the key benefits of ICT in education is:",
+        "options": [
+          "A. Reduced access to learning materials",
+          "B. Enhanced student collaboration",
+          "C. Increased cost of education",
+          "D. Isolation in learning"
+        ],
+        "answer": "B. Enhanced student collaboration"
+      },
+      "q93": {
+        "question": "What are the three main components of ICT covered in Week 2?",
+        "options": [
+          "A. Hardware, Software, and Networks",
+          "B. Input, Processing, and Output",
+          "C. Digital, Analog, and Hybrid",
+          "D. Computers, Tablets, and Smartphones"
+        ],
+        "answer": "A. Hardware, Software, and Networks"
+      },
+      "q94": {
+        "question": "Digital literacy is defined as the ability to:",
+        "options": [
+          "A. Write computer programs",
+          "B. Effectively use digital technologies",
+          "C. Store data on local devices",
+          "D. Develop new hardware components"
+        ],
+        "answer": "B. Effectively use digital technologies"
+      },
+      "q95": {
+        "question": "In ICT terminology, what is the smallest unit of data?",
+        "options": ["A. Byte", "B. Bit", "C. Nibble", "D. Word"],
+        "answer": "B. Bit"
+      },
+      "q96": {
+        "question": "Cloud computing is best described as:",
+        "options": [
+          "A. Storing and accessing data over the Internet",
+          "B. A method for increasing local storage",
+          "C. A type of digital literacy",
+          "D. A software development methodology"
+        ],
+        "answer": "A. Storing and accessing data over the Internet"
+      },
+      "q97": {
+        "question": "Which of the following is a common word processor used in education?",
+        "options": [
+          "A. Microsoft Excel",
+          "B. Google Docs",
+          "C. Microsoft PowerPoint",
+          "D. Adobe Photoshop"
+        ],
+        "answer": "B. Google Docs"
+      },
+      "q98": {
+        "question": "What is the primary role of interactive whiteboards in classrooms?",
+        "options": [
+          "A. Grading student assignments",
+          "B. Enabling interactive lessons and real‑time annotations",
+          "C. Serving as storage devices",
+          "D. Replacing computers"
+        ],
+        "answer": "B. Enabling interactive lessons and real‑time annotations"
+      },
+      "q99": {
+        "question": "Which of the following best represents a digital library?",
+        "options": [
+          "A. Khan Academy",
+          "B. Coursera",
+          "C. Wikipedia",
+          "D. Google Books"
+        ],
+        "answer": "D. Google Books"
+      },
+      "q100": {
+        "question": "Tutorial software in education is designed to provide:",
+        "options": [
+          "A. Realistic simulations for problem solving",
+          "B. Step‑by‑step instructions and practice",
+          "C. Data management and storage",
+          "D. Multimedia presentations only"
+        ],
+        "answer": "B. Step‑by‑step instructions and practice"
+      },
+      "q101": {
+        "question": "The World Wide Web (WWW) is best described as:",
+        "options": [
+          "A. A global network of computers",
+          "B. A system of interlinked hypertext documents accessed via the Internet",
+          "C. A type of digital device",
+          "D. A search engine"
+        ],
+        "answer": "B. A system of interlinked hypertext documents accessed via the Internet"
+      },
+      "q102": {
+        "question": "Which tool is primarily used for searching information on the Internet?",
+        "options": [
+          "A. Word Processor",
+          "B. Spreadsheet",
+          "C. Search Engine",
+          "D. Multimedia Editor"
+        ],
+        "answer": "C. Search Engine"
+      },
+      "q103": {
+        "question": "A major benefit of using educational websites is that they:",
+        "options": [
+          "A. Require expensive software",
+          "B. Provide free or low‑cost access to learning materials",
+          "C. Are only available in school networks",
+          "D. Restrict the use of interactive tools"
+        ],
+        "answer": "B. Provide free or low‑cost access to learning materials"
+      },
+      "q104": {
+        "question": "Which online learning platform is mentioned as an example in the course outline?",
+        "options": [
+          "A. Google Docs",
+          "B. Moodle",
+          "C. Microsoft Excel",
+          "D. Adobe Photoshop"
+        ],
+        "answer": "B. Moodle"
+      },
+      "q105": {
+        "question": "Which communication tool is commonly used for official email correspondence in education?",
+        "options": [
+          "A. Microsoft Teams",
+          "B. Zoom",
+          "C. Gmail",
+          "D. Google Classroom"
+        ],
+        "answer": "C. Gmail"
+      },
+      "q106": {
+        "question": "Video conferencing tools, such as Zoom and Microsoft Teams, are used in education primarily to:",
+        "options": [
+          "A. Replace email communication",
+          "B. Facilitate real‑time virtual classes and meetings",
+          "C. Track student attendance",
+          "D. Edit multimedia content"
+        ],
+        "answer": "B. Facilitate real‑time virtual classes and meetings"
+      },
+      "q107": {
+        "question": "Which of the following is an example of a collaborative tool mentioned for group work?",
+        "options": [
+          "A. Microsoft Excel",
+          "B. Dropbox",
+          "C. Adobe Illustrator",
+          "D. Notepad"
+        ],
+        "answer": "B. Dropbox"
+      },
+      "q108": {
+        "question": "One challenge associated with using social media in education is:",
+        "options": [
+          "A. Enhancing student engagement",
+          "B. Privacy concerns",
+          "C. Improving collaboration",
+          "D. Providing free access to resources"
+        ],
+        "answer": "B. Privacy concerns"
+      },
+      "q109": {
+        "question": "Multimedia in education is defined as the integration of which of the following?",
+        "options": [
+          "A. Text only",
+          "B. Audio and video only",
+          "C. Text, audio, video, and animation",
+          "D. Hardware and software only"
+        ],
+        "answer": "C. Text, audio, video, and animation"
+      },
+      "q110": {
+        "question": "One of the roles of multimedia in education is to:",
+        "options": [
+          "A. Decrease student engagement",
+          "B. Enhance the understanding of complex concepts",
+          "C. Limit accessibility to educational content",
+          "D. Replace teacher instruction entirely"
+        ],
+        "answer": "B. Enhance the understanding of complex concepts"
+      },
+      "q111": {
+        "question": "Which video editing tool is mentioned as a basic multimedia editing tool?",
+        "options": [
+          "A. Audacity",
+          "B. iMovie",
+          "C. Google Docs",
+          "D. Microsoft Word"
+        ],
+        "answer": "B. iMovie"
+      },
+      "q112": {
+        "question": "The use of animation in multimedia helps to:",
+        "options": [
+          "A. Increase file sizes",
+          "B. Simplify abstract concepts",
+          "C. Replace text-based learning entirely",
+          "D. Limit the range of topics covered"
+        ],
+        "answer": "B. Simplify abstract concepts"
+      },
+      "q113": {
+        "question": "Which tool is commonly used for collaborative lesson planning in classrooms?",
+        "options": [
+          "A. Microsoft Excel",
+          "B. Google Docs",
+          "C. Adobe Photoshop",
+          "D. VLC Media Player"
+        ],
+        "answer": "B. Google Docs"
+      },
+      "q114": {
+        "question": "Digital record‑keeping in education is primarily used to:",
+        "options": [
+          "A. Store paper documents",
+          "B. Track student attendance and grades electronically",
+          "C. Create multimedia presentations",
+          "D. Replace traditional teaching methods"
+        ],
+        "answer": "B. Track student attendance and grades electronically"
+      },
+      "q115": {
+        "question": "A Student Information System (SIS) is designed to manage:",
+        "options": [
+          "A. Only financial records",
+          "B. Student information, attendance, and grades",
+          "C. Multimedia content",
+          "D. Digital libraries"
+        ],
+        "answer": "B. Student information, attendance, and grades"
+      },
+      "q116": {
+        "question": "Which of the following tools is mentioned as a means to boost classroom engagement?",
+        "options": [
+          "A. Kahoot!",
+          "B. Microsoft Word",
+          "C. Google Sheets",
+          "D. Adobe Illustrator"
+        ],
+        "answer": "A. Kahoot!"
+      },
+      "q117": {
+        "question": "One major benefit of using ICT for classroom management is that it:",
+        "options": [
+          "A. Increases paperwork",
+          "B. Streamlines administrative tasks",
+          "C. Decreases student participation",
+          "D. Complicates lesson planning"
+        ],
+        "answer": "B. Streamlines administrative tasks"
+      },
+      "q118": {
+        "question": "Which week in the course outline focuses on the historical development of ICT in education?",
+        "options": ["A. Week 1", "B. Week 2", "C. Week 3", "D. Week 4"],
+        "answer": "A. Week 1"
+      },
+      "q119": {
+        "question": "Digital literacy is essential because it:",
+        "options": [
+          "A. Limits access to information",
+          "B. Enhances employability and effective participation in a digital society",
+          "C. Is only necessary for IT professionals",
+          "D. Replaces traditional learning completely"
+        ],
+        "answer": "B. Enhances employability and effective participation in a digital society"
+      },
+      "q120": {
+        "question": "Which week introduces online learning platforms such as Moodle and Google Classroom?",
+        "options": ["A. Week 2", "B. Week 3", "C. Week 4", "D. Week 5"],
+        "answer": "C. Week 4"
+      },
+      "q121": {
+        "question": "Which tool is specifically mentioned for managing grades and student performance?",
+        "options": [
+          "A. Digital Record‑Keeping Software",
+          "B. Learning Management System (LMS)",
+          "C. Grade Books",
+          "D. Presentation Software"
+        ],
+        "answer": "C. Grade Books"
+      },
+      "q122": {
+        "question": "One challenge of using social media in an educational context is:",
+        "options": [
+          "A. Enhancing classroom focus",
+          "B. Privacy concerns",
+          "C. Lack of collaboration",
+          "D. High financial cost"
+        ],
+        "answer": "B. Privacy concerns"
+      },
+      "q123": {
+        "question": "Which week specifically addresses the role of multimedia in education?",
+        "options": ["A. Week 3", "B. Week 4", "C. Week 6", "D. Week 7"],
+        "answer": "C. Week 6"
+      },
+      "q124": {
+        "question": "According to the course outline, students are expected to:",
+        "options": [
+          "A. Remain passive during class",
+          "B. Engage actively in discussions and assignments",
+          "C. Avoid using digital tools",
+          "D. Focus only on theoretical content"
+        ],
+        "answer": "B. Engage actively in discussions and assignments"
+      },
+      "q125": {
+        "question": "Which of the following is NOT a component of the basic ICT concepts covered in Week 2?",
+        "options": [
+          "A. Hardware",
+          "B. Software",
+          "C. Networks",
+          "D. Multimedia"
+        ],
+        "answer": "D. Multimedia"
+      },
+      "q126": {
+        "question": "In the context of this course, what does ICT stand for?",
+        "options": [
+          "A. International Communication Technology",
+          "B. Information and Communication Technology",
+          "C. Integrated Computer Tools",
+          "D. Information and Cyber Technology"
+        ],
+        "answer": "B. Information and Communication Technology"
+      },
+      "q127": {
+        "question": "Which of the following topics is NOT covered in Week 7: ICT for Classroom Management?",
+        "options": [
+          "A. Lesson Planning and Delivery",
+          "B. Attendance and Performance Tracking",
+          "C. Digital Record‑Keeping",
+          "D. Web Design"
+        ],
+        "answer": "D. Web Design"
+      },
+      "q128": {
+        "question": "During which week are students introduced to digital devices such as computers, tablets, and smartphones?",
+        "options": ["A. Week 1", "B. Week 2", "C. Week 3", "D. Week 4"],
+        "answer": "B. Week 2"
+      },
+      "q129": {
+        "question": "The role of search engines in education, as discussed in Week 4, is primarily to:",
+        "options": [
+          "A. Design educational websites",
+          "B. Find academic articles and learning resources",
+          "C. Create multimedia content",
+          "D. Manage digital records"
+        ],
+        "answer": "B. Find academic articles and learning resources"
+      },
+      "q130": {
+        "question": "Which collaborative tool mentioned in Week 5 is commonly used for group projects?",
+        "options": [
+          "A. Microsoft Excel",
+          "B. Google Docs",
+          "C. Adobe Illustrator",
+          "D. Notepad"
+        ],
+        "answer": "B. Google Docs"
+      },
+      "q131": {
+        "question": "In which decade did computer-based learning programs first emerge in schools?",
+        "options": [
+          "A. 1950s",
+          "B. 1970s-1980s",
+          "C. 1990s",
+          "D. 2000s-Present"
+        ],
+        "answer": "B. 1970s-1980s"
+      },
+      "q132": {
+        "question": "Digital literacy enhances an individual’s ability to:",
+        "options": [
+          "A. Only create digital content",
+          "B. Find, evaluate, create, and communicate information effectively using digital tools",
+          "C. Memorize large amounts of data",
+          "D. Program complex software"
+        ],
+        "answer": "B. Find, evaluate, create, and communicate information effectively using digital tools"
+      },
+      "q133": {
+        "question": "Which of the following is NOT considered a digital device as introduced in Week 2?",
+        "options": [
+          "A. Desktop computer",
+          "B. Tablet",
+          "C. Smartphone",
+          "D. Typewriter"
+        ],
+        "answer": "D. Typewriter"
+      },
+      "q134": {
+        "question": "Which ICT tool is primarily used for creating and editing text documents?",
+        "options": [
+          "A. Spreadsheet",
+          "B. Word Processor",
+          "C. Presentation Software",
+          "D. Database Application"
+        ],
+        "answer": "B. Word Processor"
+      },
+      "q135": {
+        "question": "Interactive whiteboards are used in classrooms mainly to:",
+        "options": [
+          "A. Store student records",
+          "B. Enhance interactive lessons through real‑time annotations",
+          "C. Replace textbooks completely",
+          "D. Monitor student attendance"
+        ],
+        "answer": "B. Enhance interactive lessons through real‑time annotations"
+      },
+      "q136": {
+        "question": "The abbreviation 'WWW' stands for:",
+        "options": [
+          "A. World Web Wide",
+          "B. Wide World Web",
+          "C. World Wide Web",
+          "D. Web World Wide"
+        ],
+        "answer": "C. World Wide Web"
+      },
+      "q137": {
+        "question": "Which online learning platform is designed specifically for managing and delivering courses?",
+        "options": [
+          "A. Google Docs",
+          "B. Moodle",
+          "C. Dropbox",
+          "D. Microsoft Word"
+        ],
+        "answer": "B. Moodle"
+      },
+      "q138": {
+        "question": "Which communication tool is best suited for real‑time virtual classes?",
+        "options": [
+          "A. Email",
+          "B. Instant Messaging",
+          "C. Video Conferencing",
+          "D. Social Media"
+        ],
+        "answer": "C. Video Conferencing"
+      },
+      "q139": {
+        "question": "A Learning Management System (LMS) primarily helps educators to:",
+        "options": [
+          "A. Create interactive whiteboards",
+          "B. Manage and deliver online courses",
+          "C. Edit multimedia presentations",
+          "D. Track physical classroom seating"
+        ],
+        "answer": "B. Manage and deliver online courses"
+      },
+      "q140": {
+        "question": "Which week introduces the concept of digital libraries and e-books?",
+        "options": ["A. Week 1", "B. Week 2", "C. Week 3", "D. Week 4"],
+        "answer": "C. Week 3"
+      },
+      "q141": {
+        "question": "Which application is used for organizing data in tabular form as mentioned in Week 3?",
+        "options": [
+          "A. Microsoft Word",
+          "B. Google Sheets",
+          "C. Microsoft PowerPoint",
+          "D. Adobe Acrobat"
+        ],
+        "answer": "B. Google Sheets"
+      },
+      "q142": {
+        "question": "Digital record‑keeping in education is primarily used to:",
+        "options": [
+          "A. Store physical documents",
+          "B. Maintain electronic attendance and grade records",
+          "C. Create multimedia content",
+          "D. Deliver online courses"
+        ],
+        "answer": "B. Maintain electronic attendance and grade records"
+      },
+      "q143": {
+        "question": "What is one of the main advantages of using multimedia in education?",
+        "options": [
+          "A. Reducing student interaction",
+          "B. Enhancing engagement and retention of complex concepts",
+          "C. Limiting access to resources",
+          "D. Increasing document file sizes"
+        ],
+        "answer": "B. Enhancing engagement and retention of complex concepts"
+      },
+      "q144": {
+        "question": "Which week of the course outline focuses on communication tools like email, instant messaging, and video conferencing?",
+        "options": ["A. Week 3", "B. Week 4", "C. Week 5", "D. Week 7"],
+        "answer": "C. Week 5"
+      },
+      "q145": {
+        "question": "Social media can offer which potential benefit in an educational context?",
+        "options": [
+          "A. Increased student distraction",
+          "B. Building online learning communities",
+          "C. Decreasing teacher collaboration",
+          "D. Limiting resource access"
+        ],
+        "answer": "B. Building online learning communities"
+      },
+      "q146": {
+        "question": "Which week emphasizes ICT for classroom management including lesson planning and digital record‑keeping?",
+        "options": ["A. Week 4", "B. Week 5", "C. Week 6", "D. Week 7"],
+        "answer": "D. Week 7"
+      },
+      "q147": {
+        "question": "One key expectation from students in Week 1 is to:",
+        "options": [
+          "A. Passively listen during lectures",
+          "B. Actively participate in discussions and complete assignments",
+          "C. Rely solely on textbooks",
+          "D. Avoid using digital tools"
+        ],
+        "answer": "B. Actively participate in discussions and complete assignments"
+      },
+      "q148": {
+        "question": "The early use of radio and television in education, as mentioned in Week 1, primarily served to:",
+        "options": [
+          "A. Replace classroom teaching entirely",
+          "B. Deliver educational content to a wide audience",
+          "C. Introduce interactive learning platforms",
+          "D. Provide digital literacy training"
+        ],
+        "answer": "B. Deliver educational content to a wide audience"
+      },
+      "q149": {
+        "question": "Presentation software is mainly used for:",
+        "options": [
+          "A. Editing text documents",
+          "B. Organizing numerical data",
+          "C. Creating visual slide shows for lessons",
+          "D. Managing student grades"
+        ],
+        "answer": "C. Creating visual slide shows for lessons"
+      },
+      "q150": {
+        "question": "Which digital device, introduced in Week 2, is known for its portability and touch‑screen interaction?",
+        "options": [
+          "A. Desktop Computer",
+          "B. Tablet",
+          "C. Interactive Whiteboard",
+          "D. Printer"
+        ],
+        "answer": "B. Tablet"
+      },
+      "q151": {
+        "question": "The role of the Internet in education, as discussed in Week 4, is to:",
+        "options": [
+          "A. Serve only as a digital library",
+          "B. Connect users to a vast array of interlinked resources via the World Wide Web",
+          "C. Replace face-to-face teaching entirely",
+          "D. Function solely as an entertainment medium"
+        ],
+        "answer": "B. Connect users to a vast array of interlinked resources via the World Wide Web"
+      },
+      "q152": {
+        "question": "Online learning platforms like Moodle and Google Classroom primarily help with:",
+        "options": [
+          "A. Real-time video conferencing",
+          "B. Managing and delivering online courses",
+          "C. Editing multimedia presentations",
+          "D. Creating spreadsheets"
+        ],
+        "answer": "B. Managing and delivering online courses"
+      },
+      "q153": {
+        "question": "Digital libraries offer which of the following advantages?",
+        "options": [
+          "A. Limited access to outdated materials",
+          "B. Convenient online access to books, journals, and academic resources",
+          "C. Increased costs for students",
+          "D. Restricted search capabilities"
+        ],
+        "answer": "B. Convenient online access to books, journals, and academic resources"
+      },
+      "q154": {
+        "question": "Which of the following best describes the main focus of Week 2 in the course outline?",
+        "options": [
+          "A. Introduction to multimedia editing tools",
+          "B. Basic concepts of ICT including hardware, software, and networks",
+          "C. Communication tools in education",
+          "D. Classroom management strategies"
+        ],
+        "answer": "B. Basic concepts of ICT including hardware, software, and networks"
+      },
+      "q155": {
+        "question": "Email is primarily used in education for:",
+        "options": [
+          "A. Informal chat among friends",
+          "B. Official communication between teachers, students, and parents",
+          "C. Real-time video conferencing",
+          "D. Creating digital libraries"
+        ],
+        "answer": "B. Official communication between teachers, students, and parents"
+      },
+      "q156": {
+        "question": "Which tool mentioned for collaborative work allows multiple users to edit documents simultaneously?",
+        "options": [
+          "A. Dropbox",
+          "B. Google Docs",
+          "C. Microsoft Excel",
+          "D. Adobe Reader"
+        ],
+        "answer": "B. Google Docs"
+      },
+      "q157": {
+        "question": "Which course week discusses the use of multimedia such as text, audio, video, and animation to enhance learning?",
+        "options": ["A. Week 4", "B. Week 5", "C. Week 6", "D. Week 7"],
+        "answer": "C. Week 6"
+      },
+      "q158": {
+        "question": "An essential benefit of ICT in education is that it:",
+        "options": [
+          "A. Limits access to information",
+          "B. Makes learning more interactive and accessible",
+          "C. Replaces the need for teachers",
+          "D. Increases the cost of education"
+        ],
+        "answer": "B. Makes learning more interactive and accessible"
+      },
+      "q159": {
+        "question": "Which topic in the course outline emphasizes the historical evolution of ICT from traditional media to digital platforms?",
+        "options": [
+          "A. Basic Concepts of ICT",
+          "B. Historical Development of ICT in Education",
+          "C. Internet and Education",
+          "D. ICT for Classroom Management"
+        ],
+        "answer": "B. Historical Development of ICT in Education"
+      },
+      "q160": {
+        "question": "Which of the following tools is used to facilitate group work and project collaboration?",
+        "options": [
+          "A. Microsoft Word",
+          "B. Google Docs",
+          "C. Adobe Photoshop",
+          "D. Microsoft PowerPoint"
+        ],
+        "answer": "B. Google Docs"
+      },
+      "q161": {
+        "question": "Which of the following best describes the primary function of ICT for classroom management as outlined in Week 7?",
+        "options": [
+          "A. Designing multimedia content",
+          "B. Tracking attendance and student performance",
+          "C. Conducting online surveys",
+          "D. Editing academic articles"
+        ],
+        "answer": "B. Tracking attendance and student performance"
+      },
+      "q162": {
+        "question": "The use of digital devices and online platforms in the course aims to prepare students for:",
+        "options": [
+          "A. Traditional paper‑based learning only",
+          "B. A digitally integrated educational environment",
+          "C. Non‑interactive lecture formats",
+          "D. Isolated learning without collaboration"
+        ],
+        "answer": "B. A digitally integrated educational environment"
       }
     }
   }
