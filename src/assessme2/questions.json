@@ -6233,5 +6233,1412 @@
         "answer": "B. A digitally integrated educational environment"
       }
     }
+  },
+  {
+    "courseCode": "UIL-EDT 103",
+    "description": "Introduction to Community Based Learning",
+    "level": "100L",
+    "questions": {
+      "q1": {
+        "question": "What is the primary goal of Community-Based Learning (CBL)?",
+        "options": [
+          "A. To separate students from real-world issues",
+          "B. To integrate academic learning with community experiences",
+          "C. To replace traditional classroom education",
+          "D. To limit students' involvement in social activities"
+        ],
+        "answer": "B. To integrate academic learning with community experiences"
+      },
+      "q2": {
+        "question": "Which of the following is NOT a feature of Community-Based Learning?",
+        "options": [
+          "A. Experiential learning",
+          "B. Community involvement",
+          "C. Focus on rote memorization",
+          "D. Civic engagement"
+        ],
+        "answer": "C. Focus on rote memorization"
+      },
+      "q3": {
+        "question": "In Community-Based Education (CBE), the community serves as a _________.",
+        "options": [
+          "A. Resource for learning",
+          "B. Place for entertainment",
+          "C. Political arena",
+          "D. Market for selling goods"
+        ],
+        "answer": "A. Resource for learning"
+      },
+      "q4": {
+        "question": "Which of these is an example of a community-based program?",
+        "options": [
+          "A. Health education campaigns",
+          "B. Military training",
+          "C. Stock market investments",
+          "D. Private tutoring at home"
+        ],
+        "answer": "A. Health education campaigns"
+      },
+      "q5": {
+        "question": "One key feature of Cooperative Education is ________.",
+        "options": [
+          "A. Learning is strictly classroom-based",
+          "B. It excludes employer collaboration",
+          "C. It integrates academic studies with practical work experience",
+          "D. Students only work in volunteer positions"
+        ],
+        "answer": "C. It integrates academic studies with practical work experience"
+      },
+      "q6": {
+        "question": "Which of these best describes Work-Based Learning?",
+        "options": [
+          "A. Classroom lessons without application",
+          "B. Workplace experiences to develop career-related skills",
+          "C. Learning without practical exposure",
+          "D. Theory-based education without industry relevance"
+        ],
+        "answer": "B. Workplace experiences to develop career-related skills"
+      },
+      "q7": {
+        "question": "Which of the following is NOT a type of Community-Based Education?",
+        "options": [
+          "A. Service Learning",
+          "B. Place-Based Education",
+          "C. Work-Based Learning",
+          "D. Passive Memorization"
+        ],
+        "answer": "D. Passive Memorization"
+      },
+      "q8": {
+        "question": "Which model of Community-Based Learning focuses on environmental and cultural awareness?",
+        "options": [
+          "A. Problem-Based Learning",
+          "B. Civic Engagement",
+          "C. Place-Based Learning",
+          "D. Cooperative Education"
+        ],
+        "answer": "C. Place-Based Learning"
+      },
+      "q9": {
+        "question": "What is one major benefit of Cooperative Education?",
+        "options": [
+          "A. Students gain practical work experience",
+          "B. It eliminates academic learning",
+          "C. Employers do not participate",
+          "D. It limits career opportunities"
+        ],
+        "answer": "A. Students gain practical work experience"
+      },
+      "q10": {
+        "question": "Which of these is a step in establishing a Community-Based Learning program?",
+        "options": [
+          "A. Ignoring community involvement",
+          "B. Assessing community needs and resources",
+          "C. Avoiding real-world applications",
+          "D. Eliminating student engagement"
+        ],
+        "answer": "B. Assessing community needs and resources"
+      },
+      "q11": {
+        "question": "Which of the following is a key factor in the success of Community-Based Learning?",
+        "options": [
+          "A. Lack of student involvement",
+          "B. Strong community partnerships",
+          "C. Avoiding experiential learning",
+          "D. Relying only on theoretical concepts"
+        ],
+        "answer": "B. Strong community partnerships"
+      },
+      "q12": {
+        "question": "Which of these is NOT a model of Community-Based Learning?",
+        "options": [
+          "A. Service Learning",
+          "B. Problem-Based Learning",
+          "C. Civic Engagement",
+          "D. Isolated Learning"
+        ],
+        "answer": "D. Isolated Learning"
+      },
+      "q13": {
+        "question": "The main goal of Service Learning is to ________.",
+        "options": [
+          "A. Allow students to work only for grades",
+          "B. Combine community service with academic learning",
+          "C. Replace traditional classroom education",
+          "D. Discourage student participation in community activities"
+        ],
+        "answer": "B. Combine community service with academic learning"
+      },
+      "q14": {
+        "question": "Which type of learning connects students to their local environment for deeper understanding?",
+        "options": [
+          "A. Work-Based Learning",
+          "B. Place-Based Education",
+          "C. Service Learning",
+          "D. Apprenticeship"
+        ],
+        "answer": "B. Place-Based Education"
+      },
+      "q15": {
+        "question": "An example of Work-Based Learning is ________.",
+        "options": [
+          "A. Students participating in a community clean-up",
+          "B. A student interning at a local business",
+          "C. A social studies class reading about history",
+          "D. Students memorizing formulas for exams"
+        ],
+        "answer": "B. A student interning at a local business"
+      },
+      "q16": {
+        "question": "Which of the following is a benefit of Cooperative Education?",
+        "options": [
+          "A. Helps students gain work experience",
+          "B. Limits job opportunities",
+          "C. Keeps students away from workplaces",
+          "D. Focuses only on classroom teaching"
+        ],
+        "answer": "A. Helps students gain work experience"
+      },
+      "q17": {
+        "question": "What does Civic Engagement aim to achieve in Community-Based Learning?",
+        "options": [
+          "A. Encourages student involvement in addressing community issues",
+          "B. Promotes isolation from community activities",
+          "C. Focuses only on individual learning",
+          "D. Discourages leadership development"
+        ],
+        "answer": "A. Encourages student involvement in addressing community issues"
+      },
+      "q18": {
+        "question": "Which of the following is NOT a characteristic of Community-Based Learning?",
+        "options": [
+          "A. Real-world application",
+          "B. Collaboration with the community",
+          "C. Individual-based learning only",
+          "D. Hands-on experiences"
+        ],
+        "answer": "C. Individual-based learning only"
+      },
+      "q19": {
+        "question": "Which key factor ensures the sustainability of a Community-Based Learning program?",
+        "options": [
+          "A. One-time student participation",
+          "B. Lack of partnerships",
+          "C. Continuous community involvement",
+          "D. Avoiding real-world applications"
+        ],
+        "answer": "C. Continuous community involvement"
+      },
+      "q20": {
+        "question": "What is one major difference between Cooperative Education and traditional learning?",
+        "options": [
+          "A. Cooperative Education combines learning with work experience",
+          "B. Traditional learning includes work experience",
+          "C. Cooperative Education does not involve employers",
+          "D. Traditional learning encourages hands-on training"
+        ],
+        "answer": "A. Cooperative Education combines learning with work experience"
+      },
+      "q21": {
+        "question": "Which of the following is a step in establishing a Community-Based Learning program?",
+        "options": [
+          "A. Ignoring student needs",
+          "B. Assessing community challenges",
+          "C. Avoiding partnerships",
+          "D. Limiting hands-on learning"
+        ],
+        "answer": "B. Assessing community challenges"
+      },
+      "q22": {
+        "question": "A major characteristic of Community-Based Learning is ________.",
+        "options": [
+          "A. Passive learning",
+          "B. Theoretical education only",
+          "C. Experiential learning",
+          "D. Isolated classroom activities"
+        ],
+        "answer": "C. Experiential learning"
+      },
+      "q23": {
+        "question": "Which of these is an example of a Work-Based Learning activity?",
+        "options": [
+          "A. Reading about historical events",
+          "B. Watching educational videos",
+          "C. Apprenticeship in a company",
+          "D. Writing classroom notes"
+        ],
+        "answer": "C. Apprenticeship in a company"
+      },
+      "q24": {
+        "question": "Which of these is a key feature of Community-Based Research?",
+        "options": [
+          "A. Students conduct research with community members",
+          "B. Students avoid research-based learning",
+          "C. Classroom learning is prioritized over real-world research",
+          "D. Students do not work with local stakeholders"
+        ],
+        "answer": "A. Students conduct research with community members"
+      },
+      "q25": {
+        "question": "In Community-Based Learning, who plays an important role alongside students and educators?",
+        "options": [
+          "A. Local community members",
+          "B. Celebrities",
+          "C. Foreign investors",
+          "D. Politicians only"
+        ],
+        "answer": "A. Local community members"
+      },
+      "q26": {
+        "question": "Which of these best describes Participatory Action Research (PAR)?",
+        "options": [
+          "A. Students and community members collaborate on research",
+          "B. Students work alone on research",
+          "C. Teachers conduct research without students",
+          "D. Research is only theoretical"
+        ],
+        "answer": "A. Students and community members collaborate on research"
+      },
+      "q27": {
+        "question": "Which of these is an example of Place-Based Education?",
+        "options": [
+          "A. Learning a foreign language online",
+          "B. Studying environmental issues in the local community",
+          "C. Watching science documentaries",
+          "D. Taking a multiple-choice test"
+        ],
+        "answer": "B. Studying environmental issues in the local community"
+      },
+      "q28": {
+        "question": "Which of the following is a benefit of Community-Based Education?",
+        "options": [
+          "A. Helps students apply classroom knowledge",
+          "B. Discourages real-world experiences",
+          "C. Promotes learning in isolation",
+          "D. Prevents hands-on training"
+        ],
+        "answer": "A. Helps students apply classroom knowledge"
+      },
+      "q29": {
+        "question": "Why is reflection important in Community-Based Learning?",
+        "options": [
+          "A. Helps students connect experiences with academic learning",
+          "B. Encourages memorization",
+          "C. Focuses only on classroom lectures",
+          "D. Prevents students from analyzing their work"
+        ],
+        "answer": "A. Helps students connect experiences with academic learning"
+      },
+      "q30": {
+        "question": "Which of these is NOT an objective of Community-Based Learning?",
+        "options": [
+          "A. Enhancing civic engagement",
+          "B. Strengthening community partnerships",
+          "C. Encouraging theoretical learning only",
+          "D. Providing hands-on experiences"
+        ],
+        "answer": "C. Encouraging theoretical learning only"
+      },
+      "q31": {
+        "question": "Which of the following is NOT an example of Community-Based Learning?",
+        "options": [
+          "A. A university class conducting research on local pollution",
+          "B. A company hosting an internship for students",
+          "C. A high school organizing a science fair competition",
+          "D. A neighborhood working with students on a conservation project"
+        ],
+        "answer": "C. A high school organizing a science fair competition"
+      },
+      "q32": {
+        "question": "Work-Based Learning helps students develop skills related to _________.",
+        "options": [
+          "A. Sports only",
+          "B. Their future careers",
+          "C. Social media engagement",
+          "D. Theoretical memorization"
+        ],
+        "answer": "B. Their future careers"
+      },
+      "q33": {
+        "question": "Which of these is a form of Community-Based Vocational Training?",
+        "options": [
+          "A. Teaching farming techniques in rural communities",
+          "B. Watching online educational videos",
+          "C. Writing a book about a community",
+          "D. Reading case studies on business development"
+        ],
+        "answer": "A. Teaching farming techniques in rural communities"
+      },
+      "q34": {
+        "question": "An important aspect of Community-Based Learning is _________.",
+        "options": [
+          "A. Working independently without community involvement",
+          "B. Memorizing concepts without practical application",
+          "C. Applying knowledge to solve real-world problems",
+          "D. Avoiding collaboration with others"
+        ],
+        "answer": "C. Applying knowledge to solve real-world problems"
+      },
+      "q35": {
+        "question": "Which of these is a key characteristic of Cooperative Education?",
+        "options": [
+          "A. Integration of work experience with academics",
+          "B. No interaction with employers",
+          "C. Strictly classroom-based education",
+          "D. Learning through textbooks only"
+        ],
+        "answer": "A. Integration of work experience with academics"
+      },
+      "q36": {
+        "question": "A literacy program for adults in a community is an example of _________.",
+        "options": [
+          "A. Work-Based Learning",
+          "B. Service Learning",
+          "C. Traditional classroom education",
+          "D. Passive education"
+        ],
+        "answer": "B. Service Learning"
+      },
+      "q37": {
+        "question": "Which of these is NOT a benefit of Community-Based Learning?",
+        "options": [
+          "A. Enhances student engagement",
+          "B. Improves real-world problem-solving skills",
+          "C. Encourages isolation from society",
+          "D. Promotes collaboration between students and communities"
+        ],
+        "answer": "C. Encourages isolation from society"
+      },
+      "q38": {
+        "question": "Which of these describes Participatory Action Research (PAR)?",
+        "options": [
+          "A. A process where students and community members collaborate on research",
+          "B. A solo research project done by students in isolation",
+          "C. A classroom activity with no connection to the real world",
+          "D. A method that discourages community participation"
+        ],
+        "answer": "A. A process where students and community members collaborate on research"
+      },
+      "q39": {
+        "question": "Which factor contributes to the success of Community-Based Learning?",
+        "options": [
+          "A. Clear learning objectives",
+          "B. Avoiding partnerships",
+          "C. Passive student involvement",
+          "D. Ignoring community needs"
+        ],
+        "answer": "A. Clear learning objectives"
+      },
+      "q40": {
+        "question": "Which of these is NOT a principle of Community-Based Education?",
+        "options": [
+          "A. Community involvement",
+          "B. Learning through hands-on experiences",
+          "C. Isolation from real-world problems",
+          "D. Application of knowledge in practical settings"
+        ],
+        "answer": "C. Isolation from real-world problems"
+      },
+      "q41": {
+        "question": "Which of the following best describes Service Learning?",
+        "options": [
+          "A. Applying classroom learning to real community needs",
+          "B. Learning without engaging in real-life issues",
+          "C. Studying theoretical concepts only",
+          "D. Limiting interactions with the community"
+        ],
+        "answer": "A. Applying classroom learning to real community needs"
+      },
+      "q42": {
+        "question": "What is a major goal of Community-Based Research?",
+        "options": [
+          "A. To create knowledge that benefits both students and the community",
+          "B. To avoid working with local stakeholders",
+          "C. To focus only on academic theory",
+          "D. To exclude students from research activities"
+        ],
+        "answer": "A. To create knowledge that benefits both students and the community"
+      },
+      "q43": {
+        "question": "Why is Work-Based Learning important?",
+        "options": [
+          "A. It exposes students to real work environments",
+          "B. It focuses only on classroom theory",
+          "C. It avoids partnerships with businesses",
+          "D. It limits student interactions with professionals"
+        ],
+        "answer": "A. It exposes students to real work environments"
+      },
+      "q44": {
+        "question": "Which of the following is NOT a model of Community-Based Learning?",
+        "options": [
+          "A. Apprenticeship",
+          "B. Problem-Based Learning",
+          "C. Individualized Memorization",
+          "D. Civic Engagement"
+        ],
+        "answer": "C. Individualized Memorization"
+      },
+      "q45": {
+        "question": "A successful Community-Based Learning program must include _________.",
+        "options": [
+          "A. Community participation",
+          "B. Rigid, inflexible learning plans",
+          "C. Memorization without application",
+          "D. Exclusion of local organizations"
+        ],
+        "answer": "A. Community participation"
+      },
+      "q46": {
+        "question": "One benefit of Place-Based Education is _________.",
+        "options": [
+          "A. It connects students to local culture and environment",
+          "B. It focuses only on textbook knowledge",
+          "C. It excludes real-world experiences",
+          "D. It avoids community involvement"
+        ],
+        "answer": "A. It connects students to local culture and environment"
+      },
+      "q47": {
+        "question": "Community-Based Learning enhances civic responsibility by _________.",
+        "options": [
+          "A. Encouraging students to take part in solving local issues",
+          "B. Limiting student involvement in social matters",
+          "C. Focusing only on academic tests",
+          "D. Preventing collaboration with local organizations"
+        ],
+        "answer": "A. Encouraging students to take part in solving local issues"
+      },
+      "q48": {
+        "question": "One way to implement a successful Community-Based Learning program is to _________.",
+        "options": [
+          "A. Develop partnerships with community organizations",
+          "B. Exclude the community from the learning process",
+          "C. Avoid practical learning experiences",
+          "D. Focus only on classroom instruction"
+        ],
+        "answer": "A. Develop partnerships with community organizations"
+      },
+      "q49": {
+        "question": "Which of the following best describes a goal of Cooperative Education?",
+        "options": [
+          "A. To provide students with industry-related work experience",
+          "B. To replace real-world learning with theory",
+          "C. To prevent students from working with employers",
+          "D. To limit skill development opportunities"
+        ],
+        "answer": "A. To provide students with industry-related work experience"
+      },
+      "q50": {
+        "question": "Community-Based Learning helps students develop _________.",
+        "options": [
+          "A. Communication and problem-solving skills",
+          "B. Only theoretical knowledge",
+          "C. Limited understanding of real-world issues",
+          "D. A lack of community engagement"
+        ],
+        "answer": "A. Communication and problem-solving skills"
+      },
+      "q51": {
+        "question": "Which model of CBL focuses on student-driven research to address community issues?",
+        "options": [
+          "A. Service-Learning Model",
+          "B. Youth Participatory Action Research (YPAR)",
+          "C. Internship Model",
+          "D. Problem-Based Learning"
+        ],
+        "answer": "B. Youth Participatory Action Research (YPAR)"
+      },
+      "q52": {
+        "question": "What is a core element of Community-Based Learning?",
+        "options": [
+          "A. Isolation from community stakeholders",
+          "B. Reflection connecting experiences to academic concepts",
+          "C. Memorizing global economic theories",
+          "D. Avoiding hands-on projects"
+        ],
+        "answer": "B. Reflection connecting experiences to academic concepts"
+      },
+      "q53": {
+        "question": "Which type of CBL involves students working with city planners to improve public transportation?",
+        "options": [
+          "A. Civic Engagement Model",
+          "B. Community Research and Problem Solving",
+          "C. Work-Based Learning",
+          "D. Apprenticeship Model"
+        ],
+        "answer": "B. Community Research and Problem Solving"
+      },
+      "q54": {
+        "question": "What is the primary goal of Cooperative Education?",
+        "options": [
+          "A. Eliminating classroom learning",
+          "B. Combining academic study with practical work experience",
+          "C. Focusing only on unpaid internships",
+          "D. Reducing community partnerships"
+        ],
+        "answer": "B. Combining academic study with practical work experience"
+      },
+      "q55": {
+        "question": "Which standard ensures CBL programs address accessibility for all students?",
+        "options": [
+          "A. Academic Integration",
+          "B. Inclusivity and Equity",
+          "C. Sustainability",
+          "D. Structured Planning"
+        ],
+        "answer": "B. Inclusivity and Equity"
+      },
+      "q56": {
+        "question": "What is an example of Place-Based Education?",
+        "options": [
+          "A. Studying ancient Roman architecture",
+          "B. Analyzing global climate models",
+          "C. Restoring a local forest ecosystem",
+          "D. Hosting virtual coding workshops"
+        ],
+        "answer": "C. Restoring a local forest ecosystem"
+      },
+      "q57": {
+        "question": "Which factor is critical for aligning CBL with community needs?",
+        "options": [
+          "A. Ignoring cultural contexts",
+          "B. Contextual Relevance",
+          "C. Random activity selection",
+          "D. Limiting student participation"
+        ],
+        "answer": "B. Contextual Relevance"
+      },
+      "q58": {
+        "question": "What is a key feature of the Apprenticeship Model?",
+        "options": [
+          "A. Short-term theoretical training",
+          "B. Close mentorship and hands-on experience",
+          "C. Avoiding industry partnerships",
+          "D. Focusing solely on academic research"
+        ],
+        "answer": "B. Close mentorship and hands-on experience"
+      },
+      "q59": {
+        "question": "Which step follows 'Assessing Community Needs' in establishing CBL?",
+        "options": [
+          "A. Building Partnerships",
+          "B. Designing the Learning Experience",
+          "C. Preparing Students and Staff",
+          "D. Identifying Goals and Purpose"
+        ],
+        "answer": "A. Building Partnerships"
+      },
+      "q60": {
+        "question": "What distinguishes Work-Based Learning from other CBL models?",
+        "options": [
+          "A. Focus on global economic systems",
+          "B. Integration of academic learning with workplace experience",
+          "C. Elimination of community partnerships",
+          "D. Prioritizing theoretical knowledge over practice"
+        ],
+        "answer": "B. Integration of academic learning with workplace experience"
+      },
+      "q61": {
+        "question": "Which activity exemplifies Service Learning?",
+        "options": [
+          "A. Hosting a bake sale for charity",
+          "B. Studying poverty while volunteering at a homeless shelter",
+          "C. Conducting lab experiments in isolation",
+          "D. Memorizing historical dates"
+        ],
+        "answer": "B. Studying poverty while volunteering at a homeless shelter"
+      },
+      "q62": {
+        "question": "What is a benefit of Cooperative Education?",
+        "options": [
+          "A. Reduced employability",
+          "B. Building a professional network",
+          "C. Limiting practical skills",
+          "D. Avoiding income opportunities"
+        ],
+        "answer": "B. Building a professional network"
+      },
+      "q63": {
+        "question": "Which CBL model emphasizes advocacy and volunteerism?",
+        "options": [
+          "A. Civic Engagement Model",
+          "B. Internship Model",
+          "C. Problem-Based Learning",
+          "D. Apprenticeship Model"
+        ],
+        "answer": "A. Civic Engagement Model"
+      },
+      "q64": {
+        "question": "What is a critical component of reflection in CBL?",
+        "options": [
+          "A. Avoiding self-analysis",
+          "B. Using journals or discussions to assess experiences",
+          "C. Eliminating community feedback",
+          "D. Focusing only on academic grades"
+        ],
+        "answer": "B. Using journals or discussions to assess experiences"
+      },
+      "q65": {
+        "question": "Which feature ensures CBL programs adapt to evolving needs?",
+        "options": [
+          "A. Rigid schedules",
+          "B. Flexibility and Adaptability",
+          "C. Isolation from stakeholders",
+          "D. Ignoring student feedback"
+        ],
+        "answer": "B. Flexibility and Adaptability"
+      },
+      "q66": {
+        "question": "What is an example of Community-Based Vocational Training?",
+        "options": [
+          "A. Teaching advanced astrophysics",
+          "B. Offering carpentry apprenticeships in rural areas",
+          "C. Hosting virtual art exhibitions",
+          "D. Studying ancient languages"
+        ],
+        "answer": "B. Offering carpentry apprenticeships in rural areas"
+      },
+      "q67": {
+        "question": "Which standard requires CBL to connect experiences to academic theories?",
+        "options": [
+          "A. Academic Integration",
+          "B. Mutual Benefit",
+          "C. Sustainability",
+          "D. Civic Responsibility"
+        ],
+        "answer": "A. Academic Integration"
+      },
+      "q68": {
+        "question": "What is a key difference between CBL and traditional classroom learning?",
+        "options": [
+          "A. CBL avoids real-world engagement",
+          "B. CBL emphasizes hands-on community involvement",
+          "C. Traditional learning prioritizes civic responsibility",
+          "D. Traditional learning excludes academic content"
+        ],
+        "answer": "B. CBL emphasizes hands-on community involvement"
+      },
+      "q69": {
+        "question": "Which factor ensures CBL programs have lasting community impact?",
+        "options": [
+          "A. One-off projects",
+          "B. Sustainability and Long-Term Impact",
+          "C. Ignoring local resources",
+          "D. Reducing partnerships"
+        ],
+        "answer": "B. Sustainability and Long-Term Impact"
+      },
+      "q70": {
+        "question": "What is the focus of the Problem-Based Learning model?",
+        "options": [
+          "A. Memorizing solutions",
+          "B. Investigating and solving real-world issues",
+          "C. Avoiding community interaction",
+          "D. Prioritizing theoretical debates"
+        ],
+        "answer": "B. Investigating and solving real-world issues"
+      },
+      "q71": {
+        "question": "Which step involves training educators to facilitate CBL?",
+        "options": [
+          "A. Assess Community Needs",
+          "B. Prepare Students and Staff",
+          "C. Build Partnerships",
+          "D. Design the Learning Experience"
+        ],
+        "answer": "B. Prepare Students and Staff"
+      },
+      "q72": {
+        "question": "What is an example of Participatory Action Research (PAR)?",
+        "options": [
+          "A. Writing essays on historical events",
+          "B. Researching water quality and initiating cleanups",
+          "C. Memorizing scientific formulas",
+          "D. Hosting virtual meetings"
+        ],
+        "answer": "B. Researching water quality and initiating cleanups"
+      },
+      "q73": {
+        "question": "Which characteristic of CBL promotes student ownership of learning?",
+        "options": [
+          "A. Passive instruction",
+          "B. Student-Centered Learning",
+          "C. Rigid curriculum",
+          "D. Avoiding decision-making"
+        ],
+        "answer": "B. Student-Centered Learning"
+      },
+      "q74": {
+        "question": "What is a key feature of the Internship Model?",
+        "options": [
+          "A. Eliminating workplace experience",
+          "B. Supervised work in community settings",
+          "C. Focusing only on unpaid roles",
+          "D. Avoiding academic connections"
+        ],
+        "answer": "B. Supervised work in community settings"
+      },
+      "q75": {
+        "question": "Which CBL model integrates local culture as a learning context?",
+        "options": [
+          "A. Place-Based Learning",
+          "B. Service-Learning Model",
+          "C. Work-Based Learning",
+          "D. Civic Engagement Model"
+        ],
+        "answer": "A. Place-Based Learning"
+      },
+      "q76": {
+        "question": "What ensures CBL programs address social justice issues?",
+        "options": [
+          "A. Focus on Social Justice and Equity",
+          "B. Avoiding community challenges",
+          "C. Limiting student participation",
+          "D. Prioritizing profit over impact"
+        ],
+        "answer": "A. Focus on Social Justice and Equity"
+      },
+      "q77": {
+        "question": "Which activity aligns with Experiential Learning?",
+        "options": [
+          "A. Reading textbooks in isolation",
+          "B. Partnering with businesses to design infrastructure",
+          "C. Avoiding internships",
+          "D. Memorizing case studies"
+        ],
+        "answer": "B. Partnering with businesses to design infrastructure"
+      },
+      "q78": {
+        "question": "What is a core element of Cooperative Education?",
+        "options": [
+          "A. Excluding employers from partnerships",
+          "B. Alternating work and study periods",
+          "C. Avoiding paid opportunities",
+          "D. Focusing only on theoretical exams"
+        ],
+        "answer": "B. Alternating work and study periods"
+      },
+      "q79": {
+        "question": "Which standard emphasizes equal opportunities in CBL?",
+        "options": [
+          "A. Inclusivity and Equity",
+          "B. Academic Integration",
+          "C. Structured Planning",
+          "D. Mutual Benefit"
+        ],
+        "answer": "A. Inclusivity and Equity"
+      },
+      "q80": {
+        "question": "What is the purpose of a needs assessment in CBL?",
+        "options": [
+          "A. Ignoring community priorities",
+          "B. Identifying local issues and resources",
+          "C. Eliminating partnerships",
+          "D. Reducing student engagement"
+        ],
+        "answer": "B. Identifying local issues and resources"
+      },
+      "q81": {
+        "question": "Which model involves students designing a recycling program?",
+        "options": [
+          "A. Project-Based Learning",
+          "B. Apprenticeship Model",
+          "C. Civic Engagement Model",
+          "D. Work-Based Learning"
+        ],
+        "answer": "A. Project-Based Learning"
+      },
+      "q82": {
+        "question": "What is a key factor for successful CBL partnerships?",
+        "options": [
+          "A. Limited communication",
+          "B. Collaboration and defined roles",
+          "C. Avoiding stakeholder input",
+          "D. Ignoring community needs"
+        ],
+        "answer": "B. Collaboration and defined roles"
+      },
+      "q83": {
+        "question": "Which example aligns with Community-Based Vocational Training?",
+        "options": [
+          "A. Hosting a philosophy debate",
+          "B. Teaching farming techniques in rural areas",
+          "C. Studying abstract mathematics",
+          "D. Avoiding skill development"
+        ],
+        "answer": "B. Teaching farming techniques in rural areas"
+      },
+      "q84": {
+        "question": "What is the role of mentorship in Cooperative Education?",
+        "options": [
+          "A. Eliminating workplace guidance",
+          "B. Providing supervision from professionals",
+          "C. Avoiding skill development",
+          "D. Focusing only on unpaid roles"
+        ],
+        "answer": "B. Providing supervision from professionals"
+      },
+      "q85": {
+        "question": "Which step ensures CBL activities align with the curriculum?",
+        "options": [
+          "A. Design the Learning Experience",
+          "B. Assess Community Needs",
+          "C. Build Partnerships",
+          "D. Identify Goals and Purpose"
+        ],
+        "answer": "A. Design the Learning Experience"
+      },
+      "q86": {
+        "question": "What is a benefit of the Civic Engagement Model?",
+        "options": [
+          "A. Reducing civic responsibility",
+          "B. Promoting social justice and leadership",
+          "C. Avoiding community interaction",
+          "D. Prioritizing theoretical debates"
+        ],
+        "answer": "B. Promoting social justice and leadership"
+      },
+      "q87": {
+        "question": "Which factor ensures students 'learn by doing' in CBL?",
+        "options": [
+          "A. Passive observation",
+          "B. Experiential and Hands-On Learning",
+          "C. Avoiding real-world projects",
+          "D. Memorizing textbooks"
+        ],
+        "answer": "B. Experiential and Hands-On Learning"
+      },
+      "q88": {
+        "question": "What is an example of Work-Based Learning?",
+        "options": [
+          "A. Interning at a manufacturing company",
+          "B. Studying ancient literature",
+          "C. Avoiding internships",
+          "D. Hosting virtual seminars"
+        ],
+        "answer": "A. Interning at a manufacturing company"
+      },
+      "q89": {
+        "question": "Which standard connects CBL activities to academic content?",
+        "options": [
+          "A. Academic Integration",
+          "B. Mutual Benefit",
+          "C. Sustainability",
+          "D. Flexibility"
+        ],
+        "answer": "A. Academic Integration"
+      },
+      "q90": {
+        "question": "What is a key feature of Contextual Learning in CBL?",
+        "options": [
+          "A. Ignoring local culture",
+          "B. Rooting education in the community's social context",
+          "C. Prioritizing global issues over local ones",
+          "D. Avoiding practical applications"
+        ],
+        "answer": "B. Rooting education in the community's social context"
+      },
+      "q91": {
+        "question": "Which model focuses on youth-led research and action?",
+        "options": [
+          "A. Youth Participatory Action Research (YPAR)",
+          "B. Service-Learning Model",
+          "C. Internship Model",
+          "D. Problem-Based Learning"
+        ],
+        "answer": "A. Youth Participatory Action Research (YPAR)"
+      },
+      "q92": {
+        "question": "What is the purpose of sustainability in CBL?",
+        "options": [
+          "A. Ensuring one-time community projects",
+          "B. Creating lasting benefits for the community",
+          "C. Limiting partnerships",
+          "D. Reducing student engagement"
+        ],
+        "answer": "B. Creating lasting benefits for the community"
+      },
+      "q93": {
+        "question": "Which activity is part of the Civic Engagement Model?",
+        "options": [
+          "A. Organizing food drives",
+          "B. Avoiding volunteerism",
+          "C. Memorizing laws",
+          "D. Hosting theoretical lectures"
+        ],
+        "answer": "A. Organizing food drives"
+      },
+      "q94": {
+        "question": "What is a key difference between Cooperative Education and CBL?",
+        "options": [
+          "A. Cooperative Education excludes work experience",
+          "B. CBL focuses solely on classroom learning",
+          "C. Cooperative Education integrates paid work placements",
+          "D. CBL avoids community partnerships"
+        ],
+        "answer": "C. Cooperative Education integrates paid work placements"
+      },
+      "q95": {
+        "question": "Which step involves celebrating achievements with stakeholders?",
+        "options": [
+          "A. Sustain and Improve the Program",
+          "B. Evaluate Outcomes",
+          "C. Facilitate the Program",
+          "D. Incorporate Reflection"
+        ],
+        "answer": "A. Sustain and Improve the Program"
+      },
+      "q96": {
+        "question": "What is a feature of the Apprenticeship Model?",
+        "options": [
+          "A. Short-term theoretical training",
+          "B. Skill mastery under expert guidance",
+          "C. Avoiding hands-on experience",
+          "D. Eliminating mentorship"
+        ],
+        "answer": "B. Skill mastery under expert guidance"
+      },
+      "q97": {
+        "question": "Which CBL model emphasizes environmental conservation?",
+        "options": [
+          "A. Place-Based Learning",
+          "B. Work-Based Learning",
+          "C. Civic Engagement Model",
+          "D. Problem-Based Learning"
+        ],
+        "answer": "A. Place-Based Learning"
+      },
+      "q98": {
+        "question": "What ensures CBL programs adapt to student and community needs?",
+        "options": [
+          "A. Rigid structure",
+          "B. Flexibility and Adaptability",
+          "C. Ignoring feedback",
+          "D. Limiting resources"
+        ],
+        "answer": "B. Flexibility and Adaptability"
+      },
+      "q99": {
+        "question": "Which example aligns with Community-Based Research (CBR)?",
+        "options": [
+          "A. Conducting public health surveys in underserved areas",
+          "B. Memorizing medical terminology",
+          "C. Avoiding collaboration with community members",
+          "D. Hosting isolated lab experiments"
+        ],
+        "answer": "A. Conducting public health surveys in underserved areas"
+      },
+      "q100": {
+        "question": "What is a critical outcome of reflection in CBL?",
+        "options": [
+          "A. Disconnecting experiences from learning",
+          "B. Enhancing understanding of academic concepts",
+          "C. Avoiding community feedback",
+          "D. Reducing student engagement"
+        ],
+        "answer": "B. Enhancing understanding of academic concepts"
+      },
+      "q101": {
+        "question": "Which of the following is NOT a Community-Based Education program?",
+        "options": [
+          "A. Adult literacy programs",
+          "B. Vocational training programs",
+          "C. Space exploration programs",
+          "D. Health education programs"
+        ],
+        "answer": "C. Space exploration programs"
+      },
+      "q102": {
+        "question": "A key goal of Community-Based Education programs is to _________.",
+        "options": [
+          "A. Address local needs and promote learning",
+          "B. Restrict education to classrooms",
+          "C. Focus only on theoretical knowledge",
+          "D. Ignore community participation"
+        ],
+        "answer": "A. Address local needs and promote learning"
+      },
+      "q103": {
+        "question": "Which of the following is an example of a community-based program?",
+        "options": [
+          "A. Military training",
+          "B. Youth empowerment programs",
+          "C. Private home tutoring",
+          "D. Online gaming tournaments"
+        ],
+        "answer": "B. Youth empowerment programs"
+      },
+      "q104": {
+        "question": "What is the first step in implementing a community-based education program?",
+        "options": [
+          "A. Ignoring the needs of the community",
+          "B. Conducting a needs assessment",
+          "C. Avoiding local engagement",
+          "D. Immediately starting classes without planning"
+        ],
+        "answer": "B. Conducting a needs assessment"
+      },
+      "q105": {
+        "question": "Which of these is NOT a step in implementing a community-based education program?",
+        "options": [
+          "A. Planning and securing funding",
+          "B. Community engagement and awareness",
+          "C. Launching without any preparation",
+          "D. Monitoring and evaluating program success"
+        ],
+        "answer": "C. Launching without any preparation"
+      },
+      "q106": {
+        "question": "Which of the following best describes Cooperative Education?",
+        "options": [
+          "A. A program where students learn solely through textbooks",
+          "B. An educational model that integrates work experience with academic learning",
+          "C. A teaching method that excludes real-world applications",
+          "D. A process where students avoid working with industries"
+        ],
+        "answer": "B. An educational model that integrates work experience with academic learning"
+      },
+      "q107": {
+        "question": "Which of the following is a key feature of Cooperative Education?",
+        "options": [
+          "A. Learning through passive memorization",
+          "B. Alternating between academic study and work experience",
+          "C. Avoiding employer collaboration",
+          "D. Limiting students to classroom activities"
+        ],
+        "answer": "B. Alternating between academic study and work experience"
+      },
+      "q108": {
+        "question": "Which of the following is an example of Cooperative Education?",
+        "options": [
+          "A. A law student taking internship at a law firm",
+          "B. A student reading about science in a library",
+          "C. A class watching a documentary",
+          "D. A university removing internships from its curriculum"
+        ],
+        "answer": "A. A law student taking internship at a law firm"
+      },
+      "q109": {
+        "question": "What is Community-Based Learning?",
+        "options": [
+          "A. An approach that integrates classroom learning with real-world community experiences",
+          "B. A system that isolates students from the community",
+          "C. A method where students only engage in online discussions",
+          "D. A process that discourages practical applications"
+        ],
+        "answer": "A. An approach that integrates classroom learning with real-world community experiences"
+      },
+      "q110": {
+        "question": "Which of the following is NOT a feature of Community-Based Learning?",
+        "options": [
+          "A. Experiential learning",
+          "B. Civic engagement",
+          "C. Community involvement",
+          "D. Learning through isolation"
+        ],
+        "answer": "D. Learning through isolation"
+      },
+      "q111": {
+        "question": "Which of these is a key characteristic of Community-Based Learning?",
+        "options": [
+          "A. Using the community as a classroom",
+          "B. Avoiding partnerships with local organizations",
+          "C. Focusing only on academic tests",
+          "D. Limiting learning to lectures"
+        ],
+        "answer": "A. Using the community as a classroom"
+      },
+      "q112": {
+        "question": "How does Community-Based Learning benefit students?",
+        "options": [
+          "A. By restricting them to textbooks only",
+          "B. By enhancing problem-solving and real-world skills",
+          "C. By preventing community participation",
+          "D. By discouraging group work"
+        ],
+        "answer": "B. By enhancing problem-solving and real-world skills"
+      },
+      "q113": {
+        "question": "Which of these is NOT an example of Community-Based Learning?",
+        "options": [
+          "A. A social work student volunteering in a homeless shelter",
+          "B. Students designing a project to improve local transportation",
+          "C. A medical student gaining experience in a hospital",
+          "D. Students memorizing historical dates without application"
+        ],
+        "answer": "D. Students memorizing historical dates without application"
+      },
+      "q114": {
+        "question": "Which of the following is a major goal of Cooperative Education?",
+        "options": [
+          "A. To provide students with hands-on work experience",
+          "B. To eliminate practical learning",
+          "C. To remove students from real-world settings",
+          "D. To discourage internships and fieldwork"
+        ],
+        "answer": "A. To provide students with hands-on work experience"
+      },
+      "q115": {
+        "question": "A key component of Community-Based Education is _________.",
+        "options": [
+          "A. Using the community as a learning resource",
+          "B. Avoiding real-world applications",
+          "C. Relying on textbooks without practical knowledge",
+          "D. Excluding students from civic activities"
+        ],
+        "answer": "A. Using the community as a learning resource"
+      },
+      "q116": {
+        "question": "Which of the following is an advantage of Community-Based Learning?",
+        "options": [
+          "A. It provides hands-on experience for students",
+          "B. It discourages problem-solving",
+          "C. It focuses only on exams",
+          "D. It avoids collaboration with the community"
+        ],
+        "answer": "A. It provides hands-on experience for students"
+      },
+      "q117": {
+        "question": "Which of these is NOT a step in implementing a Community-Based Learning program?",
+        "options": [
+          "A. Needs assessment",
+          "B. Program planning",
+          "C. Isolating students from the community",
+          "D. Evaluation and monitoring"
+        ],
+        "answer": "C. Isolating students from the community"
+      },
+      "q118": {
+        "question": "Which of these is an example of Civic Engagement in Community-Based Learning?",
+        "options": [
+          "A. A group of students running a campaign to promote recycling",
+          "B. Students memorizing facts from a textbook",
+          "C. Avoiding community issues",
+          "D. Preventing students from working with local leaders"
+        ],
+        "answer": "A. A group of students running a campaign to promote recycling"
+      },
+      "q119": {
+        "question": "Which of the following is a feature of Community-Based Learning?",
+        "options": [
+          "A. Collaboration between schools and community organizations",
+          "B. Avoiding practical learning experiences",
+          "C. Memorization without understanding",
+          "D. Learning in isolation from real-world issues"
+        ],
+        "answer": "A. Collaboration between schools and community organizations"
+      },
+      "q120": {
+        "question": "How does Cooperative Education differ from traditional classroom education?",
+        "options": [
+          "A. It integrates work experience with academic learning",
+          "B. It focuses only on lectures",
+          "C. It avoids employer involvement",
+          "D. It limits student engagement"
+        ],
+        "answer": "A. It integrates work experience with academic learning"
+      },
+      "q121": {
+        "question": "Which of the following is a Community-Based Education Program designed to address local health needs?",
+        "options": [
+          "A. Advanced Astrophysics Workshops",
+          "B. Health Education Workshops on maternal care",
+          "C. Virtual Reality Coding Bootcamps",
+          "D. Ancient History Seminars"
+        ],
+        "answer": "B. Health Education Workshops on maternal care"
+      },
+      "q122": {
+        "question": "What is the primary purpose of Agricultural Extension Services as a Community-Based Education Program?",
+        "options": [
+          "A. Teaching ancient farming techniques",
+          "B. Training farmers in modern sustainable practices",
+          "C. Promoting urban real estate development",
+          "D. Eliminating local crop diversity"
+        ],
+        "answer": "B. Training farmers in modern sustainable practices"
+      },
+      "q123": {
+        "question": "Which step is critical when implementing a Vocational Skills Training program?",
+        "options": [
+          "A. Ignoring community input",
+          "B. Conducting a needs assessment",
+          "C. Avoiding partnerships with local businesses",
+          "D. Limiting curriculum to theoretical content"
+        ],
+        "answer": "B. Conducting a needs assessment"
+      },
+      "q124": {
+        "question": "What is a key feature of Cooperative Education?",
+        "options": [
+          "A. Exclusively unpaid internships",
+          "B. Alternating classroom study and work placements",
+          "C. Avoiding industry partnerships",
+          "D. Focusing only on academic research"
+        ],
+        "answer": "B. Alternating classroom study and work placements"
+      },
+      "q125": {
+        "question": "Which example aligns with Community-Based Learning (CBL)?",
+        "options": [
+          "A. Memorizing textbook chapters in isolation",
+          "B. Students restoring a local river ecosystem",
+          "C. Hosting virtual gaming tournaments",
+          "D. Avoiding community interaction"
+        ],
+        "answer": "B. Students restoring a local river ecosystem"
+      },
+      "q126": {
+        "question": "What is the FIRST step to implement a Community-Based Program?",
+        "options": [
+          "A. Partnering with multinational corporations",
+          "B. Identifying goals and community needs",
+          "C. Skipping curriculum design",
+          "D. Eliminating reflection activities"
+        ],
+        "answer": "B. Identifying goals and community needs"
+      },
+      "q127": {
+        "question": "Which of the following is a feature of Community-Based Learning?",
+        "options": [
+          "A. Isolation from community stakeholders",
+          "B. Contextualized learning tailored to local culture",
+          "C. Prioritizing global over local issues",
+          "D. Avoiding hands-on projects"
+        ],
+        "answer": "B. Contextualized learning tailored to local culture"
+      },
+      "q128": {
+        "question": "What distinguishes Cooperative Education from traditional internships?",
+        "options": [
+          "A. No connection to academic credit",
+          "B. Structured alternation between work and study terms",
+          "C. Exclusively unpaid roles",
+          "D. Avoiding mentorship"
+        ],
+        "answer": "B. Structured alternation between work and study terms"
+      },
+      "q129": {
+        "question": "Which program is designed to improve adult literacy in a community?",
+        "options": [
+          "A. Advanced Calculus Courses",
+          "B. Adult Literacy Night Classes",
+          "C. Space Exploration Workshops",
+          "D. Virtual Stock Trading Seminars"
+        ],
+        "answer": "B. Adult Literacy Night Classes"
+      },
+      "q130": {
+        "question": "What is a core element of implementing a Community-Based Program?",
+        "options": [
+          "A. Ignoring community resources",
+          "B. Building partnerships with local organizations",
+          "C. Limiting student participation",
+          "D. Avoiding curriculum design"
+        ],
+        "answer": "B. Building partnerships with local organizations"
+      },
+      "q131": {
+        "question": "Which feature of Cooperative Education enhances employability?",
+        "options": [
+          "A. Theoretical exams only",
+          "B. Professional mentorship and industry experience",
+          "C. Avoiding workplace interactions",
+          "D. Focusing on unrelated job fields"
+        ],
+        "answer": "B. Professional mentorship and industry experience"
+      },
+      "q132": {
+        "question": "What is an example of a Community-Based Environmental Education Program?",
+        "options": [
+          "A. Tree-Planting Drives with Schools",
+          "B. Online Cryptocurrency Courses",
+          "C. Medieval Literature Workshops",
+          "D. Isolated Lab Experiments"
+        ],
+        "answer": "A. Tree-Planting Drives with Schools"
+      },
+      "q133": {
+        "question": "Which step ensures a Community-Based Program aligns with academic goals?",
+        "options": [
+          "A. Designing a contextually irrelevant curriculum",
+          "B. Integrating activities with classroom learning",
+          "C. Avoiding student reflection",
+          "D. Skipping community feedback"
+        ],
+        "answer": "B. Integrating activities with classroom learning"
+      },
+      "q134": {
+        "question": "What is a key characteristic of Community-Based Learning?",
+        "options": [
+          "A. Passive observation",
+          "B. Mutual benefit for students and the community",
+          "C. Ignoring local challenges",
+          "D. Prioritizing theoretical debates"
+        ],
+        "answer": "B. Mutual benefit for students and the community"
+      },
+      "q135": {
+        "question": "Which activity is part of Cooperative Education?",
+        "options": [
+          "A. A nursing student interning at a hospital",
+          "B. Memorizing historical timelines",
+          "C. Hosting abstract art exhibitions",
+          "D. Avoiding workplace mentorship"
+        ],
+        "answer": "A. A nursing student interning at a hospital"
+      },
+      "q136": {
+        "question": "What is a critical outcome of reflection in Community-Based Learning?",
+        "options": [
+          "A. Disconnecting theory from practice",
+          "B. Enhancing understanding of academic concepts",
+          "C. Eliminating community partnerships",
+          "D. Reducing student engagement"
+        ],
+        "answer": "B. Enhancing understanding of academic concepts"
+      },
+      "q137": {
+        "question": "Which program addresses local economic needs through skill development?",
+        "options": [
+          "A. Advanced Philosophy Discussions",
+          "B. Vocational Training in Construction",
+          "C. Virtual Reality Gaming Clubs",
+          "D. Isolated Theoretical Research"
+        ],
+        "answer": "B. Vocational Training in Construction"
+      },
+      "q138": {
+        "question": "What is essential for sustaining a Community-Based Program?",
+        "options": [
+          "A. One-time funding",
+          "B. Long-term partnerships and adaptability",
+          "C. Ignoring evaluation results",
+          "D. Limiting student involvement"
+        ],
+        "answer": "B. Long-term partnerships and adaptability"
+      },
+      "q139": {
+        "question": "Which feature ensures CBL activities are culturally relevant?",
+        "options": [
+          "A. Contextual Learning",
+          "B. Global Standardization",
+          "C. Ignoring local traditions",
+          "D. Prioritizing foreign curricula"
+        ],
+        "answer": "A. Contextual Learning"
+      },
+      "q140": {
+        "question": "What is the final step in implementing a Community-Based Program?",
+        "options": [
+          "A. Ignoring feedback",
+          "B. Sustaining and improving the program",
+          "C. Eliminating partnerships",
+          "D. Avoiding celebration of achievements"
+        ],
+        "answer": "B. Sustaining and improving the program"
+      }
+    }
   }
 ]
